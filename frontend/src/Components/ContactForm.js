@@ -117,9 +117,9 @@ const ContactForm = () => {
     }
   };
   return (
-    <div>
+    <div className="relative md:top-[270px]">
       <div className="contact-container" id="contact">
-        <div className="contact-content px-12">
+        <div className="contact-content md:px-12">
           <h2 className="text-4xl font-bold">
             Get Started with <span>Maxify Solutions</span>
           </h2>

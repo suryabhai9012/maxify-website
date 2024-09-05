@@ -240,19 +240,19 @@ const Home = () => {
     return null; // Return nothing if service is undefined
   }
   return (
-    <div>
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between p-2 bg-background">
-        <div className="lg:w-1/2 p-4">
-        <div className="bg-[blue] uppercase text-white tracking-wider mb-4 text-[10px] flex text-center w-32 px-2 py-[2px] justify-between">
+    <div className="mt-[80px]">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-2 bg-background">
+        <div className="lg:w-1/2 sm:p-2 md:p-4 sm:mt-9 md:mt-0">
+        <div className="bg-[blue] uppercase text-white tracking-wider md:mb-4 text-[10px] flex text-center w-32 px-2 py-[2px] justify-between">
             <span>IT SOLUTION </span>
-            <span className="w-10 mt-2">
+            <span className="w-10 mt-[6px]">
               <hr />
             </span>
           </div>
-          <h2 className="text-6xl md:text-5xl sm:text-4xl mt-9 font-semibold text-black">
+          <h2 className="text-6xl md:text-5xl sm:text-4xl mt-3 md:mt-9 font-semibold text-black">
             Welcome To
           </h2>
-          <h1 className="text-6xl md:text-5xl sm:text-4xl mt-2  font-semibold text-[#2334de]">
+          <h1 className="text-6xl md:text-5xl sm:text-4xl md:mt-2  font-semibold text-[#2334de]">
             Maxify Solutions
           </h1>
           <p className="md:text-3xl sm:text-lg mt-4 font-semibold text-black">
@@ -281,8 +281,8 @@ const Home = () => {
       {/* second section */}
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 justify-end relative">
-          <div className="flex justify-center items-center gap-3 p-6 bg-[#2334de] absolute rounded-md top-20 left-10 text-white">
+        <div className="flex w-full md:w-1/2 justify-end relative px-2">
+          <div className="flex justify-center items-center gap-3 p-6 bg-[#2334de] absolute rounded-md top-20 sm:left-2 md:left-10 text-white">
             <FaPeopleGroup size={30} />
             <p className="text-center text-sm">
               Years of
@@ -293,7 +293,7 @@ const Home = () => {
           <img
             src={img5}
             alt="Left Side"
-            className="h-auto right-0 bottom-0 w-[40%] absolute"
+            className="h-auto right-2 bottom-0 w-[40%] absolute"
           />
           <img
             src={img2}
@@ -503,7 +503,7 @@ const Home = () => {
       </div>
 
       {/* Company benifits */}
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[80%]">
+      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-center items-center relative gap-3">
           <div className="flex flex-col gap-3">
@@ -556,7 +556,7 @@ const Home = () => {
       </div>
 
       {/* last section */}
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[80%]">
+      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
         <div className="w-full md:w-1/2 justify-end items-center relative sm:hidden lg:flex">
           <img

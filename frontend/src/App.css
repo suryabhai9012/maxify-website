@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.kanit-extralight {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.kanit-light {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.kanit-extrabold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.kanit-black {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.kanit-thin-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.kanit-extralight-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.kanit-light-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.kanit-regular-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.kanit-medium-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.kanit-semibold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.kanit-bold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.kanit-extrabold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.kanit-black-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.slider-card:hover .slider-card-bottom{
+  padding-left: 40px !important;
+  padding-top: 40px !important;
+  padding-bottom: 20px !important;
+  padding-right: 20px !important;
+  font-size: 40px !important;
+}
+@media (max-width:1200px) {
+  .next{
+    display: none;
+  }
+  
+}
+
+/* contact form */
+
+
+.contact-container {
+  background: linear-gradient(90deg, white 70%, #2334de 30%);
+  display: flex;
+  padding-right: 40px;
+  flex-direction: column;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+}
+
+.contact-content h2 {
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.contact-content h2 span {
+  color: #2334de;
+}
+
+.contact-content p {
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+.contact-content form {
+  width: 100%;
+}
+
+.contact-content form label {
+  color: #666666;
+  margin-bottom: 6px;
+  display: block;
+}
+ input:focus{
+  border: none;
+ }
+.contact-content form input[type="text"],
+.contact-content form input[type="email"],
+.contact-content form textarea,
+.contact-content form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #000000;
+  font-size: 16px;
+  background-color: white;
+  color: #333333;
+}
+.additional{
+  border: dashed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.additional input{
+
+  border-top: 1px;
+  border-left: 1px;
+  border: 1px solid black;
+}
+.contact-content form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-content form .form-group {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.contact-content form .form-group .input-half {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.contact-content form .form-group .input-half:last-child {
+  margin-right: 0;
+}
+
+.contact-content form .checkbox-label {
+  color: #666666;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.contact-content form .checkbox-label input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.contact-content form .file-upload-label {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 6px;
+}
+
+.contact-content form button {
+  background-color: #2334de;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.contact-content form button:hover {
+  background-color: #0011cc;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  width: 100%;
+  height: 96%;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    flex-direction: row;
+  }
+  
+  .contact-content {
+    width: 50%;
+  }
+  
+  .map-container {
+    width: 50%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .contact-container {
+
+    display: flex;
+    flex-direction: column;
+  background: linear-gradient(90deg, white 70%, #ffffff 30%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+  }
+}
+/*  */
+/* From Uiverse.io by MikeAndrewDesigner */ 
+#ui {
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#B563FF, #535EFC, #0EC8EE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 4px solid transparent;
+  border-image: linear-gradient(0.25turn, #535EFC, #0EC8EE, #0EC8EE);
+  border-image-slice: 1;
+  display: inline;
+}
+
+.button {
+  position: relative;
+  padding: 20px 30px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  font-weight: 00;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: #2c2c2c;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: linear-gradient(144deg, #1e1e1e , 20%,#1e1e1e 50%,#1e1e1e );
+  transition: all 0.2s ease;
+  color: #fff;
+}
+
+.button:active {
+  transform: scale(0.96);
+}
+
+.button:before,
+.button:after {
+  position: absolute;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: -1000;
+  background-repeat: no-repeat;
+}
+
+.button:hover:before {
+  top: -70%;
+  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
+    radial-gradient(circle, #535EFC 20%, transparent 20%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
+    radial-gradient(circle, #0EC8EE 20%, transparent 20%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, #0EC8EE 20%, transparent 20%),
+    radial-gradient(circle, #0EC8EE 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
+  background-position: 50% 120%;
+  animation: greentopBubbles 0.6s ease;
+}
+
+@keyframes greentopBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+      40% 90%, 55% 90%, 70% 90%;
+  }
+
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+      50% 50%, 65% 20%, 90% 30%;
+  }
+
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+      50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+.button:hover::after {
+  bottom: -70%;
+  background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, #535EFC 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
+    radial-gradient(circle, #535EFC 20%, transparent 20%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, #535EFC 20%, transparent 20%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+  background-position: 50% 0%;
+  animation: greenbottomBubbles 0.6s ease;
+}
+
+@keyframes greenbottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+      70% -10%, 70% 0%;
+  }
+
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+      105% 0%;
+  }
+
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+      110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+.header-smo{
+  background-image: url(./Assets/WhatsApp\ Image\ 2024-09-04\ at\ 12.53.53\ AM.jpeg);
+}
+.bg-app{
+  background-image: url(./Assets/line\ circle.svg);
+  background-repeat: no-repeat;
+}
+.right-seo{
+  background-image: url(./Assets/SEO/19.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 430px;
+
+}
+
+@media (max-width:770px) {
+  .right-seo{
+    background-image: url(./Assets/SEO/19.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+  
+  }
+}

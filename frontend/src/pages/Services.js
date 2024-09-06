@@ -110,7 +110,7 @@ const Services = () => {
   };
 
   return (
-    <div>
+    <div className="mt-[70px]">
       {/* hero section */}
       <div className="flex flex-col md:flex-row items-center bg-gray-50 min-h-screen sm:flex-col-reverse">
         {/* Left Section */}

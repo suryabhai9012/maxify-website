@@ -25,7 +25,7 @@ import { FaPlay } from "react-icons/fa";
 import { BsPersonHearts } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { GoArrowRight } from "react-icons/go";
-import { FaCheckCircle } from 'react-icons/fa';
+import { FaCheckCircle } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay"; // You may need this for the autoplay feature
@@ -34,7 +34,7 @@ import PricingCard from "../Components/PricingCard";
 
 const SEO = () => {
   return (
-    <div>
+    <div className="mt-[70px]">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between p-2 bg-[#e7eaf3]">
         <div className="lg:w-1/2 p-4">
           <div className=" flex items-center flex-col sm:w-full md:w-[500px] mx-auto">
@@ -177,28 +177,28 @@ const SEO = () => {
       </div>
 
       {/*  */}
-      <div className="right-banner bg-[#3f3f3f] sm:h-auto py-6 px-3 lg:h-[500px]">
-      <div className="w-full md:w-[90%] lg:w-[80%] mx-auto flex sm:flex-col md:flex-row">
-        <div className="md:w-1/2 flex flex-col justify-center md:px-4 lg:px-10 text-white">
-          <h2 className="text-4xl font-extrabold mb-5">
-            Our Comprehensive SEO Services
-          </h2>
-          <p className="mb-6 text-sm text-justify font-[300] leading-6">
-            At Maxify Solutions, we offer a full range of SEO services to ensure
-            your website achieves the visibility it deserves. As the best SEO
-            services company in Noida, we specialize in both on-page and
-            off-page SEO, delivering results that go beyond just higher
-            rankings.
-          </p>
-          <div>
-          <button
-            className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-2 md:px-6 rounded-full relative text-[white] bg-[#f24080] isolation-auto z-10 border-2 border-[#f24080]
+      <div className="right-banner bg-[#3f3f3f] sm:h-auto lg:h-[500px]">
+        <div className="w-full md:w-[90%] lg:w-[80%] mx-auto flex sm:flex-col md:flex-row">
+          <div className="md:w-1/2 flex flex-col justify-center md:px-4 lg:px-10 text-white">
+            <h2 className="text-4xl font-extrabold mb-5">
+              Our Comprehensive SEO Services
+            </h2>
+            <p className="mb-6 text-sm text-justify font-[300] leading-6">
+              At Maxify Solutions, we offer a full range of SEO services to
+              ensure your website achieves the visibility it deserves. As the
+              best SEO services company in Noida, we specialize in both on-page
+              and off-page SEO, delivering results that go beyond just higher
+              rankings.
+            </p>
+            <div>
+              <button
+                className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-2 md:px-6 rounded-full relative text-[white] bg-[#f24080] isolation-auto z-10 border-2 border-[#f24080]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#f24080]"
-          >
-            Join Us Now
-          </button>
+              >
+                Join Us Now
+              </button>
+            </div>
           </div>
-        </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[570px]">
             <div className=" mb flex justify-center items-center rounded-lg relative  z-10">
               <img
@@ -207,274 +207,308 @@ const SEO = () => {
                 className="sm:h-auto lg:h-[550px] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
               />
             </div>
-        </div>
-      </div>
-    </div>
-
-    {/*  */}
-    <section className="w-full mx-auto">
-    <Swiper
-    modules={[Pagination, Autoplay, Navigation]}
-    spaceBetween={10}
-    slidesPerView={1}
-    loop={true}
-    autoplay={{ delay: 3000 }}
-    pagination={{ clickable: true }}
-    navigation={{ // Enable navigation
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }}
-    className="h-full"
-  >
-    {/* Slide 1 */}
-    <SwiperSlide>
-      <div className="flex flex-col md:flex-row p-2 md:p-12 sm-w-full md:w-[90%] lg-[80%] mx-auto">
-        {/* Left side - Text content */}
-        <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px] px-4">
-          <div>
-            <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 rounded-lg mb-4">
-              About Us
-            </span>
-            <h1 className="text-5xl md:text-5xl font-bold text-gray-900 mt-4">
-              On-Page SEO {" "}
-              <br />
-              <span className="text-blue-600 mt-2">Optimization</span>
-            </h1>
-            <p className="mb-4 text-gray-600 text-sm text-justify">
-              On-page SEO is about optimizing the elements on your website to
-              improve its visibility and usability. This includes everything
-              from content to HTML source code. As the leading SEO services
-              company in Noida, we ensure your website is optimized to deliver
-              the best possible user experience.
-            </p>
-            <ul className="list-disc list-inside mb-4 text-gray-600 text-sm text-justify">
-              <li>
-                Content Optimization: Crafting high-quality, relevant, and
-                engaging content that resonates with your audience.
-              </li>
-              <li>
-                Meta Tags and Descriptions: Writing compelling meta titles and
-                descriptions that attract clicks from search engine users.
-              </li>
-              <li>
-                Image Optimization: Ensuring images are optimized for faster
-                loading times without compromising quality.
-              </li>
-              <li>
-                Internal Linking: Structuring your website’s internal links to
-                enhance navigation and SEO performance.
-              </li>
-            </ul>
-            <p className="font-semibold text-gray-600 text-sm text-justify">
-              Mobile Optimization:
-            </p>
-            <p className="text-gray-600 text-sm text-justify">
-              Make sure your website is responsive and performs well on all
-              devices.
-            </p>
           </div>
-          <Link>
-            <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
-              Read More <span className="ml-2">→</span>
-            </button>
-          </Link>
-        </div>
-
-        {/* Right side - Images */}
-        <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
-          <img
-            src={img3}
-            alt="Laptop"
-            className="col-span-1 row-span-2 h-full object-cover"
-          />
-          <img
-            src={img4}
-            alt="Phone"
-            className="col-span-1 h-full object-cover"
-          />
-          <img
-            src={img5}
-            alt="Social Media Icons"
-            className="col-span-1 h-full object-cover"
-          />
         </div>
       </div>
-    </SwiperSlide>
 
-    {/* Add more slides here */}
-    <SwiperSlide>
-      <div className="flex flex-col md:flex-row p-2 md:p-12 sm-w-full md:w-[90%] lg-[80%] mx-auto">
-        {/* Left side - Text content */}
-        <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px] px-4">
-          <div>
-            <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 rounded-lg mb-4">
-              About Us
-            </span>
-            <h1 className="text-5xl md:text-5xl font-bold text-gray-900 mt-4">
-              Technical {" "}
-              <span className="text-blue-600 mt-2">Seo</span>
-            </h1>
-            <p className="mb-4 text-gray-600 text-sm text-justify">
-            Technical SEO involves optimizing the backend of your website. This is crucial for ensuring that search engines can crawl and index your site effectively. We, as the top SEO & SMO services company in Noida, focus on technical aspects to enhance your website’s performance and rankings.
-            </p>
-            <ul className="list-disc list-inside mb-4 text-gray-600 text-sm text-justify">
-              <li>
-              Website Speed Optimization: Improving your website’s load times to enhance user experience and SEO rankings.
-              </li>
-              <li>
-              XML Sitemap Creation: Developing a clear and comprehensive sitemap to help search engines navigate your site.
-              </li>
-              <li>
-              Robots.txt File Optimization: Configuring the robots.txt file to control which pages are indexed by search engines.
-              </li>
-              <li>
-              Structured Data Markup: Implementing schema markup to help search engines understand your content better.
-              </li>
-            </ul>
-          </div>
-          <Link>
-            <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
-              Read More <span className="ml-2">→</span>
-            </button>
-          </Link>
-        </div>
+      {/*  */}
+      <section className="w-full mx-auto">
+        <Swiper
+          modules={[Pagination, Autoplay, Navigation]}
+          spaceBetween={10}
+          slidesPerView={1}
+          loop={true}
+          autoplay={{ delay: 3000 }}
+          pagination={{ clickable: true }}
+          navigation={{
+            // Enable navigation
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }}
+          className="h-full"
+        >
+          {/* Slide 1 */}
+          <SwiperSlide>
+            <div className="flex flex-col md:flex-row p-2 md:p-12 sm-w-full md:w-[90%] lg-[80%] mx-auto">
+              {/* Left side - Text content */}
+              <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px] px-4">
+                <div>
+                  <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 rounded-lg mb-4">
+                    About Us
+                  </span>
+                  <h1 className=" sm:text-4xl md:text-5xl font-bold text-gray-900 mt-4">
+                    On-Page SEO <br />
+                    <span className="text-blue-600 mt-2">Optimization</span>
+                  </h1>
+                  <p className="mb-4 text-gray-600 text-sm text-justify">
+                    On-page SEO is about optimizing the elements on your website
+                    to improve its visibility and usability. This includes
+                    everything from content to HTML source code. As the leading
+                    SEO services company in Noida, we ensure your website is
+                    optimized to deliver the best possible user experience.
+                  </p>
+                  <ul className="list-disc list-inside mb-4 text-gray-600 text-sm text-justify">
+                    <li>
+                      Content Optimization: Crafting high-quality, relevant, and
+                      engaging content that resonates with your audience.
+                    </li>
+                    <li>
+                      Meta Tags and Descriptions: Writing compelling meta titles
+                      and descriptions that attract clicks from search engine
+                      users.
+                    </li>
+                    <li>
+                      Image Optimization: Ensuring images are optimized for
+                      faster loading times without compromising quality.
+                    </li>
+                    <li>
+                      Internal Linking: Structuring your website’s internal
+                      links to enhance navigation and SEO performance.
+                    </li>
+                  </ul>
+                  <p className="font-semibold text-gray-600 text-sm text-justify">
+                    Mobile Optimization:
+                  </p>
+                  <p className="text-gray-600 text-sm text-justify">
+                    Make sure your website is responsive and performs well on
+                    all devices.
+                  </p>
+                </div>
+                <Link>
+                  <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+                    Read More <span className="ml-2">→</span>
+                  </button>
+                </Link>
+              </div>
 
-        {/* Right side - Images */}
-        <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
-          <img
-            src={img6}
-            alt="Laptop"
-            className="col-span-1 row-span-2 h-full object-cover"
-          />
-          <img
-            src={img7}
-            alt="Phone"
-            className="col-span-1 h-full object-cover"
-          />
-          <img
-            src={img8}
-            alt="Social Media Icons"
-            className="col-span-1 h-full object-cover"
-          />
-        </div>
-      </div>
-    </SwiperSlide>
-    <SwiperSlide>
-      <div className="flex flex-col md:flex-row p-2 md:p-12 sm-w-full md:w-[90%] lg-[80%] mx-auto">
-        {/* Left side - Text content */}
-        <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px] px-4">
-          <div>
-            <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 rounded-lg mb-4">
-              About Us
-            </span>
-            <h1 className="text-5xl md:text-5xl font-bold text-gray-900 mt-4">
-              Off-Page SEO & {" "}
-              <span className="text-blue-600 mt-2">Link Building</span>
-            </h1>
-            <p className="mb-4 text-gray-600 text-sm text-justify">
-            Off-page SEO refers to actions taken outside your website to impact your rankings within search engine results pages (SERPs). Link building is a critical component of off-page SEO. As a reputable SEO services company in India, we focus on acquiring high-quality backlinks to enhance your website’s authority.
-            </p>
-            <ul className="list-disc list-inside mb-4 text-gray-600 text-sm text-justify">
-              <li>
-              Quality Backlink Acquisition: Building a robust backlink profile by acquiring links from reputable and relevant websites.
-              </li>
-              <li>
-              Guest Posting: Creating and publishing valuable content on authoritative sites to build links and drive traffic.
-              </li>
-              <li>
-              Social Media Engagement: Leveraging social media platforms to enhance brand awareness and generate backlinks.
-              </li>
-              <li>
-              Local SEO: Optimizing your online presence for local searches to attract nearby customers.
-              </li>
-            </ul>
-          </div>
-          <Link>
-            <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
-              Read More <span className="ml-2">→</span>
-            </button>
-          </Link>
-        </div>
+              {/* Right side - Images */}
+              <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
+                <img
+                  src={img3}
+                  alt="Laptop"
+                  className="col-span-1 row-span-2 h-full object-cover"
+                />
+                <img
+                  src={img4}
+                  alt="Phone"
+                  className="col-span-1 h-full object-cover"
+                />
+                <img
+                  src={img5}
+                  alt="Social Media Icons"
+                  className="col-span-1 h-full object-cover"
+                />
+              </div>
+            </div>
+          </SwiperSlide>
 
-        {/* Right side - Images */}
-        <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
-          <img
-            src={img9}
-            alt="Laptop"
-            className="col-span-1 row-span-2 h-full object-cover"
-          />
-          <img
-            src={img10}
-            alt="Phone"
-            className="col-span-1 h-full object-cover"
-          />
-          <img
-            src={img11}
-            alt="Social Media Icons"
-            className="col-span-1 h-full object-cover"
-          />
-        </div>
-      </div>
-    </SwiperSlide>
-    {/* <div className="swiper-button-next absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-blue-600 p-2 rounded-full">
+          {/* Add more slides here */}
+          <SwiperSlide>
+            <div className="flex flex-col md:flex-row p-2 md:p-12 sm-w-full md:w-[90%] lg-[80%] mx-auto">
+              {/* Left side - Text content */}
+              <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px] px-4">
+                <div>
+                  <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 rounded-lg mb-4">
+                    About Us
+                  </span>
+                  <h1 className=" sm:text-4xl md:text-5xl font-bold text-gray-900 mt-4">
+                    Technical <span className="text-blue-600 mt-2">Seo</span>
+                  </h1>
+                  <p className="mb-4 text-gray-600 text-sm text-justify">
+                    Technical SEO involves optimizing the backend of your
+                    website. This is crucial for ensuring that search engines
+                    can crawl and index your site effectively. We, as the top
+                    SEO & SMO services company in Noida, focus on technical
+                    aspects to enhance your website’s performance and rankings.
+                  </p>
+                  <ul className="list-disc list-inside mb-4 text-gray-600 text-sm text-justify">
+                    <li>
+                      Website Speed Optimization: Improving your website’s load
+                      times to enhance user experience and SEO rankings.
+                    </li>
+                    <li>
+                      XML Sitemap Creation: Developing a clear and comprehensive
+                      sitemap to help search engines navigate your site.
+                    </li>
+                    <li>
+                      Robots.txt File Optimization: Configuring the robots.txt
+                      file to control which pages are indexed by search engines.
+                    </li>
+                    <li>
+                      Structured Data Markup: Implementing schema markup to help
+                      search engines understand your content better.
+                    </li>
+                  </ul>
+                </div>
+                <Link>
+                  <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+                    Read More <span className="ml-2">→</span>
+                  </button>
+                </Link>
+              </div>
+
+              {/* Right side - Images */}
+              <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
+                <img
+                  src={img6}
+                  alt="Laptop"
+                  className="col-span-1 row-span-2 h-full object-cover"
+                />
+                <img
+                  src={img7}
+                  alt="Phone"
+                  className="col-span-1 h-full object-cover"
+                />
+                <img
+                  src={img8}
+                  alt="Social Media Icons"
+                  className="col-span-1 h-full object-cover"
+                />
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col md:flex-row p-2 md:p-12 sm-w-full md:w-[90%] lg-[80%] mx-auto">
+              {/* Left side - Text content */}
+              <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px] px-4">
+                <div>
+                  <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 rounded-lg mb-4">
+                    About Us
+                  </span>
+                  <h1 className=" sm:text-4xl md:text-5xl font-bold text-gray-900 mt-4">
+                    Off-Page SEO &{" "}
+                    <span className="text-blue-600 mt-2">Link Building</span>
+                  </h1>
+                  <p className="mb-4 text-gray-600 text-sm text-justify">
+                    Off-page SEO refers to actions taken outside your website to
+                    impact your rankings within search engine results pages
+                    (SERPs). Link building is a critical component of off-page
+                    SEO. As a reputable SEO services company in India, we focus
+                    on acquiring high-quality backlinks to enhance your
+                    website’s authority.
+                  </p>
+                  <ul className="list-disc list-inside mb-4 text-gray-600 text-sm text-justify">
+                    <li>
+                      Quality Backlink Acquisition: Building a robust backlink
+                      profile by acquiring links from reputable and relevant
+                      websites.
+                    </li>
+                    <li>
+                      Guest Posting: Creating and publishing valuable content on
+                      authoritative sites to build links and drive traffic.
+                    </li>
+                    <li>
+                      Social Media Engagement: Leveraging social media platforms
+                      to enhance brand awareness and generate backlinks.
+                    </li>
+                    <li>
+                      Local SEO: Optimizing your online presence for local
+                      searches to attract nearby customers.
+                    </li>
+                  </ul>
+                </div>
+                <Link>
+                  <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+                    Read More <span className="ml-2">→</span>
+                  </button>
+                </Link>
+              </div>
+
+              {/* Right side - Images */}
+              <div className="md:w-1/2 grid items-center grid-cols-2 gap-2 md:mt-0">
+                <img
+                  src={img9}
+                  alt="Laptop"
+                  className="col-span-1 row-span-2 h-full object-cover"
+                />
+                <img
+                  src={img10}
+                  alt="Phone"
+                  className="col-span-1 h-full object-cover"
+                />
+                <img
+                  src={img11}
+                  alt="Social Media Icons"
+                  className="col-span-1 h-full object-cover"
+                />
+              </div>
+            </div>
+          </SwiperSlide>
+          {/* <div className="swiper-button-next absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-blue-600 p-2 rounded-full">
       &gt;
     </div>
     <div className="swiper-button-prev absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-blue-600 p-2 rounded-full">
       &lt;
     </div> */}
-  </Swiper>
-</section>
+        </Swiper>
+      </section>
 
-{/* section 6 */}
-<div className="bg-[#e7effe]">
-<div className="flex flex-col md:flex-row items-center sm:p-3 md:p-8  md:w-[94%] lg:w-[80%] mx-auto">
-      <div className="md:w-1/2">
-        <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[blue] rounded mb-4">Why CHOOSE US</span>
-        <h3 className="text-5xl mt-8  font-bold">
-          For SMO <br /> Services  <span className="text-[blue]">in India?</span>
-        </h3>
-        <ul className="mt-8 space-y-2 leading-8">
-          <li className="flex items-center">
-            <FaCheckCircle className="text-blue-500" />
-            <span className="ml-2 text-muted-foreground">Experienced Team</span>
-          </li>
-          <li className="flex items-center">
-            <FaCheckCircle className="text-blue-500" />
-            <span className="ml-2 text-muted-foreground">Customized Solutions</span>
-          </li>
-          <li className="flex items-center">
-            <FaCheckCircle className="text-blue-500" />
-            <span className="ml-2 text-muted-foreground">Proven Track Record</span>
-          </li>
-          <li className="flex items-center">
-            <FaCheckCircle className="text-blue-500" />
-            <span className="ml-2 text-muted-foreground">Testing and Quality Assurance</span>
-          </li>
-        </ul>
-        <button className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[blue] bg-white isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[blue] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
-            Learn More <span className="ml-2"><GoArrowRight /></span>
-          </button>
+      {/* section 6 */}
+      <div className="bg-[#e7effe]">
+        <div className="flex flex-col md:flex-row items-center sm:p-3 md:p-8  md:w-[94%] lg:w-[80%] mx-auto">
+          <div className="md:w-1/2">
+            <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[blue] rounded mb-4">
+              Why CHOOSE US
+            </span>
+            <h3 className="sm:text-4xl md:text-5xl mt-8  font-bold">
+              For SMO <br /> Services{" "}
+              <span className="text-[blue]">in India?</span>
+            </h3>
+            <ul className="mt-8 space-y-2 leading-8">
+              <li className="flex items-center">
+                <FaCheckCircle className="text-blue-500" />
+                <span className="ml-2 text-muted-foreground">
+                  Experienced Team
+                </span>
+              </li>
+              <li className="flex items-center">
+                <FaCheckCircle className="text-blue-500" />
+                <span className="ml-2 text-muted-foreground">
+                  Customized Solutions
+                </span>
+              </li>
+              <li className="flex items-center">
+                <FaCheckCircle className="text-blue-500" />
+                <span className="ml-2 text-muted-foreground">
+                  Proven Track Record
+                </span>
+              </li>
+              <li className="flex items-center">
+                <FaCheckCircle className="text-blue-500" />
+                <span className="ml-2 text-muted-foreground">
+                  Testing and Quality Assurance
+                </span>
+              </li>
+            </ul>
+            <button
+              className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[blue] bg-white isolation-auto z-10 border-2 border-[blue]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[blue] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
+            >
+              Learn More{" "}
+              <span className="ml-2">
+                <GoArrowRight />
+              </span>
+            </button>
+          </div>
+          <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
+            <img
+              alt="Laptop displaying SMO services"
+              className="md:w-[500px] sm:w-[300px] h-auto"
+              src={img12}
+            />
+          </div>
+        </div>
       </div>
-      <div className="md:w-1/2 flex justify-center mt-6 md:mt-0">
-        <img
-          alt="Laptop displaying SMO services"
-          className="max-w-[500px] h-auto"
-          src={img12}
-        />
-      </div>
-    </div>
-    </div>
 
-     {/* price section  */}
-     <div>
+      {/* price section  */}
+      <div>
         <section className="bg-white dark:bg-gray-900">
           <div className="py-8 px-20 mx-auto lg:py-16 md:px-20 sm:px-2">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <div>
-              <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
-                SEO Packages
-              </span>
+              <div>
+                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
+                  SEO Packages
+                </span>
               </div>
             </div>
             <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -511,7 +545,7 @@ const SEO = () => {
                 index={2}
                 color="bg-black"
                 features={[
-                    "Setting Goals",
+                  "Setting Goals",
                   "Account Management – 3",
                   "Hashtag Research",
                   "Content Strategy Creation",
@@ -539,7 +573,7 @@ const SEO = () => {
                 index={3}
                 color="bg-blue-600"
                 features={[
-                    "Setting Goals",
+                  "Setting Goals",
                   "Account Management – 6",
                   "Hashtag Research",
                   "Content Strategy Creation",
@@ -565,15 +599,15 @@ const SEO = () => {
           </div>
         </section>
       </div>
-     {/* on page price section  */}
-     <div>
+      {/* on page price section  */}
+      <div>
         <section className="bg-[#e7effe] dark:bg-gray-900">
           <div className="py-8 px-20 mx-auto lg:py-16 md:px-20 sm:px-2">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <div>
-              <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
-                On-Page SEO Packages
-              </span>
+              <div>
+                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
+                  On-Page SEO Packages
+                </span>
               </div>
             </div>
             <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -610,7 +644,7 @@ const SEO = () => {
                 index={2}
                 color="bg-black"
                 features={[
-                    "Setting Goals",
+                  "Setting Goals",
                   "Account Management – 3",
                   "Hashtag Research",
                   "Content Strategy Creation",
@@ -638,7 +672,7 @@ const SEO = () => {
                 index={3}
                 color="bg-blue-600"
                 features={[
-                    "Setting Goals",
+                  "Setting Goals",
                   "Account Management – 6",
                   "Hashtag Research",
                   "Content Strategy Creation",
@@ -664,15 +698,15 @@ const SEO = () => {
           </div>
         </section>
       </div>
-     {/* on page price section  */}
-     <div>
+      {/* on page price section  */}
+      <div>
         <section className="bg-white dark:bg-gray-900">
           <div className="py-8 px-20 mx-auto lg:py-16 md:px-20 sm:px-2">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <div>
-              <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
-                Technical SEO Packages
-              </span>
+              <div>
+                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
+                  Technical SEO Packages
+                </span>
               </div>
             </div>
             <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -709,7 +743,7 @@ const SEO = () => {
                 index={2}
                 color="bg-black"
                 features={[
-                    "Setting Goals",
+                  "Setting Goals",
                   "Account Management – 3",
                   "Hashtag Research",
                   "Content Strategy Creation",
@@ -737,7 +771,7 @@ const SEO = () => {
                 index={3}
                 color="bg-blue-600"
                 features={[
-                    "Setting Goals",
+                  "Setting Goals",
                   "Account Management – 6",
                   "Hashtag Research",
                   "Content Strategy Creation",
@@ -764,27 +798,42 @@ const SEO = () => {
         </section>
       </div>
       <div>
-      <div className="flex flex-col md:flex-row items-center bg-background p-6 rounded-lg shadow-lg bg-black text-white">
-              <div className="md:w-1/2 flex gap-3 sm:p-4 md:p-16 lg:p-20">
-                <img undefinedhidden="true" alt="SEO graphics" src={img14} className="rounded-lg w-1/2" />
-                <img undefinedhidden="true" alt="SEO graphics" src={img13} className="rounded-lg w-1/2" />
-              </div>
-              <div className="relative md:w-1/2 lg:p-16">
-  <h2 className="sm:text-4xl md:text-4xl font-bold text-justify">
-    Get Started with the Best SEO Services Company in Noida
-  </h2>
-  <p className="text-justify text-sm mt-6">
-    If you're looking to improve your online visibility and drive more traffic to your website, Maxify Web Solution is here to help. As the best SEO services company in Noida, we are committed
-    to delivering results that exceed your expectations.
-  </p>
-  <p className="relative mt-4 text-[18px] pl-8">
-    <FaCheckCircle className="absolute left-0 top-[30%] transform -translate-y-1/2 text-blue-600" />
-    <span className="font-bold">Contact Us: </span>
-    <span> to learn more about how we can help you achieve your digital marketing goals.</span>
-  </p>
-</div>
-
-            </div>
+        <div className="flex flex-col md:flex-row items-center bg-background p-6 rounded-lg shadow-lg bg-black text-white">
+          <div className="md:w-1/2 flex gap-3 sm:p-4 md:p-16 lg:p-20">
+            <img
+              undefinedhidden="true"
+              alt="SEO graphics"
+              src={img14}
+              className="rounded-lg w-1/2"
+            />
+            <img
+              undefinedhidden="true"
+              alt="SEO graphics"
+              src={img13}
+              className="rounded-lg w-1/2"
+            />
+          </div>
+          <div className="relative md:w-1/2 lg:p-16 sm:mt-6 md:mt-0">
+            <h2 className="sm:text-3xl md:text-4xl font-bold">
+              Get Started with the Best SEO Services Company in Noida
+            </h2>
+            <p className="text-justify text-sm mt-6">
+              If you're looking to improve your online visibility and drive more
+              traffic to your website, Maxify Web Solution is here to help. As
+              the best SEO services company in Noida, we are committed to
+              delivering results that exceed your expectations.
+            </p>
+            <p className="relative mt-4  sm:text-sm md:text-[18px] pl-8">
+              <FaCheckCircle className="absolute left-0 top-[30%] transform -translate-y-1/2 text-blue-600" />
+              <span className="font-bold ">Contact Us: </span>
+              <span>
+                {" "}
+                to learn more about how we can help you achieve your digital
+                marketing goals.
+              </span>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

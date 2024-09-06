@@ -8,13 +8,14 @@ import ContactForm from "./Components/ContactForm";
 import AppDevelopment from "./pages/AppDevelopment";
 import SMO from "./pages/SMO";
 import SEO from "./pages/SEO";
-
+import BacktoTop from "./Components/BacktoTop";
 
 function App() {
   return (
     <>
       <Navbar />
 
+      <BacktoTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/servise" element={<Services />} />

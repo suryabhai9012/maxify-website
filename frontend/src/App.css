@@ -446,3 +446,63 @@ body {
   
   }
 }
+
+
+/* back to top */
+/* Container setup */
+.paginacontainer {
+  height: 3000px;
+  position: absolute;
+}
+
+/* Scroll progress setup */
+.progress-wrap {
+  background-color: blue;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  border-radius: 50px;
+  z-index: 10000;
+  opacity: 0;
+  border: 2px solid blue; /* Border around the progress circle */
+  visibility: hidden;
+  transform: translateY(15px);
+  transition: all 200ms linear;
+}
+
+.progress-wrap.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.progress-wrap svg path {
+  fill: blue;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 6;
+}
+
+.progress-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #2c2c2c;
+  transition: color 0.2s ease;
+}
+
+.progress-icon svg path {
+  fill: rgb(255, 255, 255);
+  stroke: rgb(0, 47, 255);
+  stroke-width: 6;
+}
+
+.progress-wrap:hover .progress-icon {
+  color: black !important; /* Force hover icon color to black */
+}
+
+

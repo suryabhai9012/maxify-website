@@ -215,7 +215,7 @@ const Services = () => {
               </p>
             </div>
             <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-              <button className="bg-blue-700 text-white font-normal text-sm px-6 py-3 w-full hover:bg-blue-700 transition duration-300">
+              <button className="bg-blue-700 text-white font-normal text-sm px-6 py-3 sm:w-full md:w-52 hover:bg-blue-700 transition duration-300">
                 Discover More
               </button>
               <div className="flex items-center text-blue-600 font-semibold space-x-2">

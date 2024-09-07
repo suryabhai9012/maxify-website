@@ -14,7 +14,6 @@ function App() {
   return (
     <>
       <Navbar />
-
       <BacktoTop />
       <Routes>
         <Route path="/" element={<Home />} />

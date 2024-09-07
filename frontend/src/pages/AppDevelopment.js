@@ -120,7 +120,7 @@ const AppDevelopment = () => {
     },
   ];
   return (
-    <div>
+    <div className="mt-[70px]">
       <div className="md:w-[90%] mx-auto bg-background rounded-lg flex flex-col-reverse lg:flex-row lg:items-center">
         <div className="lg:w-1/2 sm:px-2 md:px-4 lg:px-6">
           <h1 className="sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">

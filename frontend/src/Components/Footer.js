@@ -7,7 +7,7 @@ import img1 from "../Assets/Group 1.webp";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="bg-[#070707] text-white py-10 mt-4">
+    <footer className="bg-[#070707] text-white py-10 mt-4 md:pt-[300px]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h3 className="font-semibold mb-4">Address</h3>

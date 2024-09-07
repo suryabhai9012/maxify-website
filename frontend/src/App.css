@@ -303,7 +303,7 @@ body {
   .contact-content {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
   }
 }
@@ -445,4 +445,86 @@ body {
     background-size: 300px;
   
   }
+}
+
+
+/* back to top */
+/* Container setup */
+.paginacontainer {
+  height: 3000px;
+  position: absolute;
+}
+
+/* Scroll progress setup */
+.progress-wrap {
+  background-color: blue;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  border-radius: 50px;
+  z-index: 10000;
+  opacity: 0;
+  border: 2px solid blue; /* Border around the progress circle */
+  visibility: hidden;
+  transform: translateY(15px);
+  transition: all 200ms linear;
+}
+
+.progress-wrap.active-progress {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.progress-wrap svg path {
+  fill: blue;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 6;
+}
+
+.progress-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #2c2c2c;
+  transition: color 0.2s ease;
+}
+
+.progress-icon svg path {
+  fill: rgb(255, 255, 255);
+  stroke: rgb(0, 47, 255);
+  stroke-width: 6;
+}
+
+.progress-wrap:hover .progress-icon {
+  color: black !important; /* Force hover icon color to black */
+}
+
+/* curser */
+
+.cursor {
+  width: 4px;
+  height: 4px;
+  background-color: #001eff;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 11;
+  transition-duration: 1.7s;
+  transition-timing-function:  cubic-bezier(0.07, 1.18, 1, 1);
+  z-index: 9999;
+}
+.cursor-follower {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #0015ff;
+  border-radius: 100px;
+  transition-duration: 0.7s;
+  transition-timing-function:  cubic-bezier(0.07, 1.18, 1, 1);
+  z-index: 9999;
 }

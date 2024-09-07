@@ -10,23 +10,24 @@ import SMO from "./pages/SMO";
 import SEO from "./pages/SEO";
 import BacktoTop from "./Components/BacktoTop";
 import Curser from "./Components/Curser"
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       <BacktoTop />
-      <Curser /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/servise" element={<Services />} />
         <Route path="/app" element={<AppDevelopment />} />
         <Route path="/smo" element={<SMO />} />
         <Route path="/seo" element={<SEO />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <ContactForm />
       <Footer />
-    </>
+    </div>
   );
 }
 

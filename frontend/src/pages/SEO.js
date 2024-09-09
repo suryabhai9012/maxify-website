@@ -15,6 +15,11 @@ import img11 from "../Assets/SEO/15.webp";
 import img12 from "../Assets/SEO/26.webp";
 import img13 from "../Assets/SEO/17.webp";
 import img14 from "../Assets/SEO/18.webp";
+import imgp1 from "../Assets/Screenshot 2024-09-09 101724.png";
+import imgp2 from "../Assets/image.jpg";
+import imgp3 from "../Assets/person2.jpg";
+import imgp4 from "../Assets/person6.jpg";
+import imgp5 from "../Assets/images.jfif";
 
 import vid from "../Assets/WhatsApp Video 2024-09-04 at 11.34.30 PM.mp4";
 import { IoPlayOutline } from "react-icons/io5";
@@ -84,30 +89,30 @@ const SEO = () => {
             <div className="flex items-center mb-4">
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white"
-                src="https://placehold.co/40x40?text=1"
+                src={imgp1}
                 alt="Client 1"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
-                src="https://placehold.co/40x40?text=2"
+                src={imgp2}
                 alt="Client 2"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
-                src="https://placehold.co/40x40?text=3"
+                src={imgp3}
                 alt="Client 3"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
-                src="https://placehold.co/40x40?text=4"
+                src={imgp4}
                 alt="Client 4"
               />
               <img
                 className="sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-full border-2 border-white -ml-4"
-                src="https://placehold.co/40x40?text=5"
+                src={imgp5}
                 alt="Client 5"
               />
-              <div className="bg-[blue] text-white  sm:w-9 sm:h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full -ml-4">
+              <div className="bg-[blue] text-white text-[10px]  sm:w-9 sm:h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full -ml-4">
                 12k+
               </div>
             </div>
@@ -177,7 +182,7 @@ const SEO = () => {
       </div>
 
       {/*  */}
-      <div className="right-banner bg-[#3f3f3f] sm:h-auto lg:h-[500px]">
+      <div className="right-banner sm:h-auto lg:h-[500px] bg-seo">
         <div className="w-full md:w-[90%] lg:w-[80%] mx-auto flex sm:flex-col md:flex-row">
           <div className="md:w-1/2 flex flex-col justify-center md:px-4 lg:px-10 text-white">
             <h2 className="text-4xl font-extrabold mb-5">

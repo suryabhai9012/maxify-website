@@ -6,6 +6,8 @@ import img4 from "../Assets/4.webp";
 import img5 from "../Assets/5.webp";
 import img6 from "../Assets/6.webp";
 import img7 from "../Assets/7.webp";
+import img8 from "../Assets/divide6-1.jpg.png";
+import img9 from "../Assets/Path 4 (1).png"
 
 import { Link } from "react-router-dom";
 import { MdImportantDevices } from "react-icons/md";
@@ -242,8 +244,9 @@ const Home = () => {
   return (
     <div className="mt-[80px]">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-2 bg-background">
-        <div className="lg:w-1/2 sm:p-2 md:p-4 sm:mt-9 md:mt-0">
-        <div className="bg-[blue] uppercase text-white tracking-wider md:mb-4 text-[10px] flex text-center w-32 px-2 py-[2px] justify-between">
+        <div className="sm:w-full lg:w-1/2 sm:p-2 md:p-4 sm:mt-9 md:mt-0">
+        <img src={img9} className="absolute top-0 left-0 -z-20 sm:hidden lg:block" alt="" />
+        <div className="bg-[blue] uppercase text-white tracking-wider md:mb-4 text-[10px] mt-8 flex text-center w-32 px-2 py-[2px] justify-between">
             <span>IT SOLUTION </span>
             <span className="w-10 mt-[6px]">
               <hr />
@@ -265,20 +268,21 @@ const Home = () => {
           </button>
           </Link>
         </div>
-        <div className="lg:w-1/2 mt-8 lg:mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[600px]">
-          <div className="h-[80%] w-[70%] overflow-hidden rounded-lg relative z-10">
+        <div className="sm:w-full lg:w-1/2 mt-0 flex items-center justify-center relative sm:h-[400px] md:h-[600px]">
+          <div className="h-[65%] w-[65%] overflow-hidden rounded-lg relative z-10">
             <img
               src={img1}
               alt="Person using a tablet"
               className="h-full w-full object-cover rounded-lg"
             />
           </div>
-          <div className="bg-gradient-to-r from-[#2334de] to-[#101763] sm:p-[80px] md:p-[150px] rounded-lg absolute top-0 right-0 z-0"></div>
-          <div className="bg-gradient-to-r from-[#2334de] to-[#101763] sm:p-[80px] md:p-[150px] rounded-lg absolute bottom-0 left-0 z-0"></div>
+          <div className="bg-gradient-to-r from-[#2334de] to-[#101763] sm:p-[80px] md:p-[130px] rounded-lg absolute top-0 right-0 z-0"></div>
+          <div className="bg-gradient-to-r from-[#2334de] to-[#101763] sm:p-[80px] md:p-[130px] rounded-lg absolute bottom-0 left-0 z-0"></div>
         </div>
       </div>
 
       {/* second section */}
+      <div className="bg-img">
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-end relative px-2">
@@ -358,7 +362,7 @@ const Home = () => {
             </div>
             <div className="w-1/2 flex justify-center">
             <Link to="/smo">
-              <button className=" px-6 py-2 rounded-[5px] relative text-[white] bg-[blue] isolation-auto z-10 border-2 border-[blue]
+              <button className=" px-6 py-2 rounded-sm relative text-[white] bg-[blue] isolation-auto z-10 border-2 border-[blue]
         before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]">
                 Explore now
               </button>
@@ -367,8 +371,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+      </div>
 
       {/* Slider */}
+      <div className="bg-img">
       <div className="w-full max-w-6xl mx-auto py-12 px-4 relative">
         <p className=" text-[17px] font-semibold text-center text-[gray] mb-5">
           <span className="text-[#2334de]">//</span> What We’re Offering
@@ -404,7 +410,7 @@ const Home = () => {
         >
           {services.map((service, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white shadow-lg rounded-lg p-8 min-h-[300px] flex flex-col justify-around slider-card">
+              <div className="bg-white shadow-lg rounded-lg p-8 min-h-[300px] flex flex-col justify-around slider-card bg-slide">
                 <div>
                   <h2 className="text-[15px] font-semibold mb-4">
                     {service.title}
@@ -458,9 +464,10 @@ const Home = () => {
           </button>
         </div>
       </div>
+      </div>
 
       {/*  */}
-      <div>
+      <div className="">
         <div className="sm:hidden md:w-[45%] md:flex justify-end">
           {/* <IoMdPlay size={14} className="bg-[red] text-white h-[80px] w-[80px]"/> */}
           <IoIosPlay
@@ -491,9 +498,9 @@ const Home = () => {
             </div>
           </div>
           <div className="w-full lg:h-[600px] flex justify-center mt-8 md:mt-0 lg:absolute">
-            <div className=" lg:absolute right-[00px] top-[-30px]">
+            <div className=" lg:absolute sm:w-full md:w-[55%] right-[00px] top-[-30px]">
               <img
-                src={img1}
+                src={img8}
                 alt={`${heading} Illustration`}
                 className="w-full md:w-full"
               />
@@ -503,9 +510,10 @@ const Home = () => {
       </div>
 
       {/* Company benifits */}
+      <div className="bg-img">
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 justify-center items-center relative gap-3">
+        <div className="flex w-full md:w-1/2 justify-center items-center company-bg relative gap-3">
           <div className="flex flex-col gap-3">
             <img
               src={img4}
@@ -541,7 +549,7 @@ const Home = () => {
             through customized solutions along with skilled assistance.
           </p>
 
-          <div className="flex justify-between shadow-md p-4 mb-6 border-t-[1px] border-r-[1px] border-l-[3px] border-l-[#2334de]">
+          <div className="flex justify-between shadow-md p-4 mb-6 border-t-[1px] border-r-[1px] border-l-[3px] border-l-[#2334de] bg-white">
             <p className="font-semibold">{benifits[index].text}</p>
             {benifits[index].icon}
           </div>
@@ -554,15 +562,17 @@ const Home = () => {
           </div>
         </div>
       </div>
+      </div>
 
       {/* last section */}
+      <div className="bg-img">
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
-        <div className="w-full md:w-1/2 justify-end items-center relative sm:hidden lg:flex">
+        <div className="w-full md:w-1/2 justify-center items-center relative sm:hidden lg:flex">
           <img
             src={img3}
             alt="Left Side"
-            className="w-[80%] object-cover h-[90%] rounded-lg"
+            className="w-[70%] object-cover h-[90%] rounded-lg"
           />
         </div>
 
@@ -581,7 +591,7 @@ const Home = () => {
           </p>
 
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md bg-white">
               <div>
                 <LuFocus className="text-[30px] text-[#2334de]" />
               </div>
@@ -596,7 +606,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md bg-white">
               <div>
                 <BsGraphUpArrow className="text-[30px] text-[#2334de]" />
               </div>
@@ -613,7 +623,7 @@ const Home = () => {
             </div>
           </div>
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md bg-white">
               <div>
                 <MdSupportAgent className="text-[30px] text-[#2334de]" />
               </div>
@@ -628,7 +638,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
+            <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md bg-white">
               <div>
                 <GoCodeReview className="text-[30px] text-[#2334de]" />
               </div>
@@ -650,6 +660,7 @@ const Home = () => {
             </button>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

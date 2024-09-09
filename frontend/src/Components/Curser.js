@@ -23,12 +23,12 @@ const Curser = () => {
   };
 
   return (
-    <div>
-      <div
+    <div className='sm:hidden md:block  w-full'>
+      <div 
         style={{
           transform: `translate(${position.x}px, ${position.y}px)`,
         }}
-        className="cursor"
+        className="cursor overflow-hidden w-full"
       ></div>
       <div
         style={{

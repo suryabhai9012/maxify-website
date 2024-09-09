@@ -22,7 +22,7 @@ const PricingCard = ({ title, price, features, index, features2, color }) => {
     <div
       className={`${
         showMore === index ? "h-auto" : "h-[28rem]"
-      }  flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-2xl border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:text-white ${color}`}
+      } w-[90%] flex flex-col p-6 mx-auto max-w-lg text-center text-white rounded-2xl border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:text-white ${color}`}
     >
       <h3 className=" text-2xl font-semibold">{title}</h3>
 

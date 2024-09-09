@@ -9,14 +9,14 @@ import AppDevelopment from "./pages/AppDevelopment";
 import SMO from "./pages/SMO";
 import SEO from "./pages/SEO";
 import BacktoTop from "./Components/BacktoTop";
-import Curser from "./Components/Curser"
+import Curser from "./Components/Curser";
 
 function App() {
   return (
     <>
       <Navbar />
       <BacktoTop />
-      <Curser /> 
+      {/* <Curser /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/servise" element={<Services />} />

@@ -110,7 +110,7 @@ const Services = () => {
   };
 
   return (
-    <div className="mt-[70px]">
+    <div>
       {/* hero section */}
       <div className="flex flex-col md:flex-row items-center bg-gray-50 min-h-screen sm:flex-col-reverse">
         {/* Left Section */}
@@ -259,7 +259,7 @@ const Services = () => {
             {serviceData.map((service, index) => (
               <div className="">
                 <div
-                  className={`p-6 w-[90%] shadow-2xl h-auto ml-6 rounded-lg mt-[-50px] z-10 bg-white flex flex-col justify-between`}
+                  className={`p-6 w-[90%]  shadow-2xl h-auto ml-6 rounded-lg mt-[-50px] z-10 bg-white flex flex-col justify-between`}
                   onMouseLeave={() => handleClick(null)}
                 >
                   <div
@@ -281,12 +281,12 @@ const Services = () => {
                       {service.description}
                     </p>
                   </div>
-                  <div className={showMore == index ? "hidden" : "block"}>
-                    <div
-                      className=" flex flex-col justify-end group-hover-hidden transition duration-300"
-                      onMouseEnter={() => handleClick(index)}
-                      onmouseleave={() => handleClick(null)}
-                    >
+                  <div
+                    className={showMore == index ? "hidden" : "flex h-[2rem]"}
+                    onMouseEnter={() => handleClick(index)}
+                    // onmouseleave={() => handleClick(null)}
+                  >
+                    <div className=" flex flex-col justify-end group-hover-hidden transition duration-300">
                       <div className="flex items-center ">
                         <span className="text-sm font-medium text-gray-900 mr-2">
                           Key Features:

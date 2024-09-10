@@ -157,6 +157,18 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.bg-con{
+  background-image: url(./Assets/Rectangle\ 4485.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-map{
+  background-image: url(./Assets/Rectangle\ 4599.png);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* contact form */
 

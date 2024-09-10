@@ -86,10 +86,25 @@ const Navbar = () => {
               </a>
             </div> */}
           </div>
-
-          <a href="#" className="hover:text-gray-400 transition duration-300">
-            About Us
-          </a>
+          <div className="relative group">
+            <Link
+              to="/conservation"
+              className="flex items-center hover:text-gray-400 transition duration-300"
+            >
+              About us <MdExpandMore className="ml-1" />
+            </Link>
+            {/* <div className="absolute left-0 hidden group-hover:flex flex-col bg-white text-black mt-2 rounded shadow-lg w-48">
+              <a href="#" className="px-4 py-2 hover:bg-gray-100">
+                Service 1
+              </a>
+              <a href="#" className="px-4 py-2 hover:bg-gray-100">
+                Service 2
+              </a>
+              <a href="#" className="px-4 py-2 hover:bg-gray-100">
+                Service 3
+              </a>
+            </div> */}
+          </div>
         </div>
 
         {/* Contact and Quote Button */}

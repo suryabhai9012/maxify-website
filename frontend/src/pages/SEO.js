@@ -567,8 +567,10 @@ const SEO = () => {
                   "Instagram Management",
                   "Engagement Strategy",
                   "IGTV Upload (Video provided by Client)",
+                  "Creation of Facebook Quiz/polls",
                   "Facebook Story Creation",
                   "Video Posting (Provide By Client)",
+                  "Page Monitring"
                 ]}
               />
               {/* Enterprise Plan */}
@@ -595,9 +597,14 @@ const SEO = () => {
                   "Instagram Management",
                   "Engagement Strategy",
                   "IGTV Upload (Video provided by Client)",
+                  "Creation of Facebook Quiz/polls",
                   "Facebook Story Creation",
                   "Video Posting (Provide By Client)",
+                  "Page Monitring",
+                  "Video Posting (Provide By Client)",
                   "LinkedIn Management",
+                  "YouTube Management",
+                  "Creation of Showcase page",
                 ]}
               />
             </div>
@@ -694,9 +701,14 @@ const SEO = () => {
                   "Instagram Management",
                   "Engagement Strategy",
                   "IGTV Upload (Video provided by Client)",
+                  "Creation of Facebook Quiz/polls",
                   "Facebook Story Creation",
                   "Video Posting (Provide By Client)",
+                  "Page Monitring",
+                  "Video Posting (Provide By Client)",
                   "LinkedIn Management",
+                  "YouTube Management",
+                  "Creation of Showcase page",
                 ]}
               />
             </div>

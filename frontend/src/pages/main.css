@@ -11,3 +11,10 @@
 .show-on-hover {
   display: none;
 }
+
+.bg-images {
+  background-image: url("../Assets/services/bg-image.png");
+  background-color: #162235;
+  position: relative;
+  height: 30.5rem;
+}

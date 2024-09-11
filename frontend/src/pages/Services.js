@@ -19,6 +19,7 @@ import icon1 from "../Assets/services/1.svg";
 import icon2 from "../Assets/services/2.svg";
 import icon3 from "../Assets/services/3.svg";
 import PricingCard from "../Components/PricingCard";
+import bgimage from "../Assets/services/bg-image.png";
 
 const Services = () => {
   // Array to hold service data
@@ -260,7 +261,7 @@ const Services = () => {
               <div className="">
                 <div
                   className={`p-6 w-[90%]  shadow-2xl h-auto ml-6 rounded-lg mt-[-50px] z-10 bg-white flex flex-col justify-between`}
-                  onMouseLeave={() => handleClick(null)}
+                  // onMouseLeave={() => handleClick(null)}
                 >
                   <div
                     className={
@@ -586,15 +587,15 @@ const Services = () => {
       {/* seo section */}
 
       <div>
-        <section className="bg-gray-900 text-white py-8">
+        <section className="bg-images text-white py-8">
           <div className="container mx-auto sm:px-0 md:px-[11rem]">
             <div className="text-center md:mb-12 sm:mb-5">
-              <div className="text-white text-center mb-2">
-                <span className="text-white">
-                  <hr />
+              <div className="text-white gap-2 px-2 bg-blue-600 w-32 mx-auto h-full align-middle flex text-center mb-2">
+                <span className="w-20 mt-3">
+                  <hr className="" />
                 </span>
                 <span>UI/UX</span>
-                <span>
+                <span className="w-20 mt-3">
                   <hr />
                 </span>
               </div>

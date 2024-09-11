@@ -50,7 +50,7 @@ requirements. Our experienced developers work together
 with you to understand your business goals and issues,
 resulting in software that improves productivity and
 increases revenue.`,
-    icon: <FaLongArrowAltRight size={17} className="text-[#2334de]" />,
+    icon: <FaLongArrowAltRight size={17} className="text-[#2334DE]" />,
     icon2: <MdDeveloperMode />,
   },
   {
@@ -63,7 +63,7 @@ Noida, we provide a broad variety of services, including
 custom web design and responsive development. Our goal is
 to create a site that looks beneficial and works easily on any
 device.`,
-    icon: <FaLongArrowAltRight size={17} className="text-[#2334de]" />,
+    icon: <FaLongArrowAltRight size={17} className="text-[#2334DE]" />,
     icon2: <MdWeb />,
   },
   {
@@ -76,19 +76,19 @@ audience. Whether you want search engine optimization
 (SEO), pay per click (PPC) advertising, social media
 management, or content marketing, we have the experience
 to drive traffic, generate leads, and increase conversions.`,
-    icon: <FaLongArrowAltRight size={17} className="text-[#2334de]" />,
+    icon: <FaLongArrowAltRight size={17} className="text-[#2334DE]" />,
     icon2: <FaDigitalOcean />,
   },
   {
     title: "SEO Optimization",
     description: `Maximize your visibility and drive traffic with our expert SEO services...`,
-    icon: <FaLongArrowAltRight size={17} className="text-[#2334de]" />,
+    icon: <FaLongArrowAltRight size={17} className="text-[#2334DE]" />,
     icon2: <TbSeo />,
   },
   {
     title: "Content Creation",
     description: `Engage your audience with high-quality content tailored to your brand...`,
-    icon: <FaLongArrowAltRight size={17} className="text-[#2334de]" />,
+    icon: <FaLongArrowAltRight size={17} className="text-[#2334DE]" />,
     icon2: <MdContentPasteSearch />,
   },
 ];
@@ -193,15 +193,15 @@ const sectionKeys = Object.keys(sections);
 const benifits = [
   {
     text: "Prominent Healthcare Services",
-    icon: <FaHandHoldingMedical size={30} className="text-[#2334de]" />,
+    icon: <FaHandHoldingMedical size={30} className="text-[#2334DE]" />,
   },
   {
     text: "Advanced Medical Care",
-    icon: <FaStethoscope size={30} className="text-[#2334de]" />,
+    icon: <FaStethoscope size={30} className="text-[#2334DE]" />,
   },
   {
     text: "Comprehensive Heart Care",
-    icon: <FaHeartbeat size={30} className="text-[#2334de]" />,
+    icon: <FaHeartbeat size={30} className="text-[#2334DE]" />,
   },
 ];
 const Home = () => {
@@ -246,7 +246,7 @@ const Home = () => {
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-2 bg-background">
         <div className="sm:w-full lg:w-1/2 sm:p-2 md:p-4 sm:mt-9 md:mt-0">
         <img src={img9} className="absolute top-0 left-0 -z-20 sm:hidden lg:block" alt="" />
-        <div className="bg-[blue] uppercase text-white tracking-wider md:mb-4 text-[10px] mt-8 flex text-center w-32 px-2 py-[2px] justify-between">
+        <div className="bg-[#2334DE] uppercase text-white tracking-wider md:mb-4 text-[10px] mt-8 flex text-center w-32 px-2 py-[2px] justify-between">
             <span>IT SOLUTION </span>
             <span className="w-10 mt-[6px]">
               <hr />
@@ -255,15 +255,15 @@ const Home = () => {
           <h2 className="text-6xl md:text-5xl sm:text-4xl mt-3 md:mt-9 font-semibold text-black">
             Welcome To
           </h2>
-          <h1 className="text-6xl md:text-5xl sm:text-4xl md:mt-2  font-semibold text-[#2334de]">
+          <h1 className="text-6xl md:text-5xl sm:text-4xl md:mt-2  font-semibold text-[#2334DE]">
             Maxify Solutions
           </h1>
           <p className="md:text-3xl sm:text-lg mt-4 font-semibold text-black">
             Your Partner For Digital Transformation
           </p>
           <Link to="/app">
-          <button  className="mt-8 py-3 text-[14px] font-[300] px-5 rounded-sm relative text-[white] bg-[blue] isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]">
+          <button  className="mt-8 py-3 text-[14px] font-[300] px-5 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]">
             Get Started Now
           </button>
           </Link>
@@ -276,8 +276,8 @@ const Home = () => {
               className="h-full w-full object-cover rounded-lg"
             />
           </div>
-          <div className="bg-gradient-to-r from-[#2334de] to-[#101763] sm:p-[80px] md:p-[130px] rounded-lg absolute top-0 right-0 z-0"></div>
-          <div className="bg-gradient-to-r from-[#2334de] to-[#101763] sm:p-[80px] md:p-[130px] rounded-lg absolute bottom-0 left-0 z-0"></div>
+          <div className="bg-gradient-to-r from-[#2334DE] to-[#101763] sm:p-[80px] md:p-[130px] rounded-lg absolute top-0 right-0 z-0"></div>
+          <div className="bg-gradient-to-r from-[#2334DE] to-[#101763] sm:p-[80px] md:p-[130px] rounded-lg absolute bottom-0 left-0 z-0"></div>
         </div>
       </div>
 
@@ -286,7 +286,7 @@ const Home = () => {
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex w-full md:w-1/2 justify-end relative px-2">
-          <div className="flex justify-center items-center gap-3 p-6 bg-[#2334de] absolute rounded-md top-20 sm:left-2 md:left-10 text-white">
+          <div className="flex justify-center items-center gap-3 p-6 bg-[#2334DE] absolute rounded-md top-20 sm:left-2 md:left-10 text-white">
             <FaPeopleGroup size={30} />
             <p className="text-center text-sm">
               Years of
@@ -309,7 +309,7 @@ const Home = () => {
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[50px]">
           <p className="text-[18px] font-[500] text-[gray]">
-            <span className="text-[#2334de]">//</span> Get to Now
+            <span className="text-[#2334DE]">//</span> Get to Now
           </p>
           <h1 className="text-2xl md:text-4xl font-bold mb-4 mt-4">
             Maxify Solutions
@@ -328,7 +328,7 @@ const Home = () => {
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
             <div className="flex-1 flex gap-3 items-center text-left p-4 rounded-md">
               <div>
-                <MdImportantDevices className="text-[30px] text-[#2334de]" />
+                <MdImportantDevices className="text-[30px] text-[#2334DE]" />
               </div>
               <p className="font-semibold lg:text-[16px] md:text-[16px]">
                 Custom software development.
@@ -336,7 +336,7 @@ const Home = () => {
             </div>
             <div className="flex-1 flex gap-3 items-center text-left p-4 rounded-md">
               <div>
-                <AiOutlineSolution className="text-[30px] text-[#2334de]" />
+                <AiOutlineSolution className="text-[30px] text-[#2334DE]" />
               </div>
               <p className="font-semibold lg:text-[16px] md:text-[16px]">
                 Marketing Solution
@@ -351,7 +351,7 @@ const Home = () => {
             <div className="w-1/2 flex items-center">
               <MdOutlinePhoneInTalk
                 size={22}
-                className="bg-[#f3f3f3] text-[#2334de] size-[40px] p-2 rounded-full"
+                className="bg-[#f3f3f3] text-[#2334DE] size-[40px] p-2 rounded-full"
               />
               <div>
                 <p className=" text-[12px] text-gray-400 font-semibold">
@@ -362,8 +362,8 @@ const Home = () => {
             </div>
             <div className="w-1/2 flex justify-center">
             <Link to="/smo">
-              <button className=" px-6 py-2 rounded-sm relative text-[white] bg-[blue] isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]">
+              <button className=" px-6 py-2 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]">
                 Explore now
               </button>
               </Link>
@@ -377,7 +377,7 @@ const Home = () => {
       <div className="bg-img">
       <div className="w-full max-w-6xl mx-auto py-12 px-4 relative">
         <p className=" text-[17px] font-semibold text-center text-[gray] mb-5">
-          <span className="text-[#2334de]">//</span> What We’re Offering
+          <span className="text-[#2334DE]">//</span> What We’re Offering
         </p>
         <h2 className="text-4xl font-bold text-center">
           Services we’re offering to <br />
@@ -420,7 +420,7 @@ const Home = () => {
                   </p>
                 </div>
                 <div className="flex justify-between items-center">
-                  <button className="text-[#2334de] font-medium flex items-center space-x-6">
+                  <button className="text-[#2334DE] font-medium flex items-center space-x-6">
                     <span
                       style={{ boxShadow: "0px 0px 10px gray" }}
                       className="p-3 rounded-full"
@@ -431,7 +431,7 @@ const Home = () => {
                   </button>
                 </div>
                 <div
-                  className="absolute bottom-0 slider-card-bottom right-0 transition-all pl-[20px] text-[30px] pt-[20px] pr-[10px] pb-[10px] bg-[#f3f3f3] text-[#2334de]"
+                  className="absolute bottom-0 slider-card-bottom right-0 transition-all pl-[20px] text-[30px] pt-[20px] pr-[10px] pb-[10px] bg-[#f3f3f3] text-[#2334DE]"
                   style={{ borderRadius: "100% 0% 0% 0%" }}
                 >
                   {service.icon2}
@@ -443,13 +443,13 @@ const Home = () => {
         <div className="next absolute top-[50%] right-[-30px] transform">
           <FaLongArrowAltRight
             size={34}
-            className="text-3xl sm:none md:block text-[#2334de] hover:shadow-lg p-2 rounded-full"
+            className="text-3xl sm:none md:block text-[#2334DE] hover:shadow-lg p-2 rounded-full"
           />
         </div>
         <div className="prev absolute  top-[50%] left-[-30px]">
           <FaLongArrowAltRight
             size={34}
-            className="text-3xl  sm:none md:block text-[#2334de] transform rotate-180 hover:shadow-lg p-2 rounded-full"
+            className="text-3xl  sm:none md:block text-[#2334DE] transform rotate-180 hover:shadow-lg p-2 rounded-full"
           />
         </div>
         <div className="flex justify-center gap-2 flex-wrap mt-12">
@@ -458,8 +458,8 @@ const Home = () => {
             <span className="font-semibold">Web Development & Design</span>{" "}
             needs.
           </p>
-          <button className=" px-6 py-2 rounded-sm relative text-[white] bg-[blue] isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]">
+          <button className=" px-6 py-2 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]">
             Explore now
           </button>
         </div>
@@ -477,7 +477,7 @@ const Home = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center bg-black text-white py-12 sm:px-3 md:px-0 relative">
           <div className="md:w-1/2  min-h-[400px] md:px-5">
-            <h3 className="text-[#2334de]">
+            <h3 className="text-[#2334DE]">
               // <span className="text-white"> What We Offer!</span>
             </h3>
             <h1 className="text-4xl md:text-3xl font-bold mt-4">{heading}</h1>
@@ -485,7 +485,7 @@ const Home = () => {
               {points.map((point, index) => (
                 <div key={index} className="flex items-start gap-3">
                 <div>
-                  <div className="bg-[#2334de] text-white h-10 w-10 flex items-center justify-center rounded-full">
+                  <div className="bg-[#2334DE] text-white h-10 w-10 flex items-center justify-center rounded-full">
                     {point.number}
                   </div>
                   </div>
@@ -549,14 +549,14 @@ const Home = () => {
             through customized solutions along with skilled assistance.
           </p>
 
-          <div className="flex justify-between shadow-md p-4 mb-6 border-t-[1px] border-r-[1px] border-l-[3px] border-l-[#2334de] bg-white">
+          <div className="flex justify-between shadow-md p-4 mb-6 border-t-[1px] border-r-[1px] border-l-[3px] border-l-[#2334DE] bg-white">
             <p className="font-semibold">{benifits[index].text}</p>
             {benifits[index].icon}
           </div>
 
           <div className="mt-8">
-            <button className=" px-6 py-2  relative text-[white] bg-[blue] isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]">
+            <button className=" px-6 py-2  relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]">
               Explore now
             </button>
           </div>
@@ -578,7 +578,7 @@ const Home = () => {
 
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-full lg:w-1/2 p-4 md:p-8 sm:px-3 md:px-[30px]">
-          <span className="text-[12px] font-[500] px-4 py-0 bg-[#2334de] text-white">
+          <span className="text-[12px] font-[500] px-4 py-0 bg-[#2334DE] text-white">
             Why ------
           </span>
           <h1 className="text-2xl md:text-3xl font-bold mb-1">
@@ -593,7 +593,7 @@ const Home = () => {
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md bg-white">
               <div>
-                <LuFocus className="text-[30px] text-[#2334de]" />
+                <LuFocus className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
                 <h3 className="text-sm font-[500] text-black">
@@ -608,7 +608,7 @@ const Home = () => {
             </div>
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md bg-white">
               <div>
-                <BsGraphUpArrow className="text-[30px] text-[#2334de]" />
+                <BsGraphUpArrow className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
                 <h3 className="text-sm font-[500] text-black">
@@ -625,7 +625,7 @@ const Home = () => {
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md bg-white">
               <div>
-                <MdSupportAgent className="text-[30px] text-[#2334de]" />
+                <MdSupportAgent className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
                 <h3 className="text-sm font-[500] text-black">
@@ -640,7 +640,7 @@ const Home = () => {
             </div>
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md bg-white">
               <div>
-                <GoCodeReview className="text-[30px] text-[#2334de]" />
+                <GoCodeReview className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
                 <h3 className="text-sm font-[500] text-black">
@@ -654,8 +654,8 @@ const Home = () => {
             </div>
           </div>
           <div className="flex mt-8">
-            <button className=" px-6 py-2 rounded-sm relative text-[white] bg-[blue] isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]">
+            <button className=" px-6 py-2 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]">
               Explore now
             </button>
           </div>

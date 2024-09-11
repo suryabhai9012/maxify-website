@@ -115,7 +115,7 @@ const Services = () => {
       <div className="flex flex-col md:flex-row items-center bg-gray-50 min-h-screen sm:flex-col-reverse">
         {/* Left Section */}
         <div className="md:w-1/2 mb-8 md:mb-0 lg:px-10 sm:px-5 sm:mt-5 lg:mt-0">
-          <div className="bg-blue-700 uppercase text-white tracking-wider mb-4 text-[10px] flex text-center w-32 px-2 py-[2px] justify-between">
+          <div className="bg-[#2334DE] uppercase text-white tracking-wider mb-4 text-[10px] flex text-center w-32 px-2 py-[2px] justify-between">
             <span>Why Your </span>
             <span className="w-10 mt-2">
               <hr />
@@ -123,7 +123,7 @@ const Services = () => {
           </div>
           <h1 className="text-2xl md:text-[40px] font-semibold text-gray-900 leading-tight mb-4">
             <p>Business Needs The Best</p>
-            <p className="text-blue-600">Website Development</p>
+            <p className="text-[#2334DE]">Website Development</p>
           </h1>
           <h2 className="text-lg md:text-xl text-gray-700 mb-6 font-bold">
             Company In Noida
@@ -139,7 +139,7 @@ const Services = () => {
             here to help you create a website that not only looks great but also
             delivers outstanding performance.
           </p>
-          <button className="bg-blue-600 text-white font-semibold lg:px-6 lg:py-3 sm:px-4 sm:py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+          <button className="bg-[#2334DE] text-white font-semibold lg:px-6 lg:py-3 sm:px-4 sm:py-2 rounded-lg hover:bg-[#2334DE] transition duration-300">
             Get Started Now
           </button>
         </div>
@@ -159,7 +159,7 @@ const Services = () => {
         <div className="flex flex-col md:flex-row items-center  lg:p-8 md:p-16 sm:p-2 lg:w-[80%] sm:w-[90%] mx-auto">
           {/* Left Section */}
           <div className="md:w-[50%] relative flex md:ml-10 sm:ml-0 md:mb-0">
-            <div className="absolute left-0 top-0 bg-blue-600 w-2 h-[90%]"></div>
+            <div className="absolute left-0 top-0 bg-[#2334DE] w-2 h-[90%]"></div>
             <div className="relative">
               <img
                 src={img5}
@@ -179,9 +179,9 @@ const Services = () => {
             <div className="text-sm text-gray-500 uppercase tracking-wide mb-2 flex h-full">
               <span> Why Choose Us?</span>{" "}
               <span className="w-[20px] mt-2 ml-2">
-                <hr className="border-blue-600 h-2" />
+                <hr className="border-[#2334DE] h-2" />
               </span>
-              <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2 mt-[4px]"></span>
+              <span className="inline-block w-2 h-2 bg-[#2334DE] rounded-full mr-2 mt-[4px]"></span>
             </div>
             <h2 className="text-3xl md:text-2xl sm:text-xl font-bold text-gray-900 mb-6 sm:mb-2 kanit-regular">
               The Best Website Development <br />
@@ -189,7 +189,7 @@ const Services = () => {
             </h2>
             <div className="bg-white shadow-lg rounded-lg p-6 border-b-[2px]">
               <h3 className="text-sm font-semibold text-gray-900 mb-2">
-                <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                <span className="inline-block w-2 h-2 bg-[#2334DE] rounded-full mr-2"></span>
                 Expertise in Custom Web Development
               </h3>
               <p className="text-gray-700 mb-4 text-[12px]">
@@ -203,7 +203,7 @@ const Services = () => {
             </div>
             <div className="bg-white shadow-lg rounded-lg p-6 ">
               <h3 className="text-sm font-semibold text-gray-900 mb-2">
-                <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                <span className="inline-block w-2 h-2 bg-[#2334DE] rounded-full mr-2"></span>
                 Comprehensive Range of Services
               </h3>
               <p className="text-gray-700 text-[12px]">
@@ -215,11 +215,11 @@ const Services = () => {
               </p>
             </div>
             <div className="mt-8 flex md:flex-row sm:flex-col gap-3 items-center space-x-4">
-              <button className="bg-blue-700 text-white font-normal text-sm px-6 py-3 sm:w-full md:w-52 hover:bg-blue-700 transition duration-300">
+              <button className="bg-[#2334DE] text-white font-normal text-sm px-6 py-3 sm:w-full md:w-52 hover:bg-[#2334DE] transition duration-300">
                 Discover More
               </button>
-              <div className="flex items-center text-blue-600 font-semibold space-x-2">
-                <span className="md:text-2xl sm:text-xl bg-blue-700 text-white p-3">
+              <div className="flex items-center text-[#2334DE] font-semibold space-x-2">
+                <span className="md:text-2xl sm:text-xl bg-[#2334DE] text-white p-3">
                   <BiPhoneCall />
                 </span>
                 <div>
@@ -235,7 +235,7 @@ const Services = () => {
       {/* our servioces section */}
       {/* for laptop view */}
       <div className="sm:hidden md:block">
-        <div className="bg-blue-900 pt-12 pb-1 sm:px-4 md:px-16">
+        <div className="bg-[#2334DE] pt-12 pb-1 sm:px-4 md:px-16">
           <h3 className="text-white text-center text-sm">// Our Services:</h3>
           <div className="md:w-[60%] sm:w-[95%] mx-auto">
             <h2 className="md:text-3xl sm:text-xl font-semibold text-white text-center mb-12 ">
@@ -270,7 +270,7 @@ const Services = () => {
                     }
                   >
                     <div className="flex justify-between">
-                      <h3 className="text-[10px] bg-blue-600 text-center text-white rounded-lg px-3 py-1 mb-4 w-[70%]">
+                      <h3 className="text-[10px] bg-[#2334DE] text-center text-white rounded-lg px-3 py-1 mb-4 w-[70%]">
                         {service.title}
                       </h3>
                       <div className="mt-[-10px]">
@@ -322,7 +322,7 @@ const Services = () => {
       </div>
       {/* for phone view */}
       <div className="sm:block md:hidden">
-        <div className="bg-blue-900 pt-12 pb-1 sm:px-4 md:px-16">
+        <div className="bg-[#2334DE] pt-12 pb-1 sm:px-4 md:px-16">
           <h3 className="text-white text-center text-sm">// Our Services:</h3>
           <div className="md:w-[60%] sm:w-[95%] mx-auto">
             <h2 className="md:text-3xl sm:text-xl font-semibold text-white text-center mb-12 ">
@@ -350,7 +350,7 @@ const Services = () => {
                       }
                     >
                       <div className="flex justify-between">
-                        <h3 className="text-[10px] bg-blue-600 text-center text-white rounded-lg px-3 py-1 mb-4 w-[70%]">
+                        <h3 className="text-[10px] bg-[#2334DE] text-center text-white rounded-lg px-3 py-1 mb-4 w-[70%]">
                           {service.title}
                         </h3>
                         <div className="mt-[-10px]">
@@ -422,7 +422,7 @@ const Services = () => {
                 className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center"
               >
                 <div className="relative">
-                  <div className="p-2 bg-blue-700 text-white text-center absolute bottom-4 left-[40%] border-2">
+                  <div className="p-2 bg-[#2334DE] text-white text-center absolute bottom-4 left-[40%] border-2">
                     <img className="w-10 h-6" src={service.icone} alt="" />
                   </div>
                   <img
@@ -457,24 +457,24 @@ const Services = () => {
 
       <div className="bg-white">
         <div className="md:w-[60%] sm:w-[95%] mx-auto">
-          <div className="border-[1px] border-blue-600 p-2 flex justify-between">
+          <div className="border-[1px] border-[#2334DE] p-2 flex justify-between">
             <div className="sm:text-[12px] md:text-sm">
               <span className="text-gray-700 sm:text-[12px] md:text-sm">
                 Need digital marketing solutions & services?{" "}
               </span>
-              <span className="text-blue-600 sm:text-[12px] md:text-sm">
+              <span className="text-[#2334DE] sm:text-[12px] md:text-sm">
                 {" "}
                 Send a request now
               </span>
             </div>
             <div className="sm:hidden md:block">
-              <button className="bg-blue-700 px-2 py-2 text-white text-sm">
+              <button className="bg-[#2334DE] px-2 py-2 text-white text-sm">
                 Learn More
               </button>
             </div>
           </div>
           <div className="sm:flex md:hidden mt-5 justify-center">
-            <button className="bg-blue-700 px-4 py-2 text-white text-sm">
+            <button className="bg-[#2334DE] px-4 py-2 text-white text-sm">
               Learn More
             </button>
           </div>
@@ -496,7 +496,7 @@ const Services = () => {
                 title="STARTUP BUSINESS"
                 price="RS14999 / $199"
                 index={1}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                   "Up-to 5 Pages",
                   "Logo",
@@ -559,7 +559,7 @@ const Services = () => {
                 title="E-COMMERCE"
                 price="RS34999 / $449"
                 index={3}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                   "Up to 50 Products",
                   "Logo",
@@ -625,7 +625,7 @@ const Services = () => {
                     tags, and proper code standards to help search engines index
                     your website.
                   </p>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                  <button className="bg-[#2334DE] text-white px-4 py-2 rounded-lg hover:bg-[#2334DE]">
                     Know More
                   </button>
                 </div>
@@ -647,7 +647,7 @@ const Services = () => {
                     visitors can easily find what they're looking for and are
                     encouraged to take action.
                   </p>
-                  <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 items-center text-center">
+                  <button className="bg-[#2334DE] text-white px-4 py-2 rounded-lg hover:bg-[#2334DE] items-center text-center">
                     Know More
                   </button>
                 </div>

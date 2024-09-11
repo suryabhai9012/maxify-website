@@ -24,7 +24,7 @@ import { IoMail } from "react-icons/io5";
 const Conservation = () => {
   return (
     <div className="mt-[70px]">
-      <div className="flex flex-col lg:flex-row sm:p-2 md:p-6 bg-background rounded-lg h-full border sm:w-full md:w-[90%] lg:w-[80%] mx-auto">
+      <div className="flex flex-col lg:flex-row sm:p-2 md:p-6 bg-background rounded-lg h-full  sm:w-full md:w-[90%] lg:w-[80%] mx-auto">
         <div className="lg:w-[35%] sm:w-full p-4">
           <img
             src={img1}
@@ -32,10 +32,10 @@ const Conservation = () => {
             className="rounded-lg w-full h-auto object-cover"
           />
         </div>
-        <div className="lg:w-[65%] py-5 px-2 flex flex-col justify-around h-{100%} border">
+        <div className="lg:w-[65%] py-5 px-2 flex flex-col justify-around h-{100%} ">
           {/* <h2 className="text-lg text-[#6C6A72]">Who We Are:</h2> */}
           <h3 className=" font-semibold sm:text-4xl md:text-5xl">
-            <span className="text-blue-600 font-bold">
+            <span className="text-[#2334DE] font-bold">
               Let’s Start a Conversation:{" "}
             </span>
             We’re Here to Help Your Business Thrive
@@ -51,13 +51,13 @@ const Conservation = () => {
           </p>
           <div className=" md:flex justify-end gap-5">
             <p className="flex items-center gap-1 text-[#6C6A72]">
-              <span className="bg-[#e2e2fa] text-[blue] rounded-full h-10 w-10 flex items-center justify-center">
+              <span className="bg-[#e2e2fa] text-[#2334DE] rounded-full h-10 w-10 flex items-center justify-center">
                 <BsTelephoneFill />
               </span>{" "}
               +91 742 830 9119
             </p>
             <p className="flex items-center gap-1 text-[#6C6A72]">
-              <span className="bg-[#e2e2fa] text-[blue] rounded-full h-10 w-10 flex items-center justify-center">
+              <span className="bg-[#e2e2fa] text-[#2334DE] rounded-full h-10 w-10 flex items-center justify-center">
                 <BiLogoTelegram />
               </span>{" "}
               support@maxifysolution.com
@@ -70,7 +70,7 @@ const Conservation = () => {
       <div className="bg-con">
         <div className="mt-10 px-6 sm:w-full md:w-[90%] lg:w-[80%] mx-auto">
           {/* Title */}
-          <h2 className="text-center text-blue-600 text-4xl font-bold mb-8">
+          <h2 className="text-center text-[#2334DE] text-4xl font-bold mb-8">
             Why Reach Out To Maxify Solutions?
           </h2>
 
@@ -79,7 +79,7 @@ const Conservation = () => {
             {/* Text Content (60%) */}
             <div className="lg:w-[70%] bg-whiterounded-lg shadow-md flex bg-white">
               <div className="p-4">
-                <h3 className="text-blue-600 font-semibold text-xl mb-2">
+                <h3 className="text-[#2334DE] font-semibold text-xl mb-2">
                   Customized Solutions For Every Business
                 </h3>
                 <p className="text-gray-600 text-sm leading-7">
@@ -102,7 +102,7 @@ const Conservation = () => {
 
             {/* Image (40%) */}
             <div className="lg:w-[30%] sm:w-full bg-white p-6 rounded-lg shadow-md h-[100%]">
-              <h3 className="text-blue-600 font-semibold text-xl mb-2">
+              <h3 className="text-[#2334DE] font-semibold text-xl mb-2">
                 Expert Guidance from Industry Leaders
               </h3>
               <p className="text-gray-600 text-sm">
@@ -117,7 +117,7 @@ const Conservation = () => {
           <div className="flex flex-col lg:flex-row items-center gap-6 mb-6">
             {/* Image (40%) */}
             <div className="lg:w-[30%] sm:w-full bg-white p-6 rounded-lg h-auto shadow-md">
-              <h3 className="text-blue-600 font-semibold text-xl mb-2">
+              <h3 className="text-[#2334DE] font-semibold text-xl mb-2">
                 Quick and Easy Communication
               </h3>
               <p className="text-gray-600 text-sm">
@@ -132,7 +132,7 @@ const Conservation = () => {
             {/* Text Content (60%) */}
             <div className="lg:w-[70%] sm:w-full bg-whiterounded-lg shadow-md flex justify-between bg-white">
               <div className="p-4">
-                <h3 className="text-blue-600 font-semibold text-xl mb-2">
+                <h3 className="text-[#2334DE] font-semibold text-xl mb-2">
                   How to Reach Us:
                 </h3>
                 <p className="text-gray-600 text-sm leading-7">
@@ -156,7 +156,7 @@ const Conservation = () => {
       <div className="flex flex-col md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Left side content */}
         <div className="md:w-1/2">
-          {/* <span className="text-sm bg-[#e5e5ff] text-[blue] rounded px-3 py-1">
+          {/* <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Why
           </span> */}
           <h1 className="sm:text-4xl md:text-6xl font-semibold text-[black] mt-4">
@@ -184,7 +184,7 @@ const Conservation = () => {
       </div>
 
       {/* 4th */}
-      <div className="flex flex-col md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
+      <div className="flex flex-col-reverse md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Right side with video */}
         <div className="md:w-1/2 mt-6 md:mt-0 relative flex sm:justify-center md:justify-start">
           <img src={img5} alt="" className="sm:w-full md:w-[70%]" />
@@ -218,7 +218,7 @@ const Conservation = () => {
       <div className="flex flex-col md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Left side content */}
         <div className="md:w-1/2">
-          {/* <span className="text-sm bg-[#e5e5ff] text-[blue] rounded px-3 py-1">
+          {/* <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Why
           </span> */}
           <h1 className="sm:text-4xl md:text-6xl font-semibold text-[black] mt-4">
@@ -252,7 +252,7 @@ const Conservation = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* Left Content */}
             <div className="lg:w-1/2 text-center lg:text-left flex flex-col items-center">
-              <h1 className="text-5xl md:text-left font-semibold text-[blue] mt-2">
+              <h1 className="text-5xl md:text-left font-semibold text-[#2334DE] mt-2">
                 Contact Us via Phone
               </h1>
               <p className="text-[#504E4E] text-sm mt-4 leading-7">
@@ -262,7 +262,7 @@ const Conservation = () => {
                 you explore the best solutions for your business.
               </p>
               <div className="text-end lg:text-left mt-8">
-                <button className="bg-gradient-to-l relative from-[#077EEC] to-[#BD21FC] text-white py-2 px-8 rounded-full hover:bg-blue-700 transition duration-300">
+                <button className="bg-gradient-to-l relative from-[#077EEC] to-[#BD21FC] text-white py-2 px-8 rounded-full hover:bg-[#2334DE] transition duration-300">
                   <span className="absolute -left-2 h-9 w-9 rounded-full flex justify-center items-center bottom-1 bg-[white] text-[#2e40ff]">
                     <BsTelephoneFill />
                   </span>
@@ -273,7 +273,7 @@ const Conservation = () => {
 
             {/* Right Image */}
             <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
-              <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-blue-500">
+              <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
                   src={img7} // replace with actual image
                   alt="SMO Icon"
@@ -284,19 +284,19 @@ const Conservation = () => {
           </div>
 
           {/* Second Section: Left Image, Right Content */}
-          <div className="flex flex-col lg:flex-row justify-between items-center mt-8">
+          <div className="flex flex-col-reverse lg:flex-row justify-between items-center mt-8">
             {/* Left Image */}
-            <div className="lg:w-1/2 flex justify-center lg:justify-start">
+            <div className="lg:w-1/2 py-3 flex justify-center lg:justify-start">
               <img
                 src={img8} // replace with actual image
                 alt="Social Media Icons"
-                className="h-[70%] w-auto rounded-full border-r-[4px] border-[blue]"
+                className="h-[70%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
             </div>
 
             {/* Right Content */}
             <div className="lg:w-1/2 text-center lg:text-left mt-6 lg:mt-0 flex flex-col items-center">
-              <h1 className="text-5xl md:text-left font-semibold text-[blue] mt-2">
+              <h1 className="text-5xl md:text-left font-semibold text-[#2334DE] mt-2">
                 Email Us for Detailed Inquiries
               </h1>
               <p className="text-[#504E4E] text-sm mt-4 leading-7">
@@ -308,7 +308,7 @@ const Conservation = () => {
               </p>
 
               <div className="text-end lg:text-left mt-8">
-                <button className="bg-gradient-to-l relative from-[#077EEC] to-[#BD21FC] text-white py-2 px-8 rounded-full hover:bg-blue-700 transition duration-300">
+                <button className="bg-gradient-to-l relative from-[#077EEC] to-[#BD21FC] text-white py-2 px-8 rounded-full hover:bg-[#2334DE] transition duration-300">
                   <span className="absolute -left-2 h-9 w-9 rounded-full flex justify-center items-center bottom-1 bg-[white] text-[#2e40ff]">
                     <IoMail />
                   </span>
@@ -331,7 +331,7 @@ const Conservation = () => {
           />
         </div>
         <div className="lg:w-1/2 lg:pr-6">
-          <h2 className="text-5xl font-bold text-[blue] mb-4">
+          <h2 className="text-5xl font-bold text-[#2334DE] mb-4">
             Send Your Enquiry Online
           </h2>
           <p className="text-[#504E4E] text-sm leading-7 mb-6">
@@ -352,7 +352,7 @@ const Conservation = () => {
             {/* Play Button Overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="bg-white h-[60px] w-[60px] flex justify-center items-center rounded-full shadow-lg">
-                <button className="text-blue-600 text-base">
+                <button className="text-[#2334DE] text-base">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8"
@@ -499,7 +499,7 @@ const Conservation = () => {
       
         <div className="lg:w-1/2 lg:pr-6">
           <h2 className="text-5xl font-bold  mb-4">
-          Ready to Take the Next Step? <span className="text-[blue]"> Contact Us Today!</span>
+          Ready to Take the Next Step? <span className="text-[#2334DE]"> Contact Us Today!</span>
           </h2>
           <p className="text-[#504E4E] text-sm leading-7 mb-6">
           One step will get you started on the path to digital success. Reach Us today, and let’s start working together to create a powerful online presence for your business. Whether you’re just starting out or looking to take your existing digital strategy to the next level, Maxify Solutions is here to help. Send Your Enquiry or Email Us now, and let’s begin a partnership that drives results.

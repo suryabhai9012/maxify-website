@@ -138,13 +138,13 @@ const AppDevelopment = () => {
           <div className="mt-6 flex space-x-4">
             <Link
               to=""
-              className="bg-[#2334de] text-white py-3 px-5 rounded-full hover:bg-[#2334de]/80"
+              className="bg-[#2334DE] text-white py-3 px-5 rounded-full hover:bg-[#2334DE]/80"
             >
               Learn More
             </Link>
             <Link
               to=""
-              className="bg-[#d5d8fa] text-[#2334de] py-3 px-5 rounded-full hover:bg-[#d5d8fa]/80"
+              className="bg-[#d5d8fa] text-[#2334DE] py-3 px-5 rounded-full hover:bg-[#d5d8fa]/80"
             >
               Let's Talk <span undefinedhidden="true">→</span>
             </Link>
@@ -236,7 +236,7 @@ const AppDevelopment = () => {
             <div className="flex-1 p-4">
               <div className="flex items-center mb-2">
                 <div>
-                  <HiUserGroup size={25} className="text-[blue]" />
+                  <HiUserGroup size={25} className="text-[#2334DE]" />
                 </div>
                 <h2 className="text-[15px] ml-1 font-bold">
                   Experienced and Skilled Team
@@ -252,7 +252,7 @@ const AppDevelopment = () => {
             <div className="flex-1 p-4">
               <div className="flex items-center mb-2">
                 <div>
-                  <FaHandHoldingHeart size={25} className="text-[blue]" />
+                  <FaHandHoldingHeart size={25} className="text-[#2334DE]" />
                 </div>{" "}
                 <h2 className="text-[15px] ml-1 font-bold">Customized Solutions</h2>
               </div>
@@ -266,8 +266,8 @@ const AppDevelopment = () => {
           </div>
           
           <div className="text-center mt-4">
-            <button className="ml-2 text-base rounded-full relative px-8 py-2 text-[blue] bg-none isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[blue] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
+            <button className="ml-2 text-base rounded-full relative px-8 py-2 text-[#2334DE] bg-none isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
               MORE ABOUT US
             </button>
           </div>
@@ -288,8 +288,8 @@ const AppDevelopment = () => {
         <p className=" text-[#e2e2e2] text-sm">Save Time and Money with our Powerful Method</p>
         </div>
         <div>
-        <button className="mt-8 rounded-full relative px-8 py-2 text-[blue] bg-none isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[blue] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
+        <button className="mt-8 rounded-full relative px-8 py-2 text-[#2334DE] bg-none isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
             Learn More
           </button>
         </div>
@@ -310,7 +310,7 @@ const AppDevelopment = () => {
         <button
           onClick={() => handleClick('Android App Development')}
           className={`bg-secondary text-sm p-2 rounded-lg ${
-            activeService === 'Android App Development' ? 'bg-[blue] text-white' : 'hover:bg-[blue] hover:text-white'
+            activeService === 'Android App Development' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
           Android App Development
@@ -318,7 +318,7 @@ const AppDevelopment = () => {
         <button
           onClick={() => handleClick('iOS App Development')}
           className={`bg-secondary text-sm p-2 rounded-lg ${
-            activeService === 'iOS App Development' ? 'bg-[blue] text-white' : 'hover:bg-[blue] hover:text-white'
+            activeService === 'iOS App Development' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
           iOS App Development
@@ -326,7 +326,7 @@ const AppDevelopment = () => {
         <button
           onClick={() => handleClick('Cross-Platform App Development')}
           className={`bg-secondary text-sm p-2 rounded-lg ${
-            activeService === 'Cross-Platform App Development' ? 'bg-[blue] text-white' : 'hover:bg-[blue] hover:text-white'
+            activeService === 'Cross-Platform App Development' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
           Cross-Platform App Development
@@ -334,7 +334,7 @@ const AppDevelopment = () => {
         <button
           onClick={() => handleClick('App Design and User Experience (UX)')}
           className={`bg-secondary text-sm p-2 rounded-lg ${
-            activeService === 'App Design and User Experience (UX)' ? 'bg-[blue] text-white' : 'hover:bg-[blue] hover:text-white'
+            activeService === 'App Design and User Experience (UX)' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
           App Design and User Experience (UX)
@@ -342,7 +342,7 @@ const AppDevelopment = () => {
         <button
           onClick={() => handleClick('App Testing and Quality Assurance')}
           className={`bg-secondary text-sm p-2 rounded-lg ${
-            activeService === 'App Testing and Quality Assurance' ? 'bg-[blue] text-white' : 'hover:bg-[blue] hover:text-white'
+            activeService === 'App Testing and Quality Assurance' ? 'bg-[#2334DE] text-white' : 'hover:bg-[#2334DE] hover:text-white'
           }`}
         >
           App Testing and Quality Assurance
@@ -372,7 +372,7 @@ const AppDevelopment = () => {
       <div className="flex flex-col lg:flex-row justify-between items-start">
         {/* Left Section */}
         <div className="lg:w-1/2 sm:p-2 md:p-5 lg:p-12">
-          <h3 className="text-[blue] uppercase tracking-wider mb-2">Projects</h3>
+          <h3 className="text-[#2334DE] uppercase tracking-wider mb-2">Projects</h3>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">The App Development Process</h1>
           <p className="text-gray-700 text-sm text-justify mb-8">
             Our app development process is designed to be efficient, transparent, and client-focused. 
@@ -388,13 +388,13 @@ const AppDevelopment = () => {
               'Post-Launch Support',
             ].map((step, index) => (
               <li key={index} className="flex items-center text-sm text-gray-800">
-                <FaCheckCircle className="text-[blue] mr-4" />
+                <FaCheckCircle className="text-[#2334DE] mr-4" />
                 {step}
               </li>
             ))}
           </ul>
-          <button className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[blue] bg-white isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[blue] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
+          <button className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
             Learn More <span className="ml-2"><GoArrowRight /></span>
           </button>
         </div>
@@ -432,7 +432,7 @@ const AppDevelopment = () => {
     {/* section 6 */}
     <div className="bg-white sm:p-2 md:p-8  w-full flex sm:flex-col lg:flex-row items-center mt-10">
     <div className="lg:w-1/2 space-y-5 sm:flex md:block justify-center flex-col items-center sm:text-center md:text-left">
-          <h3 className="text-[blue] uppercase tracking-wider mb-2">Consulting Excellence</h3>
+          <h3 className="text-[#2334DE] uppercase tracking-wider mb-2">Consulting Excellence</h3>
           <h1 className="text-3xl md:text-5xl font-bold mb-4">Why We Are the Best App Development Company in Noida</h1>
           <ul className="space-y-4 mb-8">
             {steps.map((step) => (
@@ -441,13 +441,13 @@ const AppDevelopment = () => {
                 className="flex items-center sm:text-sm text-gray-800 cursor-pointer"
                 
               >
-                <FaCheckCircle className="text-[blue] mr-4" />
+                <FaCheckCircle className="text-[#2334DE] mr-4" />
                 {step.title}
               </li>
             ))}
           </ul>
-          <button className="mt-8 flex items-center relative px-8 py-2 text-[blue] rounded-md bg-white isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[blue] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
+          <button className="mt-8 flex items-center relative px-8 py-2 text-[#2334DE] rounded-md bg-white isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
             Learn More <span className="ml-2"><GoArrowRight /></span>
           </button>
         </div>
@@ -470,7 +470,7 @@ const AppDevelopment = () => {
 
             {/* Step Number */}
             <div className="relative flex justify-center w-12">
-              <div className="w-10 h-10 flex items-center justify-center bg-[#f3f6fd] text-[blue] font-bold rounded-full">
+              <div className="w-10 h-10 flex items-center justify-center bg-[#f3f6fd] text-[#2334DE] font-bold rounded-full">
                 {String(index + 1).padStart(2, '0')}
               </div>
             </div>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaPhone } from "react-icons/fa";
 import { MdExpandMore } from "react-icons/md";
 import { Link } from "react-router-dom";
-
+import logo from '../Assets/image 1.png'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className=" mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
-          <div className="text-2xl font-bold">MAXIFY</div>
+          <img src={logo} className="h-[50px] w-auto" alt="" />
         </div>
 
         {/* Main Menu */}
@@ -109,11 +109,11 @@ const Navbar = () => {
 
         {/* Contact and Quote Button */}
         <div className="hidden md:flex space-x-4 items-center">
-          <button className="bg-gradient-to-r from-purple-500 to-blue-500 px-4 py-2 rounded-sm hover:from-purple-600 hover:to-blue-600 transition duration-300">
+          <button className="bg-gradient-to-r from-purple-500 to-[#2334DE] px-4 py-2 rounded-sm hover:from-purple-600 hover:to-[#2334DE] transition duration-300">
             Get A Quote
           </button>
           <div className="flex items-center">
-            <FaPhone className="mr-2 bg-[#2334de] rounded-full text-white h-[35px] w-[35px] leading-[16px] p-2 text-[12px]" />
+            <FaPhone className="mr-2 bg-[#2334DE] rounded-full text-white h-[35px] w-[35px] leading-[16px] p-2 text-[12px]" />
             <div>
               <p className="text-[11px]">Call Any Time</p>
               <p className="text-[13px] font-semibold">+91 89050 54141</p>
@@ -140,7 +140,7 @@ const Navbar = () => {
 
             {/* Mobile Dropdown for Services */}
             <div>
-              <button
+              <Link to=""
                 className="flex items-center justify-between w-full"
                 onClick={() => toggleDropdown("services")}
               >
@@ -150,25 +150,12 @@ const Navbar = () => {
                     activeDropdown === "services" ? "rotate-180" : ""
                   }`}
                 />
-              </button>
-              {activeDropdown === "services" && (
-                <div className="flex flex-col bg-gray-800 mt-2 rounded w-full">
-                  <a href="#" className="px-4 py-2 hover:bg-gray-700">
-                    Service 1
-                  </a>
-                  <a href="#" className="px-4 py-2 hover:bg-gray-700">
-                    Service 2
-                  </a>
-                  <a href="#" className="px-4 py-2 hover:bg-gray-700">
-                    Service 3
-                  </a>
-                </div>
-              )}
+              </Link>
             </div>
 
             {/* Mobile Dropdown for Industries */}
             <div>
-              <button
+              <Link
                 className="flex items-center justify-between w-full"
                 onClick={() => toggleDropdown("industries")}
               >
@@ -178,22 +165,12 @@ const Navbar = () => {
                     activeDropdown === "industries" ? "rotate-180" : ""
                   }`}
                 />
-              </button>
-              {activeDropdown === "industries" && (
-                <div className="flex flex-col bg-gray-800 mt-2 rounded w-full">
-                  <a href="#" className="px-4 py-2 hover:bg-gray-700">
-                    Industry 1
-                  </a>
-                  <a href="#" className="px-4 py-2 hover:bg-gray-700">
-                    Industry 2
-                  </a>
-                </div>
-              )}
+              </Link>
             </div>
 
             {/* Mobile Dropdown for Success Stories */}
             <div>
-              <button
+              <Link
                 className="flex items-center justify-between w-full"
                 onClick={() => toggleDropdown("success")}
               >
@@ -203,24 +180,14 @@ const Navbar = () => {
                     activeDropdown === "success" ? "rotate-180" : ""
                   }`}
                 />
-              </button>
-              {activeDropdown === "success" && (
-                <div className="flex flex-col bg-gray-800 mt-2 rounded w-full">
-                  <a href="#" className="px-4 py-2 hover:bg-gray-700">
-                    Story 1
-                  </a>
-                  <a href="#" className="px-4 py-2 hover:bg-gray-700">
-                    Story 2
-                  </a>
-                </div>
-              )}
+              </Link>
             </div>
 
-            <a href="#" className="block">
+            <Link to="" className="block">
               About Us
-            </a>
+            </Link>
 
-            <button className="bg-gradient-to-r from-purple-500 to-blue-500 px-4 py-2 rounded-lg">
+            <button className="bg-gradient-to-r from-purple-500 to-[#2334DE] px-4 py-2 rounded-lg">
               Get A Quote
             </button>
             <div className="flex items-center justify-center">

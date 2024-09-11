@@ -43,7 +43,7 @@ const SEO = () => {
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between p-2 bg-[#e7eaf3]">
         <div className="lg:w-1/2 p-4">
           <div className=" flex items-center flex-col sm:w-full md:w-[500px] mx-auto">
-            <h2 className="lg:text-4xl md:text-3xl sm:text-2xl mt-9 font-bold text-[blue]">
+            <h2 className="lg:text-4xl md:text-3xl sm:text-2xl mt-9 font-bold text-[#2334DE]">
               Best SEO Services
             </h2>
             <h1 className="text-6xl md:text-5xl sm:text-4xl mt-2  font-bold text-black">
@@ -61,15 +61,15 @@ const SEO = () => {
             <div className="flex gap-5 md:mt-[60px]">
               <Link to="/app">
                 <button
-                  className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-2 md:px-5 rounded-sm relative text-[white] bg-[blue] isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]"
+                  className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-2 md:px-5 rounded-sm relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
                 >
                   Get Started Now
                 </button>
               </Link>
               <button
-                className="mt-8 py-2 text-sm md:text-[14px] flex items-center gap-1 font-[300] sm:px-2 md:px-5 rounded-sm relative text-[blue] md:font-bold  isolation-auto z-10
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]"
+                className="mt-8 py-2 text-sm md:text-[14px] flex items-center gap-1 font-[300] sm:px-2 md:px-5 rounded-sm relative text-[#2334DE] md:font-bold  isolation-auto z-10
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
               >
                 <IoPlayOutline />
                 Watch Demo Video
@@ -112,7 +112,7 @@ const SEO = () => {
                 src={imgp5}
                 alt="Client 5"
               />
-              <div className="bg-[blue] text-white text-[10px]  sm:w-9 sm:h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full -ml-4">
+              <div className="bg-[#2334DE] text-white text-[10px]  sm:w-9 sm:h-9 md:w-10 md:h-10 flex items-center justify-center rounded-full -ml-4">
                 12k+
               </div>
             </div>
@@ -120,7 +120,7 @@ const SEO = () => {
               1200+ Clients yours succeed and grow with the use of technology.
             </p>
           </div>
-          <div className="bg-white text-[blue] flex gap-5 sm:text-[35px] md:text-[50px] sm:px-3 md:px-6 py-2 rounded-sm absolute sm:top-0 md:top-10 md:right-10 right-0 z-30">
+          <div className="bg-white text-[#2334DE] flex gap-5 sm:text-[35px] md:text-[50px] sm:px-3 md:px-6 py-2 rounded-sm absolute sm:top-0 md:top-10 md:right-10 right-0 z-30">
             <GiHiveMind />
             <BiSolidCalendarStar />
             <FaLinkedin />
@@ -130,12 +130,12 @@ const SEO = () => {
       <div className="flex flex-col md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[80%]">
         {/* Left side content */}
         <div className="md:w-1/2 md:px-8">
-          <span className="text-sm bg-[#e5e5ff] text-[blue] rounded px-3 py-1">
+          <span className="text-sm bg-[#e5e5ff] text-[#2334DE] rounded px-3 py-1">
             Why
           </span>
           <h1 className="text-4xl font-semibold text-[black] mt-4">
             SEO is Essential for Your{" "}
-            <span className="text-[blue]">Business</span>
+            <span className="text-[#2334DE]">Business</span>
           </h1>
           <p className="mt-4 text-sm text-gray-500 text-justify">
             In an era where most consumers start their buying journey with an
@@ -149,8 +149,8 @@ const SEO = () => {
             generating genuine conversions.
           </p>
           <button
-            className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-2 md:px-6 rounded-full relative text-[white] bg-[blue] isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]"
+            className="mt-8 py-2 text-sm md:text-[14px] font-[300] sm:px-6 md:px-6 rounded-full relative text-[white] bg-[#2334DE] isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
           >
             Learn More
           </button>
@@ -167,14 +167,14 @@ const SEO = () => {
               loop={true}
             ></video>
             <div
-              className="absolute bottom-3 text-[60px] bg-[#f9f9f9] py-6 px-[60px] text-[blue]"
+              className="absolute bottom-3 text-[60px] bg-[#f9f9f9] py-6 px-[60px] text-[#2334DE]"
               style={{ borderRadius: "0px 20px 0px 0px" }}
             >
               <BsPersonHearts />
             </div>
           </div>
           <div className="absolute top-1/2 left-1/2 transform sm:-translate-x-1/2 md:-translate-x-[100%] -translate-y-1/2">
-            <button className="bg-[blue] text-white rounded-full p-5">
+            <button className="bg-[#2334DE] text-white rounded-full p-5">
               <FaPlay className="text-2xl" />
             </button>
           </div>
@@ -182,9 +182,9 @@ const SEO = () => {
       </div>
 
       {/*  */}
-      <div className="right-banner sm:h-auto lg:h-[500px] bg-seo">
+      <div className="right-banner sm:h-auto lg:h-[500px] bg-seo pt-3">
         <div className="w-full md:w-[90%] lg:w-[80%] mx-auto flex sm:flex-col md:flex-row">
-          <div className="md:w-1/2 flex flex-col justify-center md:px-4 lg:px-10 text-white">
+          <div className="md:w-1/2 flex flex-col justify-center px-2 lg:px-10 text-white">
             <h2 className="text-4xl font-extrabold mb-5">
               Our Comprehensive SEO Services
             </h2>
@@ -209,7 +209,7 @@ const SEO = () => {
               <img
                 src={img2}
                 alt="Person using a tablet"
-                className="sm:h-auto lg:h-[550px] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
+                className="sm:h-[300px] lg:h-[550px] w-auto object-cover rounded-lg relative sm:bottom-4 md:bottom-8"
               />
             </div>
           </div>
@@ -238,12 +238,12 @@ const SEO = () => {
               {/* Left side - Text content */}
               <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px] px-4">
                 <div>
-                  <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 rounded-lg mb-4">
+                  <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 rounded-lg mb-4">
                     About Us
                   </span>
                   <h1 className=" sm:text-4xl md:text-5xl font-bold text-gray-900 mt-4">
                     On-Page SEO <br />
-                    <span className="text-blue-600 mt-2">Optimization</span>
+                    <span className="text-[#2334DE] mt-2">Optimization</span>
                   </h1>
                   <p className="mb-4 text-gray-600 text-sm text-justify">
                     On-page SEO is about optimizing the elements on your website
@@ -280,7 +280,7 @@ const SEO = () => {
                   </p>
                 </div>
                 <Link>
-                  <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+                  <button className="mb-[100px] inline-flex items-center bg-transparent text-[#2334DE] border border-[#2334DE] py-2 px-4 rounded-lg hover:bg-[#2334DE] hover:text-white transition-all">
                     Read More <span className="ml-2">→</span>
                   </button>
                 </Link>
@@ -313,11 +313,11 @@ const SEO = () => {
               {/* Left side - Text content */}
               <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px] px-4">
                 <div>
-                  <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 rounded-lg mb-4">
+                  <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 rounded-lg mb-4">
                     About Us
                   </span>
                   <h1 className=" sm:text-4xl md:text-5xl font-bold text-gray-900 mt-4">
-                    Technical <span className="text-blue-600 mt-2">Seo</span>
+                    Technical <span className="text-[#2334DE] mt-2">Seo</span>
                   </h1>
                   <p className="mb-4 text-gray-600 text-sm text-justify">
                     Technical SEO involves optimizing the backend of your
@@ -346,7 +346,7 @@ const SEO = () => {
                   </ul>
                 </div>
                 <Link>
-                  <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+                  <button className="mb-[100px] inline-flex items-center bg-transparent text-[#2334DE] border border-[#2334DE] py-2 px-4 rounded-lg hover:bg-[#2334DE] hover:text-white transition-all">
                     Read More <span className="ml-2">→</span>
                   </button>
                 </Link>
@@ -377,12 +377,12 @@ const SEO = () => {
               {/* Left side - Text content */}
               <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px] px-4">
                 <div>
-                  <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 rounded-lg mb-4">
+                  <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 rounded-lg mb-4">
                     About Us
                   </span>
                   <h1 className=" sm:text-4xl md:text-5xl font-bold text-gray-900 mt-4">
                     Off-Page SEO &{" "}
-                    <span className="text-blue-600 mt-2">Link Building</span>
+                    <span className="text-[#2334DE] mt-2">Link Building</span>
                   </h1>
                   <p className="mb-4 text-gray-600 text-sm text-justify">
                     Off-page SEO refers to actions taken outside your website to
@@ -413,7 +413,7 @@ const SEO = () => {
                   </ul>
                 </div>
                 <Link>
-                  <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+                  <button className="mb-[100px] inline-flex items-center bg-transparent text-[#2334DE] border border-[#2334DE] py-2 px-4 rounded-lg hover:bg-[#2334DE] hover:text-white transition-all">
                     Read More <span className="ml-2">→</span>
                   </button>
                 </Link>
@@ -439,10 +439,10 @@ const SEO = () => {
               </div>
             </div>
           </SwiperSlide>
-          {/* <div className="swiper-button-next absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-blue-600 p-2 rounded-full">
+          {/* <div className="swiper-button-next absolute right-0 top-1/2 transform -translate-y-1/2 text-white bg-[#2334DE] p-2 rounded-full">
       &gt;
     </div>
-    <div className="swiper-button-prev absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-blue-600 p-2 rounded-full">
+    <div className="swiper-button-prev absolute left-0 top-1/2 transform -translate-y-1/2 text-white bg-[#2334DE] p-2 rounded-full">
       &lt;
     </div> */}
         </Swiper>
@@ -452,42 +452,42 @@ const SEO = () => {
       <div className="bg-[#e7effe]">
         <div className="flex flex-col md:flex-row items-center sm:p-3 md:p-8  md:w-[94%] lg:w-[80%] mx-auto">
           <div className="md:w-1/2">
-            <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[blue] rounded mb-4">
+            <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[#2334DE] rounded mb-4">
               Why CHOOSE US
             </span>
             <h3 className="sm:text-4xl md:text-5xl mt-8  font-bold">
               For SMO <br /> Services{" "}
-              <span className="text-[blue]">in India?</span>
+              <span className="text-[#2334DE]">in India?</span>
             </h3>
             <ul className="mt-8 space-y-2 leading-8">
               <li className="flex items-center">
-                <FaCheckCircle className="text-blue-500" />
+                <FaCheckCircle className="text-[#2334DE]" />
                 <span className="ml-2 text-muted-foreground">
                   Experienced Team
                 </span>
               </li>
               <li className="flex items-center">
-                <FaCheckCircle className="text-blue-500" />
+                <FaCheckCircle className="text-[#2334DE]" />
                 <span className="ml-2 text-muted-foreground">
                   Customized Solutions
                 </span>
               </li>
               <li className="flex items-center">
-                <FaCheckCircle className="text-blue-500" />
+                <FaCheckCircle className="text-[#2334DE]" />
                 <span className="ml-2 text-muted-foreground">
                   Proven Track Record
                 </span>
               </li>
               <li className="flex items-center">
-                <FaCheckCircle className="text-blue-500" />
+                <FaCheckCircle className="text-[#2334DE]" />
                 <span className="ml-2 text-muted-foreground">
                   Testing and Quality Assurance
                 </span>
               </li>
             </ul>
             <button
-              className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[blue] bg-white isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[blue] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
+              className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
             >
               Learn More{" "}
               <span className="ml-2">
@@ -511,7 +511,7 @@ const SEO = () => {
           <div className="py-8 px-20 mx-auto lg:py-16 md:px-20 sm:px-2">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
               <div>
-                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
+                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[#2334DE] dark:text-white">
                   SEO Packages
                 </span>
               </div>
@@ -522,7 +522,7 @@ const SEO = () => {
                 title="Basic"
                 price="RS-19999 / $249"
                 index={1}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                   "Setting Goals",
                   "Account Management – 2 (FB & IG)",
@@ -578,7 +578,7 @@ const SEO = () => {
                 title="Enterpriser"
                 price="RS-39999 / $499"
                 index={3}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                   "Setting Goals",
                   "Account Management – 6",
@@ -617,7 +617,7 @@ const SEO = () => {
           <div className="py-8 px-20 mx-auto lg:py-16 md:px-20 sm:px-2">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
               <div>
-                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
+                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[#2334DE] dark:text-white">
                   On-Page SEO Packages
                 </span>
               </div>
@@ -628,7 +628,7 @@ const SEO = () => {
                 title="Basic"
                 price="RS-19999 / $249"
                 index={1}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                   "Setting Goals",
                   "Account Management – 2 (FB & IG)",
@@ -682,7 +682,7 @@ const SEO = () => {
                 title="Enterpriser"
                 price="RS-39999 / $499"
                 index={3}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                   "Setting Goals",
                   "Account Management – 6",
@@ -721,7 +721,7 @@ const SEO = () => {
           <div className="py-8 px-20 mx-auto lg:py-16 md:px-20 sm:px-2">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
               <div>
-                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
+                <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[#2334DE] dark:text-white">
                   Technical SEO Packages
                 </span>
               </div>
@@ -732,7 +732,7 @@ const SEO = () => {
                 title="Basic"
                 price="RS-19999 / $249"
                 index={1}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                   "Setting Goals",
                   "Account Management – 2 (FB & IG)",
@@ -786,7 +786,7 @@ const SEO = () => {
                 title="Enterpriser"
                 price="RS-39999 / $499"
                 index={3}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                   "Setting Goals",
                   "Account Management – 6",
@@ -841,7 +841,7 @@ const SEO = () => {
               delivering results that exceed your expectations.
             </p>
             <p className="relative mt-4  sm:text-sm md:text-[18px] pl-8">
-              <FaCheckCircle className="absolute left-0 top-[30%] transform -translate-y-1/2 text-blue-600" />
+              <FaCheckCircle className="absolute left-0 top-[30%] transform -translate-y-1/2 text-[#2334DE]" />
               <span className="font-bold ">Contact Us: </span>
               <span>
                 {" "}

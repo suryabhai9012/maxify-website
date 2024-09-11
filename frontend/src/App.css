@@ -156,6 +156,7 @@ body {
   background-image: url(./Assets/Background.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .bg-con{
   background-image: url(./Assets/Rectangle\ 4485.png);
@@ -174,7 +175,7 @@ body {
 
 
 .contact-container {
-  background: linear-gradient(90deg, white 70%, #2334de 30%);
+  background: linear-gradient(90deg, white 70%, #2334DE 30%);
   display: flex;
   padding-right: 40px;
   flex-direction: column;
@@ -198,7 +199,7 @@ body {
 }
 
 .contact-content h2 span {
-  color: #2334de;
+  color: #2334DE;
 }
 
 .contact-content p {
@@ -283,7 +284,7 @@ body {
 }
 
 .contact-content form button {
-  background-color: #2334de;
+  background-color: #2334DE;
   color: #ffffff;
   border: none;
   cursor: pointer;

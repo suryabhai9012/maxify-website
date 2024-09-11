@@ -43,7 +43,7 @@ const Contact = () => {
           <h3 className=" font-semibold sm:text-4xl md:text-5xl">
             Your Trusted Partner
             <br /> in{" "}
-            <span className="text-blue-600 font-bold">Digital Excellence</span>
+            <span className="text-[#2334DE] font-bold">Digital Excellence</span>
           </h3>
           <p className="mt-4 text-sm text-justify leading-6 text-[#6C6A72]">
             Welcome to Maxify Solutions, where innovation meets excellence. As
@@ -67,13 +67,13 @@ const Contact = () => {
       {/* Section * */}
       <div className="pt-10 mt-10">
         <div className=" text-center sm:w-full md:w-[90%] mx-auto">
-          <span className="inline-block px-4 py-1 text-sm font-medium text-blue-500 bg-blue-100 rounded-full mb-4">
+          <span className="inline-block px-4 py-1 text-sm font-medium text-[#2334DE] bg-blue-100 rounded-full mb-4">
             Our Mission
           </span>
           <h1 className="text-3xl md:text-5xl font-semibold leading-tight text-gray-900">
             As our mission states — we exist to provide organizations with
             digital presence is{" "}
-            <span className="text-blue-600">
+            <span className="text-[#2334DE]">
               strategies & solutions of the future.
             </span>
           </h1>
@@ -113,7 +113,7 @@ const Contact = () => {
         </div>
 
         {/* Bottom Section with Solid Blue Background */}
-        <div className="bg-[blue] text-white text-center py-6">
+        <div className="bg-[#2334DE] text-white text-center py-6">
           <p className=" sm:text-xl md:text-3xl ">
             What We Do: All your digital solution in one place
           </p>
@@ -164,7 +164,7 @@ const Contact = () => {
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
               <div>
-                <LuFocus className="text-[30px] text-[#2334de]" />
+                <LuFocus className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
                 <h3 className="text-sm font-[500] text-black">
@@ -177,7 +177,7 @@ const Contact = () => {
             </div>
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
               <div>
-                <BsGraphUpArrow className="text-[30px] text-[#2334de]" />
+                <BsGraphUpArrow className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
                 <h3 className="text-sm font-[500] text-black">
@@ -193,7 +193,7 @@ const Contact = () => {
           <Link to="/app flex justify-center">
             <button
               className="mt-8 py-3 text-[14px] font-[300] px-5 rounded-full relative text-[white] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] isolation-auto z-10
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[blue]"
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[white] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-[#2334DE]"
             >
               Get Started Now
             </button>
@@ -206,8 +206,8 @@ const Contact = () => {
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[50px]">
           <h1 className="text-4xl md:text-6xl font-bold mt-4 mb-2">
-            <span className="text-[#2334de]">SEO </span>And{" "}
-            <span className="text-[#2334de]">Marketing:</span>
+            <span className="text-[#2334DE]">SEO </span>And{" "}
+            <span className="text-[#2334DE]">Marketing:</span>
           </h1>
           <p className="text-[18px] font-[500] text-[gray] mb-4">
              Apparent In Extreme Traffic Boost And Conversions
@@ -235,7 +235,7 @@ const Contact = () => {
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
             <div className="flex-1 flex gap-3 items-center text-left p-4 rounded-md">
               <div className="h-[60px] w-[60px] bg-[#f0effc] flex justify-center items-center">
-                <MdImportantDevices className="text-[30px] text-[#2334de]" />
+                <MdImportantDevices className="text-[30px] text-[#2334DE]" />
               </div>
               <p className="font-semibold lg:text-[16px] md:text-[16px]">
                 Business
@@ -244,7 +244,7 @@ const Contact = () => {
             </div>
             <div className="flex-1 flex gap-3 items-center text-left p-6 rounded-md">
               <div className="h-[60px] w-[60px] bg-[#f0effc] flex justify-center items-center">
-                <AiOutlineSolution className="text-[30px] text-[#2334de]" />
+                <AiOutlineSolution className="text-[30px] text-[#2334DE]" />
               </div>
               <p className="font-semibold lg:text-[16px] md:text-[16px]">
                 Technology <br />
@@ -265,19 +265,19 @@ const Contact = () => {
       </div>
 
       {/* PPC ads */}
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
+      <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
         {/* Left Side */}
         <div className="flex w-full md:w-1/2 justify-center items-center relative px-2">
           <img
             src={img11}
             alt="Left Side"
-            className="w-[80%] h-[80%] object-cove"
+            className="m:w-[80%] md:h-[80%] sm:w-full md:h-full object-cove"
           />
         </div>
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 md:px-[30px] lg:px-[60px]">
           <h1 className="text-3xl md:text-4xl font-bold mt-4 mb-2">
-            <span className="text-[#2334de]">PPC </span>Ads
+            <span className="text-[#2334DE]">PPC </span>Ads
           </h1>
           <p className="text-[18px] font-[500] text-[gray] mb-4">
              How to get the most out of your marketing money
@@ -295,7 +295,7 @@ const Contact = () => {
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
               <div>
-                <LuFocus className="text-[30px] text-[#2334de]" />
+                <LuFocus className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
                 <h3 className="text-2xl font-[700] text-black">99%</h3>
@@ -304,7 +304,7 @@ const Contact = () => {
             </div>
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
               <div>
-                <BsGraphUpArrow className="text-[30px] text-[#2334de]" />
+                <BsGraphUpArrow className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
                 <h3 className="text-2xl font-[700] text-black">65%</h3>
@@ -324,7 +324,7 @@ const Contact = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* Left Content */}
             <div className="lg:w-1/2 text-center lg:text-left">
-              <p className="text-blue-600 font-bold text-xl">
+              <p className="text-[#2334DE] font-bold text-xl">
                 CHECK THIS LINK:
               </p>
               <h1 className="text-5xl font-bold text-blue-800 mt-2">SMO :</h1>
@@ -343,7 +343,7 @@ const Contact = () => {
 
             {/* Right Image */}
             <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
-              <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-blue-500">
+              <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-[#2334DE]">
                 <img
                   src={img14} // replace with actual image
                   alt="SMO Icon"
@@ -354,13 +354,13 @@ const Contact = () => {
           </div>
 
           {/* Second Section: Left Image, Right Content */}
-          <div className="flex flex-col lg:flex-row justify-between items-center mt-8">
+          <div className="flex flex-col-reverse lg:flex-row justify-between items-center mt-8">
             {/* Left Image */}
-            <div className="lg:w-1/2 flex justify-center lg:justify-start">
+            <div className="lg:w-1/2 flex justify-center py-2 lg:justify-start">
               <img
                 src={img15} // replace with actual image
                 alt="Social Media Icons"
-                className="h-[70%] w-auto rounded-full border-r-[4px] border-[blue]"
+                className="h-[70%] w-auto rounded-full border-r-[4px] border-[#2334DE]"
               />
             </div>
 
@@ -378,18 +378,18 @@ const Contact = () => {
               <div className="flex justify-center lg:justify-start mt-4">
                 <ul className="text-base leading-7 text-black">
                   <li className="flex items-center">
-                    <FiCheckCircle className="text-blue-500 mr-2" /> Various
+                    <FiCheckCircle className="text-[#2334DE] mr-2" /> Various
                     analysis options.
                   </li>
                   <li className="flex items-center">
-                    <FiCheckCircle className="text-blue-500 mr-2" /> Page Load
+                    <FiCheckCircle className="text-[#2334DE] mr-2" /> Page Load
                     (time, size, number of requests).
                   </li>
                 </ul>
               </div>
 
               <div className="text-center lg:text-left mt-8">
-                <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-2 px-6 rounded-full hover:bg-blue-700 transition duration-300">
+                <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-2 px-6 rounded-full hover:bg-[#2334DE] transition duration-300">
                   MORE ABOUT US
                 </button>
               </div>
@@ -411,7 +411,7 @@ const Contact = () => {
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 md:px-[30px] lg:px-[60px]">
           <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
-            A <span className="text-[#2334de]"> Track Record </span>of Success
+            A <span className="text-[#2334DE]"> Track Record </span>of Success
           </h1>
           <p className="sm:text-base md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
             Maxify Solutions has delivered numerous successful projects in the
@@ -422,7 +422,7 @@ const Contact = () => {
             enterprises feel us one of best Web designers Companies In the
             world.{" "}
           </p>
-          <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-blue-700 transition duration-300">
+          <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
             MORE ABOUT US
           </button>
         </div>
@@ -433,7 +433,7 @@ const Contact = () => {
           {/* Right Side - Visible in Mobile View */}
           <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 md:px-[30px] lg:px-[60px]">
             <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
-              A <span className="text-[#2334de]"> Client-Centric </span>Approach
+              A <span className="text-[#2334DE]"> Client-Centric </span>Approach
             </h1>
             <p className="sm:text-base md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8 bg-white">
               Here at Maxify Solutions we pride ourselves on a human-centric
@@ -443,7 +443,7 @@ const Contact = () => {
               known name in search of reliable web partners for business to step
               into digital world.{" "}
             </p>
-            <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-blue-700 transition duration-300">
+            <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
               MORE ABOUT US
             </button>
           </div>
@@ -471,7 +471,7 @@ const Contact = () => {
         {/* Right Side - Visible in Mobile View */}
         <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 md:px-[30px] lg:px-[60px]">
           <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
-            <span className="text-[#2334de]"> Innovation </span>and Excellence
+            <span className="text-[#2334DE]"> Innovation </span>and Excellence
           </h1>
           <p className="sm:text-base md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
             We operate driven by innovation and excellence. Who Says What We Do
@@ -481,7 +481,7 @@ const Contact = () => {
             with solutions, our clients are guaranteed that they receive best in
             class offerings.{" "}
           </p>
-          <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-blue-700 transition duration-300">
+          <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
             MORE ABOUT US
           </button>
         </div>
@@ -510,7 +510,7 @@ const Contact = () => {
           </p>
 
           <h1 className="text-3xl md:text-5xl font-bold mb-4 mt-4">
-            <span className="text-[#2334de]">Integrity, Innovation </span>and
+            <span className="text-[#2334DE]">Integrity, Innovation </span>and
             Impact
           </h1>
           <p className="text-sm text-justify  text-gray-600 mb-6">

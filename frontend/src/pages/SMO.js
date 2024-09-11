@@ -41,8 +41,8 @@ const SMO = () => {
           success.
         </p>
         <button
-          className="mt-8 rounded-full flex items-center relative px-5 py-2 text-[blue] bg-white isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[blue] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
+          className="mt-8 rounded-full flex items-center relative px-5 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white"
         >
           Read More{" "}
           <span className="ml-2">
@@ -77,7 +77,7 @@ const SMO = () => {
         <div className="flex items-start space-x-4 p-4">
           <div>
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
-              <MdNoiseAware size={40} className="text-[blue]" />
+              <MdNoiseAware size={40} className="text-[#2334DE]" />
             </div>
             <p className="font-semibold text-base">Enhanced Brand Awareness:</p>
             <p className="text-sm text-justify">
@@ -89,7 +89,7 @@ const SMO = () => {
         <div className="flex items-start space-x-4 p-4">
           <div>
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
-              <BsGraphUpArrow size={30} className="text-[blue]" />
+              <BsGraphUpArrow size={30} className="text-[#2334DE]" />
             </div>
             <p className="font-semibold text-base">Increased Traffic:</p>
             <p className="text-sm text-justify">
@@ -102,7 +102,7 @@ const SMO = () => {
         <div className="flex items-start space-x-4 p-4">
           <div>
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
-              <TbCirclesRelation size={30} className="text-[blue]" />
+              <TbCirclesRelation size={30} className="text-[#2334DE]" />
             </div>
             <p className="font-semibold text-base">Better Engagement:</p>
             <p className="text-sm text-justify">
@@ -114,7 +114,7 @@ const SMO = () => {
         <div className="flex items-start space-x-4 p-4">
           <div>
             <div className="h-[60px] w-[60px] rounded-md bg-[#e7eefe] flex justify-center items-center">
-              <IoPricetagsOutline size={30} className="text-[blue]" />
+              <IoPricetagsOutline size={30} className="text-[#2334DE]" />
             </div>
             <p className="font-semibold text-base">Cost-Effective Marketing:</p>
             <p className="text-sm text-justify">
@@ -131,12 +131,12 @@ const SMO = () => {
         {/* Left side - Text content */}
         <div className="md:w-1/2 space-y-4 flex flex-col justify-between md:min-h-[300px]">
           <div>
-            <span className="inline-block bg-blue-100 text-blue-600 font-semibold py-1 px-3 mb-4 rounded-lg mb-4">
+            <span className="inline-block bg-blue-100 text-[#2334DE] font-semibold py-1 px-3 mb-4 rounded-lg mb-4">
               About Us
             </span>
             <h1 className="text-4xl md:text-5xl font-semibold text-gray-900 mt-4">
               Our SMO <br /> Services{" "}
-              <span className="text-blue-600 border-[2px] border-blue-600 px-4 rounded-full">
+              <span className="text-[#2334DE] border-[2px] border-[#2334DE] px-4 rounded-full">
                 in India
               </span>
             </h1>
@@ -149,7 +149,7 @@ const SMO = () => {
             </p>
           </div>
           <Link>
-            <button className="mb-[100px] inline-flex items-center bg-transparent text-blue-600 border border-blue-600 py-2 px-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all">
+            <button className="mb-[100px] inline-flex items-center bg-transparent text-[#2334DE] border border-[#2334DE] py-2 px-4 rounded-lg hover:bg-[#2334DE] hover:text-white transition-all">
               Read More <span className="ml-2">→</span>
             </button>
           </Link>
@@ -168,18 +168,18 @@ const SMO = () => {
       <div className="flex flex-col md:flex-row bg-[#f4f7fb] lg:px-[150px]">
       {/* Left Side Content */}
       <div className="w-full md:w-1/2 p-6">
-        <button className="bg-blue-100 text-[blue] text-sm px-2 py-1 rounded-md mb-4">
+        <button className="bg-blue-100 text-[#2334DE] text-sm px-2 py-1 rounded-md mb-4">
           Ask Question
         </button>
         <h1 className="text-4xl lg:text-5xl font-bold mt-4 mb-4">
-          Social Media <br /> Profile <span className="text-blue-500">Optimization</span>
+          Social Media <br /> Profile <span className="text-[#2334DE]">Optimization</span>
         </h1>
         <p className="text-gray-600 mt-4">
           Your social media profiles are the first impression potential customers have of your brand. We optimize your profiles on platforms like Facebook, Instagram, Twitter, LinkedIn, and more, ensuring they are complete, professional, and aligned with your brand identity.
         </p>
         <div className="mt-6 rounded-lg p-4 flex items-center">
-        <div className="bg-white p-7 border-l-[4px] border-[blue] rounded relative">
-          <div className="bg-blue-500 p-3 absolute rounded-full  top-[25%] left-[-25px]">
+        <div className="bg-white p-7 border-l-[4px] border-[#2334DE] rounded relative">
+          <div className="bg-[#2334DE] p-3 absolute rounded-full  top-[25%] left-[-25px]">
             <FaAward className="text-white text-2xl" />
           </div>
           <p className="text-3xl font-semibold ml-4">Winning Award</p>
@@ -249,30 +249,30 @@ const SMO = () => {
     {/* section 6 */}
     <div className="flex flex-col md:flex-row items-center sm:p-3 md:p-8 bg-background md:w-[94%] lg:w-[80%] mx-auto">
       <div className="md:w-1/2">
-        <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[blue] rounded mb-4">Why CHOOSE US</span>
+        <span className=" bg-[#ddddfd] px-3 py-1 text-sm font-bold text-[#2334DE] rounded mb-4">Why CHOOSE US</span>
         <h3 className="text-5xl mt-8  font-bold">
-          For SMO <br /> Services  <span className="text-[blue]">in India?</span>
+          For SMO <br /> Services  <span className="text-[#2334DE]">in India?</span>
         </h3>
         <ul className="mt-8 space-y-2 leading-8">
           <li className="flex items-center">
-            <FaCheckCircle className="text-blue-500" />
+            <FaCheckCircle className="text-[#2334DE]" />
             <span className="ml-2 text-muted-foreground">Experienced Team</span>
           </li>
           <li className="flex items-center">
-            <FaCheckCircle className="text-blue-500" />
+            <FaCheckCircle className="text-[#2334DE]" />
             <span className="ml-2 text-muted-foreground">Customized Solutions</span>
           </li>
           <li className="flex items-center">
-            <FaCheckCircle className="text-blue-500" />
+            <FaCheckCircle className="text-[#2334DE]" />
             <span className="ml-2 text-muted-foreground">Proven Track Record</span>
           </li>
           <li className="flex items-center">
-            <FaCheckCircle className="text-blue-500" />
+            <FaCheckCircle className="text-[#2334DE]" />
             <span className="ml-2 text-muted-foreground">Testing and Quality Assurance</span>
           </li>
         </ul>
-        <button className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[blue] bg-white isolation-auto z-10 border-2 border-[blue]
-        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[blue] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
+        <button className="mt-8 rounded-full flex items-center relative px-8 py-2 text-[#2334DE] bg-white isolation-auto z-10 border-2 border-[#2334DE]
+        before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-right-full before:hover:right-0 before:rounded-full  before:bg-[#2334DE] before:-z-10  before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700  hover:text-white">
             Learn More <span className="ml-2"><GoArrowRight /></span>
           </button>
       </div>
@@ -289,7 +289,7 @@ const SMO = () => {
           <div className="py-8 px-20 mx-auto lg:py-16 md:px-20 sm:px-2">
             <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <div>
-              <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[blue] dark:text-white">
+              <span className="mb-4 px-6 py-1 rounded-md text-4xl tracking-tight bg-[#dde7fa] font-semibold text-[#2334DE] dark:text-white">
                 SMO Packages
               </span>
               </div>
@@ -300,7 +300,7 @@ const SMO = () => {
                 title="Basic"
                 price="RS-19999 / $249"
                 index={1}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                   "Setting Goals",
                   "Account Management – 2 (FB & IG)",
@@ -354,7 +354,7 @@ const SMO = () => {
                 title="Enterpriser"
                 price="RS-39999 / $499"
                 index={3}
-                color="bg-blue-600"
+                color="bg-[#2334DE]"
                 features={[
                     "Setting Goals",
                   "Account Management – 6",
@@ -386,12 +386,12 @@ const SMO = () => {
     {/* Section * */}
     <div className="pt-10 mt-10">
       <div className=" text-center">
-        <span className="inline-block px-4 py-1 text-sm font-medium text-blue-500 bg-blue-100 rounded-full mb-4">
+        <span className="inline-block px-4 py-1 text-sm font-medium text-[#2334DE] bg-blue-100 rounded-full mb-4">
           In The Digital Age
         </span>
         <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900">
           Having a strong social media <br className="hidden md:block" />
-          presence is <span className="text-blue-600">no longer optional</span>
+          presence is <span className="text-[#2334DE]">no longer optional</span>
         </h1>
       </div>
 
@@ -414,7 +414,7 @@ const SMO = () => {
       </div>
 
       {/* Bottom Section with Solid Blue Background */}
-      <div className="bg-[blue] text-white text-center py-6">
+      <div className="bg-[#2334DE] text-white text-center py-6">
         <p className="text-lg font-semibold">
           Contact us today to learn more about our SMO services and how we can help your business thrive in the competitive digital landscape.
         </p>

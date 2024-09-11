@@ -13,9 +13,6 @@
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
   }
   
   .swiper-slide-active {
@@ -23,6 +20,8 @@
   }
   
   .swiper-slide img {
+    overflow: hidden;
+    border-radius: 10px;
     display: block;
     width: 100%;
     height: 100%;

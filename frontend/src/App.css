@@ -130,6 +130,46 @@ body {
   
 }
 
+/* BG */
+.bg-img{
+  background-image: url(./Assets/Image\ \(2\).png);
+  background-position: center;
+}
+.company-bg{
+  background-image: url(./Assets/circle-550x550.png.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: left;
+}
+.bg-slide{
+  background-image: url(./Assets/Image\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  
+}
+.bg-contact1{
+  background-image: url(./Assets/Group\ 164551.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-seo{
+  background-image: url(./Assets/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-con{
+  background-image: url(./Assets/Rectangle\ 4485.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-map{
+  background-image: url(./Assets/Rectangle\ 4599.png);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* contact form */
 
 
@@ -504,30 +544,5 @@ body {
 .progress-wrap:hover .progress-icon {
   color: black !important; /* Force hover icon color to black */
 }
-
-/* curser */
-
-.cursor {
-  width: 4px;
-  height: 4px;
-  background-color: #001eff;
-  border-radius: 10px;
-  position: absolute;
-  z-index: 11;
-  transition-duration: 1.7s;
-  transition-timing-function:  cubic-bezier(0.07, 1.18, 1, 1);
-  z-index: 9999;
-}
-.cursor-follower {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border: 2px solid #0015ff;
-  border-radius: 100px;
-  transition-duration: 0.7s;
-  transition-timing-function:  cubic-bezier(0.07, 1.18, 1, 1);
-  z-index: 9999;
-}
-
 
 

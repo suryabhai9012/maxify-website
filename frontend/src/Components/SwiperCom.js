@@ -47,7 +47,7 @@ export default function App() {
         modules={[EffectCoverflow, Navigation]}
         className="mySwiper p-4"
       >
-        <SwiperSlide>
+        <SwiperSlide className="mySwiper p-4">
           <img src={img3} alt="Slide 1" />
         </SwiperSlide>
         <SwiperSlide>

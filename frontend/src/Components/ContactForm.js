@@ -117,7 +117,7 @@ const ContactForm = () => {
     }
   };
   return (
-    <div className="relative md:top-[270px]">
+    <div className="relative">
       <div className="contact-container" id="contact">
         <div className="contact-content md:px-12">
           <h2 className="text-4xl font-bold">

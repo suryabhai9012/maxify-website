@@ -7,13 +7,18 @@ import { LuFocus } from "react-icons/lu";
 import { BsGraphUpArrow } from "react-icons/bs";
 import img1 from "../Assets/contact us/Container (11).webp";
 import img2 from "../Assets/contact us/Image (16).webp";
-import img3 from "../Assets/contact us/Mask group (6).webp";
-import img5 from "../Assets/contact us/Mask group (2).webp";
-import img6 from "../Assets/contact us/Mask group (3).webp";
+import img3 from "../Assets/Group 164554.png";
+import img5 from "../Assets/Group 164555.png";
+import img6 from "../Assets/Group 164558.png";
 import img7 from "../Assets/contact us/Mask group (4).webp";
 import img8 from "../Assets/contact us/Mask group (5).webp";
 import img9 from "../Assets/contact us/Image (35).webp";
 import img10 from "../Assets/contact us/stock-photo-photo-of-curious-inspired-lady-hold-big-one-like-pinata-stand-tiptoe-wear-plaid-shirt-isolated-2083936846-transformed-Photoroom 1.webp";
+import img11 from "../Assets/image 2.png";
+import img12 from "../Assets/image-Photoroom (15) 1.png";
+import img13 from "../Assets/image (4).png";
+import img14 from "../Assets/image.png";
+import img15 from "../Assets/image 318.png";
 import SwiperCom from "../Components/SwiperCom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules"; // Correct import
@@ -33,7 +38,7 @@ const Contact = () => {
             className="rounded-lg h-full w-auto object-cover"
           />
         </div>
-        <div className="lg:w-1/2 py-4 px-10">
+        <div className="lg:w-1/2 py-4 px-2 md:px-10">
           <h2 className="text-lg text-[#6C6A72]">Who We Are:</h2>
           <h3 className=" font-semibold sm:text-4xl md:text-5xl">
             Your Trusted Partner
@@ -109,27 +114,27 @@ const Contact = () => {
 
         {/* Bottom Section with Solid Blue Background */}
         <div className="bg-[blue] text-white text-center py-6">
-          <p className="text-3xl ">
+          <p className=" sm:text-xl md:text-3xl ">
             What We Do: All your digital solution in one place
           </p>
         </div>
       </div>
 
-      <SwiperCom />
+      {/* <SwiperCom /> */}
 
       {/* b */}
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%]">
+      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
         {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 justify-end relative px-2">
+        <div className="flex w-full md:w-1/2 justify-center items-center relative px-2">
           <img
-            src={img3}
+            src={img13}
             alt="Left Side"
-            className="w-[80%] object-cover h-auto"
+            className="h-[80%] object-cover w-auto"
           />
         </div>
 
         {/* Right Side - Visible in Mobile View */}
-        <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[50px]">
+        <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[0px]">
           <p className="text-[18px] font-[500] bg-gradient-to-l from-[#077EEC] to-[#BD21FC] bg-clip-text text-transparent">
             About us
           </p>
@@ -250,33 +255,23 @@ const Contact = () => {
         </div>
 
         {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 justify-start items-center relative px-2">
+        <div className="flex w-full md:w-1/2 justify-start items-center relative px-2 bg-contact1">
           <img
-            src={img2}
+            src={img12}
             alt="Left Side"
-            className="h-auto right-2 bottom-0 w-[40%] absolute"
-          />
-          <img
-            src={img2}
-            alt="Left Side"
-            className="w-[100%] object-cover h-[80%]"
+            className="w-[90%] object-cover h-auto"
           />
         </div>
       </div>
 
       {/* PPC ads */}
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
-        {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 justify-end relative px-2">
+        {/* Left Side */}
+        <div className="flex w-full md:w-1/2 justify-center items-center relative px-2">
           <img
-            src={img2}
+            src={img11}
             alt="Left Side"
-            className="h-auto right-2 bottom-0 w-[40%] absolute"
-          />
-          <img
-            src={img2}
-            alt="Left Side"
-            className="w-[100%] object-cover h-auto"
+            className="w-[80%] h-[80%] object-cove"
           />
         </div>
         {/* Right Side - Visible in Mobile View */}
@@ -348,11 +343,13 @@ const Contact = () => {
 
             {/* Right Image */}
             <div className="lg:w-1/2 flex justify-center lg:justify-end mt-6 lg:mt-0">
-              <img
-                src="https://example.com/smo-icon.png" // replace with actual image
-                alt="SMO Icon"
-                className="w-64"
-              />
+              <div className="relative inline-block rounded-full p-[4px] bg-gradient-to-r from-[#b300ff] to-blue-500">
+                <img
+                  src={img14} // replace with actual image
+                  alt="SMO Icon"
+                  className="rounded-full w-full h-full block"
+                />
+              </div>
             </div>
           </div>
 
@@ -361,9 +358,9 @@ const Contact = () => {
             {/* Left Image */}
             <div className="lg:w-1/2 flex justify-center lg:justify-start">
               <img
-                src="https://example.com/social-icons.png" // replace with actual image
+                src={img15} // replace with actual image
                 alt="Social Media Icons"
-                className="w-48"
+                className="h-[70%] w-auto rounded-full border-r-[4px] border-[blue]"
               />
             </div>
 
@@ -404,16 +401,11 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
         {" "}
         {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 sm:h-[400px] md:h-auto justify-end relative px-2">
+        <div className="flex w-full md:w-1/2 sm:h-[350px] md:h-auto justify-start relative px-2">
           <img
             src={img3}
             alt="Left Side"
-            className=" h-[70%] right-10 bottom-0  z-10 w-[50%] md:w-auto absolute"
-          />
-          <img
-            src={img5}
-            alt="Left Side"
-            className=" h-[70%] left-10 top-0 w-[50%] md:w-auto absolute"
+            className="md:w-[80%] sm:w-full"
           />
         </div>
         {/* Right Side - Visible in Mobile View */}
@@ -421,7 +413,7 @@ const Contact = () => {
           <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
             A <span className="text-[#2334de]"> Track Record </span>of Success
           </h1>
-          <p className="text-[20px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
+          <p className="sm:text-base md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
             Maxify Solutions has delivered numerous successful projects in the
             field of digital marketing and web development over time. Our client
             work speaks for itself in our portfolio and the impact it has made
@@ -443,7 +435,7 @@ const Contact = () => {
             <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
               A <span className="text-[#2334de]"> Client-Centric </span>Approach
             </h1>
-            <p className="text-[20px] text-justify  text-gray-600 mb-6 border p-4 leading-8 bg-white">
+            <p className="sm:text-base md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8 bg-white">
               Here at Maxify Solutions we pride ourselves on a human-centric
               approach. That is why we learn your business, goals and even
               struggles so that our solutions fit you the best. with an approach
@@ -456,17 +448,12 @@ const Contact = () => {
             </button>
           </div>
           {/* Left Side - Hidden in Mobile View */}
-          <div className="flex w-full md:w-1/2 sm:h-[400px] md:h-auto justify-end relative px-2">
-            <img
-              src={img6}
-              alt="Left Side"
-              className=" h-[70%] right-10 bottom-0  z-10 w-[50%] md:w-auto absolute"
-            />
-            <img
-              src={img7}
-              alt="Left Side"
-              className=" h-[70%] left-10 top-0 w-[50%] md:w-auto absolute"
-            />
+          <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-end relative px-2">
+          <img
+            src={img5}
+            alt="Left Side"
+            className="md:w-[80%] sm:w-full"
+          />
           </div>
         </div>
       </div>
@@ -474,16 +461,11 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
         {" "}
         {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 sm:h-[400px] md:h-auto justify-end relative px-2">
-          <img
-            src={img8}
+        <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-start relative px-2">
+        <img
+            src={img6}
             alt="Left Side"
-            className=" h-[70%] right-10 bottom-0  z-10 w-[50%] md:w-auto absolute"
-          />
-          <img
-            src={img3}
-            alt="Left Side"
-            className=" h-[70%] left-10 top-0 w-[50%] md:w-auto absolute"
+            className="md:w-[80%] sm:w-full"
           />
         </div>
         {/* Right Side - Visible in Mobile View */}
@@ -491,7 +473,7 @@ const Contact = () => {
           <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
             <span className="text-[#2334de]"> Innovation </span>and Excellence
           </h1>
-          <p className="text-[20px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
+          <p className="sm:text-base md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
             We operate driven by innovation and excellence. Who Says What We Do
             — Being an elite Web Design Company in India, we love to talk about
             our work; whether it's showing off the unique features of a site or
@@ -553,7 +535,6 @@ const Contact = () => {
             business to the next level. Learn more about how we can help you
             online today!{" "}
           </p>
-          
         </div>
       </div>
     </div>

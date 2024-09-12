@@ -13,6 +13,7 @@ import Curser from "./Components/Curser";
 import Contact from "./pages/Contact";
 import Conservation from "./pages/Conservation";
 import Ecommerce from "./pages/Ecommerce";
+import Graphic from "./pages/Graphic";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/conservation" element={<Conservation />} />
         <Route path="/ecommerces" element={<Ecommerce />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/graphic" element={<Graphic />} />
       </Routes>
       <ContactForm />
       <Footer />

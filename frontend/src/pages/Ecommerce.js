@@ -21,6 +21,7 @@ import icone4 from "../Assets/Ecommerces/icone8.svg";
 import line from "../Assets/Ecommerces/line.svg";
 import bgimage from "../Assets/Ecommerces/bg-image.png";
 import { BiPhoneCall } from "react-icons/bi";
+import EcomSlider from "../Components/EcomSlider";
 
 const Ecommerce = () => {
   const caseStudies = [
@@ -422,80 +423,8 @@ const Ecommerce = () => {
       </div>
 
       {/* slider section */}
-
-      <div>
-        <div className="bg-image bg-cover w-full">
-          <div className="w-[90%] mx-auto">
-            <div className="slider py-10">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita, illo. Ratione reiciendis incidunt nam officiis ducimus
-                magnam accusantium, illo iure?
-              </p>
-            </div>
-            <div className="card">
-              <div className="text-4xl font-bold">
-                <h2 className="gradient-text2">Case Study :</h2>
-              </div>
-              {/* Grid layout for case study cards */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
-                {caseStudies.map((study, index) => (
-                  <div
-                    key={index}
-                    className="p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-[#635AD9] text-gray-600 hover:text-white transition duration-300 ease-in-out"
-                  >
-                    <img className="w-14" src={study.icone} alt="" />
-                    <h3 className="text-xl font-bold text-purple-800 mb-2 mt-5">
-                      {study.title}
-                    </h3>
-                    <p className="">{study.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div className="flex justify-end">
-            {/* Statistics section */}
-            <div className="w-[90%]">
-              <div className="bg-[#635AD9] mt-8 flex justify-between pl-10 items-center text-white rounded-l-full">
-                <div className="text-center">
-                  <img className="w-10 ml-10" src={icone1} alt="" />
-                  <div className="text-3xl font-bold">1000+</div>
-                  <div>Satisfied Clients</div>
-                </div>
-                <div>
-                  <img src={line} alt="" />
-                </div>
-                <div className="text-center">
-                  <img className="w-10 ml-10" src={icone2} alt="" />
-                  <div className="text-3xl font-bold">600+</div>
-                  <div>Finished Projects</div>
-                </div>
-                <div>
-                  <img src={line} alt="" />
-                </div>
-                <div className="text-center">
-                  <img className="w-10 ml-10" src={icone3} alt="" />
-                  <div className="text-3xl font-bold">100+</div>
-                  <div>Skilled Experts</div>
-                </div>
-                <div>
-                  <img src={line} alt="" />
-                </div>
-                <div className="text-center">
-                  <img className="w-10 ml-10" src={icone4} alt="" />
-                  <div className="text-3xl font-bold">5,90+</div>
-                  <div>Media Posts</div>
-                </div>
-                <div>
-                  <img className="w-60 h-[13rem]" src={img13} alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <EcomSlider />
+     
       <div>
         <div className="bg-white mt-10">
           <div className="flex flex-col md:flex-row  lg:p-8 md:px-16 sm:p-2 lg:w-[90%] sm:w-[90%] mx-auto">

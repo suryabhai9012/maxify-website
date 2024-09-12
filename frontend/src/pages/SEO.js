@@ -40,7 +40,7 @@ import PricingCard from "../Components/PricingCard";
 const SEO = () => {
   return (
     <div className="mt-[70px]">
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between p-2 bg-[#e7eaf3]">
+      <div className="flex flex-col-reverse bg-contact lg:flex-row items-center justify-between p-2 bg-[#e7eaf3]">
         <div className="lg:w-1/2 p-4">
           <div className=" flex items-center flex-col sm:w-full md:w-[500px] mx-auto">
             <h2 className="lg:text-4xl md:text-3xl sm:text-2xl mt-9 font-bold text-[#2334DE]">
@@ -182,7 +182,7 @@ const SEO = () => {
       </div>
 
       {/*  */}
-      <div className="right-banner sm:h-auto lg:h-[500px] bg-seo pt-3">
+      <div className="right-banner sm:h-auto bg-seo pt-3">
         <div className="w-full md:w-[90%] lg:w-[80%] mx-auto flex sm:flex-col md:flex-row">
           <div className="md:w-1/2 flex flex-col justify-center px-2 lg:px-10 text-white">
             <h2 className="text-4xl font-extrabold mb-5">

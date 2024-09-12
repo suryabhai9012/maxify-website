@@ -124,6 +124,7 @@ const Contact = () => {
       {/* <SwiperCom /> */}
 
       {/* b */}
+      <div className="bg-contact">
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
         <div className="flex justify-center items-center sm:h-[400px] md:h-auto w-full md:w-1/2 px-2">
@@ -208,6 +209,7 @@ const Contact = () => {
           </Link>
         </div>
       </div>
+      </div>
 
       {/* second section */}
       <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
@@ -273,6 +275,7 @@ const Contact = () => {
       </div>
 
       {/* PPC ads */}
+      <div className="bg-contact">
       <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Left Side */}
         <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
@@ -323,6 +326,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
 
       {/*  */}

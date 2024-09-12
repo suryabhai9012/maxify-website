@@ -171,7 +171,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.bg-contact{
+  background-image: url(./Assets/image\ 316.png);
+  background-repeat: no-repeat;
+  background-position: center;
 
+}
 /* contact form */
 
 

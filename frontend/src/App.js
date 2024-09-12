@@ -12,6 +12,7 @@ import BacktoTop from "./Components/BacktoTop";
 import Curser from "./Components/Curser";
 import Contact from "./pages/Contact";
 import Conservation from "./pages/Conservation";
+import Ecommerce from "./pages/Ecommerce";
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
         <Route path="/app" element={<AppDevelopment />} />
         <Route path="/smo" element={<SMO />} />
         <Route path="/seo" element={<SEO />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/conservation" element={<Conservation />} />
+        <Route path="/ecommerces" element={<Ecommerce />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <ContactForm />
       <Footer />

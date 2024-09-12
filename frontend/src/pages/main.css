@@ -18,3 +18,26 @@
   position: relative;
   height: 30.5rem;
 }
+
+.gradient-background {
+  background: linear-gradient(to right, #c21efc, #0081ec);
+}
+.gradient-text {
+  background: linear-gradient(to right, #c21efc, #0081ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-text2 {
+  background: linear-gradient(to right, #9747ff, #6a40f2, #2334de);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-image {
+  background-image: url("../Assets/Ecommerces/bg-image.png");
+}

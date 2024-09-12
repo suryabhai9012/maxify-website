@@ -3,7 +3,7 @@
 
 body {
   font-family: "Inter", Arial, sans-serif;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   margin: 0;
   padding: 0;
 }
@@ -116,55 +116,53 @@ body {
   font-style: italic;
 }
 
-.slider-card:hover .slider-card-bottom{
+.slider-card:hover .slider-card-bottom {
   padding-left: 40px !important;
   padding-top: 40px !important;
   padding-bottom: 20px !important;
   padding-right: 20px !important;
   font-size: 40px !important;
 }
-@media (max-width:1200px) {
-  .next{
+@media (max-width: 1200px) {
+  .next {
     display: none;
   }
-  
 }
 
 /* BG */
-.bg-img{
-  background-image: url(./Assets/Image\ \(2\).png);
+.bg-img {
+  /* background-image: url(./Assets/Image\\(2\).png); */
   background-position: center;
 }
-.company-bg{
+.company-bg {
   background-image: url(./Assets/circle-550x550.png.png);
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: left;
 }
-.bg-slide{
-  background-image: url(./Assets/Image\ \(1\).png);
+.bg-slide {
+  /* background-image: url(./Assets/Image\\(1\).png); */
   background-repeat: no-repeat;
   background-position: left top;
-  
 }
-.bg-contact1{
+.bg-contact1 {
   background-image: url(./Assets/Group\ 164551.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
 }
-.bg-seo{
+.bg-seo {
   background-image: url(./Assets/Background.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.bg-con{
+.bg-con {
   background-image: url(./Assets/Rectangle\ 4485.png);
   background-repeat: no-repeat;
   background-position: center;
 }
-.bg-map{
+.bg-map {
   background-image: url(./Assets/Rectangle\ 4599.png);
   height: 500px;
   background-size: cover;
@@ -179,9 +177,8 @@ body {
 }
 /* contact form */
 
-
 .contact-container {
-  background: linear-gradient(90deg, white 70%, #2334DE 30%);
+  background: linear-gradient(90deg, white 70%, #2334de 30%);
   display: flex;
   padding-right: 40px;
   flex-direction: column;
@@ -205,7 +202,7 @@ body {
 }
 
 .contact-content h2 span {
-  color: #2334DE;
+  color: #2334de;
 }
 
 .contact-content p {
@@ -222,9 +219,9 @@ body {
   margin-bottom: 6px;
   display: block;
 }
- input:focus{
+input:focus {
   border: none;
- }
+}
 .contact-content form input[type="text"],
 .contact-content form input[type="email"],
 .contact-content form textarea,
@@ -240,15 +237,14 @@ body {
   background-color: white;
   color: #333333;
 }
-.additional{
+.additional {
   border: dashed;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.additional input{
-
+.additional input {
   border-top: 1px;
   border-left: 1px;
   border: 1px solid black;
@@ -290,7 +286,7 @@ body {
 }
 
 .contact-content form button {
-  background-color: #2334DE;
+  background-color: #2334de;
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -326,11 +322,11 @@ body {
   .contact-container {
     flex-direction: row;
   }
-  
+
   .contact-content {
     width: 50%;
   }
-  
+
   .map-container {
     width: 50%;
     height: auto;
@@ -338,10 +334,9 @@ body {
 }
 @media (max-width: 768px) {
   .contact-container {
-
     display: flex;
     flex-direction: column;
-  background: linear-gradient(90deg, white 70%, #ffffff 30%);
+    background: linear-gradient(90deg, white 70%, #ffffff 30%);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -355,14 +350,14 @@ body {
   }
 }
 /*  */
-/* From Uiverse.io by MikeAndrewDesigner */ 
+/* From Uiverse.io by MikeAndrewDesigner */
 #ui {
   font-weight: bolder;
-  background: -webkit-linear-gradient(#B563FF, #535EFC, #0EC8EE);
+  background: -webkit-linear-gradient(#b563ff, #535efc, #0ec8ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-bottom: 4px solid transparent;
-  border-image: linear-gradient(0.25turn, #535EFC, #0EC8EE, #0EC8EE);
+  border-image: linear-gradient(0.25turn, #535efc, #0ec8ee, #0ec8ee);
   border-image-slice: 1;
   display: inline;
 }
@@ -382,7 +377,7 @@ body {
 }
 
 .button:hover {
-  background: linear-gradient(144deg, #1e1e1e , 20%,#1e1e1e 50%,#1e1e1e );
+  background: linear-gradient(144deg, #1e1e1e, 20%, #1e1e1e 50%, #1e1e1e);
   transition: all 0.2s ease;
   color: #fff;
 }
@@ -407,13 +402,13 @@ body {
   top: -70%;
   background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
     radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
-    radial-gradient(circle, #535EFC 20%, transparent 20%),
+    radial-gradient(circle, #535efc 20%, transparent 20%),
     radial-gradient(circle, #7d2ae8 20%, transparent 20%),
     radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-    radial-gradient(circle, #0EC8EE 20%, transparent 20%),
+    radial-gradient(circle, #0ec8ee 20%, transparent 20%),
     radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #0EC8EE 20%, transparent 20%),
-    radial-gradient(circle, #0EC8EE 20%, transparent 20%);
+    radial-gradient(circle, #0ec8ee 20%, transparent 20%),
+    radial-gradient(circle, #0ec8ee 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
     10% 10%, 18% 18%;
   background-position: 50% 120%;
@@ -441,11 +436,11 @@ body {
 .button:hover::after {
   bottom: -70%;
   background-image: radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #535EFC 20%, transparent 20%),
+    radial-gradient(circle, #535efc 20%, transparent 20%),
     radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
-    radial-gradient(circle, #535EFC 20%, transparent 20%),
+    radial-gradient(circle, #535efc 20%, transparent 20%),
     radial-gradient(circle, #7d2ae8 20%, transparent 20%),
-    radial-gradient(circle, #535EFC 20%, transparent 20%),
+    radial-gradient(circle, #535efc 20%, transparent 20%),
     radial-gradient(circle, #7d2ae8 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
   background-position: 50% 0%;
@@ -469,31 +464,28 @@ body {
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
-.header-smo{
+.header-smo {
   background-image: url(./Assets/WhatsApp\ Image\ 2024-09-04\ at\ 12.53.53\ AM.jpeg);
 }
-.bg-app{
+.bg-app {
   background-image: url(./Assets/line\ circle.svg);
   background-repeat: no-repeat;
 }
-.right-seo{
+.right-seo {
   background-image: url(./Assets/SEO/19.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 430px;
-
 }
 
-@media (max-width:770px) {
-  .right-seo{
+@media (max-width: 770px) {
+  .right-seo {
     background-image: url(./Assets/SEO/19.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px;
-  
   }
 }
-
 
 /* back to top */
 /* Container setup */
@@ -551,5 +543,3 @@ body {
 .progress-wrap:hover .progress-icon {
   color: black !important; /* Force hover icon color to black */
 }
-
-

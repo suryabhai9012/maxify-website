@@ -17,6 +17,7 @@ import img10 from "../Assets/contact us/stock-photo-photo-of-curious-inspired-la
 import img11 from "../Assets/image 2.png";
 import img12 from "../Assets/image-Photoroom (15) 1.png";
 import img13 from "../Assets/image (4).png";
+import img16 from "../Assets/image (3).png";
 import img14 from "../Assets/image.png";
 import img15 from "../Assets/image 318.png";
 import SwiperCom from "../Components/SwiperCom";
@@ -66,7 +67,7 @@ const Contact = () => {
 
       {/* Section * */}
       <div className="pt-10 mt-10">
-        <div className=" text-center sm:w-full md:w-[90%] mx-auto">
+        <div className=" text-center sm:w-full md:w-[90%] px-2 mx-auto">
           <span className="inline-block px-4 py-1 text-sm font-medium text-[#2334DE] bg-blue-100 rounded-full mb-4">
             Our Mission
           </span>
@@ -83,10 +84,10 @@ const Contact = () => {
         <div
           className=" mt-8 py-10"
           style={{
-            background: "linear-gradient(to bottom, white 50%, blue 50%)",
+            background: "linear-gradient(to bottom, white 50%, #2334DE 50%)",
           }}
         >
-          <div className="md:w-[90%] lg:w-[80%] mx-auto  flex flex-col md:flex-row items-center justify-center">
+          <div className="md:w-[90%] lg:w-[90%] mx-auto  flex flex-col md:flex-row items-center justify-center">
             <div className="md:w-1/2 flex justify-end">
               <img
                 src={img2} // Replace with actual image source
@@ -114,7 +115,7 @@ const Contact = () => {
 
         {/* Bottom Section with Solid Blue Background */}
         <div className="bg-[#2334DE] text-white text-center py-6">
-          <p className=" sm:text-xl md:text-3xl ">
+          <p className=" sm:text-xl md:text-2xl ">
             What We Do: All your digital solution in one place
           </p>
         </div>
@@ -123,14 +124,21 @@ const Contact = () => {
       {/* <SwiperCom /> */}
 
       {/* b */}
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
+      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 justify-center items-center relative px-2">
+        <div className="flex justify-center items-center sm:h-[400px] md:h-auto w-full md:w-1/2 px-2">
+        <div className="flex justify-center items-center w-[80%] h-full relative">
           <img
             src={img13}
             alt="Left Side"
-            className="h-[80%] object-cover w-auto"
+            className="sm:h-[60%] md:h-[50%] absolute sm:top-0 md:top-10 sm:left-0  object-cover w-auto"
           />
+          <img
+            src={img16}
+            alt="Left Side"
+            className="sm:h-[60%] md:h-[50%] absolute sm:bottom-0 sm:right-0 md:bottom-20 border-[10px] border-white rounded-[3rem] object-cover w-auto"
+          />
+          </div>
         </div>
 
         {/* Right Side - Visible in Mobile View */}
@@ -163,28 +171,28 @@ const Contact = () => {
 
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div>
-                <LuFocus className="text-[30px] text-[#2334DE]" />
+              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                <LuFocus className="text-[30px] text-[#635ad9]" />
               </div>
-              <div>
+              <div >
                 <h3 className="text-sm font-[500] text-black">
                   Problem Solving
                 </h3>
-                <p className="text-[10px] text-justify">
-                  Aliquam erat volutpat Nullam imperdiet
+                <p className="text-[12px] text-justify">
+                  Aliquam erat volutpat <br />Nullam imperdiet
                 </p>
               </div>
             </div>
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div>
-                <BsGraphUpArrow className="text-[30px] text-[#2334DE]" />
+              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
+                <BsGraphUpArrow className="text-[30px] text-[#635ad9]" />
               </div>
               <div>
                 <h3 className="text-sm font-[500] text-black">
                   Mission & Vision
                 </h3>
-                <p className="text-[10px] text-justify">
-                  Ut vehiculadictumst. Maecenas ante.
+                <p className="text-[12px] text-justify">
+                  Ut vehiculadictumst.<br /> Maecenas ante.
                 </p>
               </div>
             </div>
@@ -202,9 +210,9 @@ const Contact = () => {
       </div>
 
       {/* second section */}
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
+      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Right Side - Visible in Mobile View */}
-        <div className="w-full md:w-1/2 p-4 md:p-8 sm:px-3 md:px-[50px]">
+        <div className="w-full md:w-1/2 py-4 md:p-8 sm:px-3">
           <h1 className="text-4xl md:text-6xl font-bold mt-4 mb-2">
             <span className="text-[#2334DE]">SEO </span>And{" "}
             <span className="text-[#2334DE]">Marketing:</span>
@@ -265,19 +273,19 @@ const Contact = () => {
       </div>
 
       {/* PPC ads */}
-      <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
+      <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {/* Left Side */}
-        <div className="flex w-full md:w-1/2 justify-center items-center relative px-2">
+        <div className="flex w-full md:w-1/2 justify-center items-start relative px-2">
           <img
             src={img11}
             alt="Left Side"
-            className="m:w-[80%] md:h-[80%] sm:w-full md:h-full object-cove"
+            className="md:w-[90%] md:h-[80%] sm:w-full object-cover"
           />
         </div>
         {/* Right Side - Visible in Mobile View */}
-        <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 md:px-[30px] lg:px-[60px]">
+        <div className="w-full md:w-1/2  sm:px-3 md:px-[30px] lg:px-[60px]">
           <h1 className="text-3xl md:text-4xl font-bold mt-4 mb-2">
-            <span className="text-[#2334DE]">PPC </span>Ads
+            <span className="text-[#2334DE]">PPC </span>Ads :
           </h1>
           <p className="text-[18px] font-[500] text-[gray] mb-4">
              How to get the most out of your marketing money
@@ -294,7 +302,7 @@ const Contact = () => {
 
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 mb-6">
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div>
+              <div className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
                 <LuFocus className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
@@ -303,7 +311,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex-1 flex gap-3 items-start text-left p-4 rounded-md">
-              <div>
+              <div  className="bg-[#eaf2f6] h-10 w-10 rounded-full p-2 flex justify-center items-center">
                 <BsGraphUpArrow className="text-[30px] text-[#2334DE]" />
               </div>
               <div>
@@ -319,7 +327,7 @@ const Contact = () => {
 
       {/*  */}
       <section className="bg-gradient-to-r from-[#edd6fb] to-[#adadff] p-8 mt-4">
-        <div className="w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
+        <div className="w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* First Section: Left Content, Right Image */}
           <div className="flex flex-col lg:flex-row justify-between items-center">
             {/* Left Content */}
@@ -398,10 +406,10 @@ const Contact = () => {
         </div>
       </section>
 
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
+      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {" "}
         {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 sm:h-[350px] md:h-auto justify-start relative px-2">
+        <div className="flex w-full md:w-1/2 sm:h-[350px] md:h-auto justify-center relative px-2">
           <img
             src={img3}
             alt="Left Side"
@@ -409,11 +417,11 @@ const Contact = () => {
           />
         </div>
         {/* Right Side - Visible in Mobile View */}
-        <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 md:px-[30px] lg:px-[60px]">
+        <div className="w-full md:w-1/2 flex flex-col justify-around p-4 md:p-4 sm:px-3">
           <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
             A <span className="text-[#2334DE]"> Track Record </span>of Success
           </h1>
-          <p className="sm:text-base md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
+          <p className="sm:text-[1rem] md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
             Maxify Solutions has delivered numerous successful projects in the
             field of digital marketing and web development over time. Our client
             work speaks for itself in our portfolio and the impact it has made
@@ -422,20 +430,22 @@ const Contact = () => {
             enterprises feel us one of best Web designers Companies In the
             world.{" "}
           </p>
+          <div>
           <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
             MORE ABOUT US
           </button>
+          </div>
         </div>
       </div>
 
       <div className="bg-[#f0effc] p-3">
-        <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
+        <div className="flex flex-col-reverse md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* Right Side - Visible in Mobile View */}
-          <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 md:px-[30px] lg:px-[60px]">
+          <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 flex flex-col justify-around">
             <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
               A <span className="text-[#2334DE]"> Client-Centric </span>Approach
             </h1>
-            <p className="sm:text-base md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8 bg-white">
+            <p className="sm:text-[1rem] md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8 bg-white">
               Here at Maxify Solutions we pride ourselves on a human-centric
               approach. That is why we learn your business, goals and even
               struggles so that our solutions fit you the best. with an approach
@@ -443,12 +453,14 @@ const Contact = () => {
               known name in search of reliable web partners for business to step
               into digital world.{" "}
             </p>
+            <div>
             <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
               MORE ABOUT US
             </button>
           </div>
+          </div>
           {/* Left Side - Hidden in Mobile View */}
-          <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-end relative px-2">
+          <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
           <img
             src={img5}
             alt="Left Side"
@@ -458,10 +470,10 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[80%]">
+      <div className="flex flex-col md:flex-row md:space-x-4 mt-8 w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
         {" "}
         {/* Left Side - Hidden in Mobile View */}
-        <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-start relative px-2">
+        <div className="flex w-full md:w-1/2 sm:h-[300px] md:h-auto justify-center relative px-2">
         <img
             src={img6}
             alt="Left Side"
@@ -469,11 +481,11 @@ const Contact = () => {
           />
         </div>
         {/* Right Side - Visible in Mobile View */}
-        <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 md:px-[30px] lg:px-[60px]">
+        <div className="w-full md:w-1/2 p-4 md:p-4 sm:px-3 flex flex-col justify-around">
           <h1 className="text-3xl md:text-5xl font-bold mt-4 mb-2">
             <span className="text-[#2334DE]"> Innovation </span>and Excellence
           </h1>
-          <p className="sm:text-base md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
+          <p className="sm:text-[1rem] md:text-[18px] text-justify  text-gray-600 mb-6 border p-4 leading-8">
             We operate driven by innovation and excellence. Who Says What We Do
             — Being an elite Web Design Company in India, we love to talk about
             our work; whether it's showing off the unique features of a site or
@@ -481,9 +493,11 @@ const Contact = () => {
             with solutions, our clients are guaranteed that they receive best in
             class offerings.{" "}
           </p>
+          <div>
           <button className="bg-gradient-to-l from-[#077EEC] to-[#BD21FC] text-white py-3 px-4 rounded-full hover:bg-[#2334DE] transition duration-300">
             MORE ABOUT US
           </button>
+          </div>
         </div>
       </div>
 

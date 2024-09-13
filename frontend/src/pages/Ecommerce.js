@@ -424,7 +424,7 @@ const Ecommerce = () => {
 
       {/* slider section */}
       <EcomSlider />
-     
+
       <div>
         <div className="bg-white mt-10">
           <div className="flex flex-col md:flex-row  lg:p-8 md:px-16 sm:p-2 lg:w-[90%] sm:w-[90%] mx-auto">

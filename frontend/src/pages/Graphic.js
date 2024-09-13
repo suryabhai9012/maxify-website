@@ -14,6 +14,7 @@ import img12 from "../Assets/Graphics/image 335.png";
 import { GoArrowRight } from "react-icons/go";
 import { BsFillCreditCard2BackFill } from "react-icons/bs";
 import { BsArrowUpRight } from "react-icons/bs";
+import GraficsSlider from "../Components/GraficsSlider";
 
 function Graphic() {
   return (
@@ -82,7 +83,7 @@ function Graphic() {
           <img src={img2} alt="" className="h-[4rem] w-auto" />
           <p>
             <span className="font-semibold text-lg">
-              Comprehensive Services :{" "}
+              Comprehensive Services :
             </span>
             From branding and logo design to website graphics and marketing
             collateral, we offer a full range of graphic design services.
@@ -93,28 +94,32 @@ function Graphic() {
         <img src={img3} alt="" className="h-[300px] w-auto" />
       </div>
 
-      {/*  */}
-      <div className="flex sm:flex-col md:flex-row justify-between items-center px-2 py-5 bg-white mx-auto md:w-[90%]">
-        {/* Left Side - Title and Icon */}
-        <div className=" md:w-1/2">
-          <div className="flex items-center mb-4">
-            <div className="w-3 h-3 bg-[#37937e] rounded-full mr-2"></div>
-            <span className="text-gray-500 font-medium">Services</span>
+      {/* slider section */}
+      <div>
+        <div className="flex sm:flex-col md:flex-row justify-between items-center px-2 py-5 bg-white mx-auto md:w-[90%]">
+          {/* Left Side - Title and Icon */}
+          <div className=" md:w-1/2">
+            <div className="flex items-center mb-4">
+              <div className="w-3 h-3 bg-[#37937e] rounded-full mr-2"></div>
+              <span className="text-gray-500 font-medium">Services</span>
+            </div>
+            <h1 className="text-5xl font-bold">
+              Our <span className="text-[#37937e]">Graphic Design</span>{" "}
+              Services
+            </h1>
           </div>
-          <h1 className="text-5xl font-bold">
-            Our <span className="text-[#37937e]">Graphic Design</span> Services
-          </h1>
-        </div>
 
-        {/* Right Side - Description */}
-        <div className=" md:w-1/2 ">
-          <p className="text-gray-500 mt-2 md:mt-[6rem] ">
-            This book delves into the intricacies of wealth management, offering
-            readers comprehensive strategies to grow and protect their assets.
-            It covers topics ranging from investment diversification to tax
-            optimization tailored for the contemporary.
-          </p>
+          {/* Right Side - Description */}
+          <div className=" md:w-1/2 ">
+            <p className="text-gray-500 mt-2 md:mt-[6rem] ">
+              This book delves into the intricacies of wealth management,
+              offering readers comprehensive strategies to grow and protect
+              their assets. It covers topics ranging from investment
+              diversification to tax optimization tailored for the contemporary.
+            </p>
+          </div>
         </div>
+        <GraficsSlider />
       </div>
 
       <div className="flex flex-col md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[90%]">
@@ -284,7 +289,7 @@ function Graphic() {
             Get in touch
           </span>
           <h1 className="text-4xl font-semibold text-[black] mt-4">
-            Partner with Maxify Solution – Your Trusted  
+            Partner with Maxify Solution – Your Trusted
             <span className="text-[#2334DE]"> Graphic Design Agency</span>
           </h1>
           <p className="mt-4 text-[16px] leading-7 text-gray-500 text-justify">
@@ -311,8 +316,16 @@ function Graphic() {
       </div>
 
       <div className="flex md:flex-row flex-col justify-between md:w-[90%] mx-auto">
-        <p className="md:px-[20px] text-lg text-gray-500"><span className="text-2xl text-black">Get in touch with us</span> today to discuss your graphic design needs and discover how we can elevate your brand to new heights.</p>
-        <img src={img12} alt="" className="w-full md:w-[30%] mx-auto border-l-[3px] border-t-[3px] rounded-full border-[green]" />
+        <p className="md:px-[20px] text-lg text-gray-500">
+          <span className="text-2xl text-black">Get in touch with us</span>{" "}
+          today to discuss your graphic design needs and discover how we can
+          elevate your brand to new heights.
+        </p>
+        <img
+          src={img12}
+          alt=""
+          className="w-full md:w-[30%] mx-auto border-l-[3px] border-t-[3px] rounded-full border-[green]"
+        />
       </div>
     </div>
   );

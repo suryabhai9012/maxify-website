@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import icone1 from "../Assets/Ecommerces/icone5.svg";
@@ -33,7 +33,7 @@ function PrevArrow(props) {
       className="absolute top-4 right-20 z-10 cursor-pointer text-3xl text-[#635ad9] flex justify-center items-center h-12 w-12 rounded-full border border-[#635ad9]"
       onClick={onClick}
     >
-     <GoArrowLeft />
+      <GoArrowLeft />
     </div>
   );
 }
@@ -118,10 +118,32 @@ const EcomSlider = () => {
       <Slider {...settings}>
         {/* First Slide */}
         <div className="bg-image bg-cover w-full">
+          <div className="w-[90%] mx-auto py-10">
+            <div className="w-[70%]">
+              <h2 className="text-5xl">
+                <span className="gradient-text2 font-bold">
+                  Our Portfolio :{" "}
+                </span>{" "}
+                <span className="font-normal">
+                  Success Stories from Leading Brands
+                </span>
+              </h2>
+              <p className="mt-5 text-sm leading-7">
+                Over the years, Maxify Solutions has had the privilege of
+                working with a diverse range of clients, from startups to
+                established enterprises. Our portfolio showcases a variety of
+                successful e-commerce websites that have helped businesses
+                achieve their online goals. As an Ecommerce Website Designing
+                Company in Delhi, we have delivered projects that span various
+                industries, including fashion, electronics, healthcare, and
+                more.
+              </p>
+            </div>
+          </div>
           <div className="w-[90%] mx-auto">
             <div className="card">
               <div className="text-4xl font-bold">
-                <h2 className="gradient-text2">Case Studies :</h2>
+                <h2 className="gradient-text2">Case Study :</h2>
               </div>
               {/* Display 3 case studies on the first slide */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
@@ -162,6 +184,23 @@ const EcomSlider = () => {
 
         {/* Second Slide */}
         <div className="bg-image bg-cover w-full">
+          <div className="w-[90%] mx-auto py-10">
+            <div className="w-[70%]">
+              <h2 className="text-5xl">
+                <span className="gradient-text2 font-bold">
+                  Customer Reviews :{" "}
+                </span>{" "}
+                <span className="font-normal">
+                  The Things Our Customers Have to Say About Us
+                </span>
+              </h2>
+              <p className="mt-5 text-sm leading-7">
+                At Maxify Solutions, client satisfaction is our top priority.
+                What some of our clients had to say about their interactions
+                with us is included below:
+              </p>
+            </div>
+          </div>
           <div className="w-[90%] mx-auto">
             <div className="card">
               <div className="text-4xl font-bold">

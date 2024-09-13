@@ -11,9 +11,16 @@ import img9 from "../Assets/Graphics/image.png";
 import img10 from "../Assets/Graphics/image 332.png";
 import img11 from "../Assets/Graphics/Background+Border+Shadow.png";
 import img12 from "../Assets/Graphics/image 335.png";
+import img13 from "../Assets/Graphics/image (1).png";
+import img14 from "../Assets/Graphics/image (2).png";
+import img15 from "../Assets/Graphics/image 329.png";
+import img16 from "../Assets/Graphics/image (4).png";
+import img18 from "../Assets/Graphics/image 333.png";
+import img17 from "../Assets/Graphics/image (5).png";
 import { GoArrowRight } from "react-icons/go";
 import { BsFillCreditCard2BackFill } from "react-icons/bs";
 import { BsArrowUpRight } from "react-icons/bs";
+import GraphicSlider from "../Components/GraphicSlider";
 
 function Graphic() {
   return (
@@ -117,6 +124,66 @@ function Graphic() {
         </div>
       </div>
 
+      {/* Slider */}
+      <GraphicSlider />
+
+      {/*  */}
+      <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
+        <div className="lg:w-[50%] p-4 relative">
+         
+          <img
+            src={img13}
+            alt="Team meeting"
+            className="rounded-lg h-full w-auto object-cover"
+          />
+         
+        </div>
+        <div className="lg:w-[50%] py-4 px-2">
+          <h3 className=" font-[700] sm:text-[36px] md:text-4xl text-center text-[#37937e] leading-10">
+          Our Graphic Design Process 
+          </h3>
+          <p className="mt-4 text-[14px]  text-justify leading-6 text-[#6C6A72]">
+          At Maxify Solution, we follow a structured design process to ensure that every project meets your expectations and delivers impactful results.
+          </p>
+          <div className="flex justify-between mt-3">
+            <div className="w-1/2 pr-2">
+                <h4 className="text-base font-[600]">Step 1: Discovery and Research</h4>
+                <p className="text-sm font-[300] text-justify">Understanding your brand, target audience, and business goals is the first step. We conduct thorough research and hold discovery sessions to gather all necessary information</p>
+            </div>
+            <div className="w-1/2 flex justify-center items-center">
+                <img src={img15} alt="" className="md:w-[60%] md:h-auto h-[100px] w-auto" />
+            </div>
+          </div>
+          <div className="flex justify-between mt-3">
+            <div className="w-1/2 flex justify-center items-center">
+                <img src={img14} className="md:w-[80%] md:h-auto h-[100px] w-auto" alt="" />
+            </div>
+            <div className="w-1/2 pl-2">
+                <h4 className="text-base font-[600]">Step 2: Concept Development</h4>
+                <p className="text-sm font-[300] text-justify">Based on the research, we brainstorm and develop design concepts that align with your objectives. Multiple concepts are created to offer a range of options.</p>
+            </div>
+          </div>
+          <div className="flex justify-between mt-3">
+            <div className="w-1/2 pr-2">
+                <h4 className="text-base font-[600]">Step 3: Design and Revision</h4>
+                <p className="text-sm font-[300] text-justify">Our talented designers bring the chosen concept to life, incorporating your feedback at every stage. We offer multiple rounds of revisions to ensure complete satisfaction.</p>
+            </div>
+            <div className="w-1/2 flex justify-center items-center">
+                <img src={img16} alt="" className=" md:w-[80%] md:h-auto h-[100px] w-auto" />
+            </div>
+          </div>
+          <div className="flex justify-between mt-3">
+            <div className="w-1/2 flex justify-center items-center">
+                <img src={img17} className="md:w-[80%] md:h-auto h-[100px] w-auto" alt="" />
+            </div>
+            <div className="w-1/2 pl-2">
+                <h4 className="text-base font-[600]">Step 4: Finalization and Delivery</h4>
+                <p className="text-sm font-[300] text-justify">Once the design is approved, we prepare the final files in the required formats and deliver them to you, ready for use across all platforms and channels.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="flex flex-col md:flex-row items-center p-3 bg-background rounded-lg mx-auto sm:w-full md:w-[94%] lg:w-[90%]">
         {/* Left side content */}
         <div className="md:w-1/2">
@@ -206,14 +273,19 @@ function Graphic() {
           alt=""
           className="sm:w-[300px] md:w-[400px] absolute bottom-0 left-0 h-auto"
         />
+        <img
+          src={img18}
+          alt=""
+          className="sm:w-[300px] md:w-[500px] absolute top-0 right-5 h-auto"
+        />
         <div
           className=" md:absolute p-6 sm:w-[100%] md:w-[60%] h-auto right-0 bottom-0 bg-gradient-to-tl to-[#37937e] from-[#37937e]"
           style={{ borderRadius: "20px 0px 20px 0px" }}
         >
-          <h3 className="text-lg font-[600] mb-2">
+          <h3 className="text-2xl font-[600] mb-2">
             Why Invest in Professional Graphic Design?
           </h3>
-          <p className="text-sm">
+          <p className="text-base">
             Professional graphic design is more than just aesthetics—it’s about
             effective communication and achieving your business goals. Here’s
             why investing in professional graphic design is crucial:

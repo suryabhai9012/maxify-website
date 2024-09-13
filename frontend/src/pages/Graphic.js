@@ -21,6 +21,7 @@ import { GoArrowRight } from "react-icons/go";
 import { BsFillCreditCard2BackFill } from "react-icons/bs";
 import { BsArrowUpRight } from "react-icons/bs";
 import GraphicSlider from "../Components/GraphicSlider";
+import GraficsSlider from "../Components/GraficsSlider";
 
 function Graphic() {
   return (
@@ -89,7 +90,7 @@ function Graphic() {
           <img src={img2} alt="" className="h-[4rem] w-auto" />
           <p>
             <span className="font-semibold text-lg">
-              Comprehensive Services :{" "}
+              Comprehensive Services :
             </span>
             From branding and logo design to website graphics and marketing
             collateral, we offer a full range of graphic design services.
@@ -100,27 +101,91 @@ function Graphic() {
         <img src={img3} alt="" className="h-[300px] w-auto" />
       </div>
 
-      {/*  */}
-      <div className="flex sm:flex-col md:flex-row justify-between items-center px-2 py-5 bg-white mx-auto md:w-[90%]">
-        {/* Left Side - Title and Icon */}
-        <div className=" md:w-1/2">
-          <div className="flex items-center mb-4">
-            <div className="w-3 h-3 bg-[#37937e] rounded-full mr-2"></div>
-            <span className="text-gray-500 font-medium">Services</span>
+      {/* slider section */}
+      <div>
+        <div className="flex sm:flex-col md:flex-row justify-between items-center px-2 py-5 bg-white mx-auto md:w-[90%]">
+          {/* Left Side - Title and Icon */}
+          <div className=" md:w-1/2">
+            <div className="flex items-center mb-4">
+              <div className="w-3 h-3 bg-[#37937e] rounded-full mr-2"></div>
+              <span className="text-gray-500 font-medium">Services</span>
+            </div>
+            <h1 className="text-5xl font-bold">
+              Our <span className="text-[#37937e]">Graphic Design</span>{" "}
+              Services
+            </h1>
           </div>
-          <h1 className="text-5xl font-bold">
-            Our <span className="text-[#37937e]">Graphic Design</span> Services
-          </h1>
-        </div>
 
-        {/* Right Side - Description */}
-        <div className=" md:w-1/2 ">
-          <p className="text-gray-500 mt-2 md:mt-[6rem] ">
-            This book delves into the intricacies of wealth management, offering
-            readers comprehensive strategies to grow and protect their assets.
-            It covers topics ranging from investment diversification to tax
-            optimization tailored for the contemporary.
+          {/* Right Side - Description */}
+          <div className=" md:w-1/2 ">
+            <p className="text-gray-500 mt-2 md:mt-[6rem] ">
+              This book delves into the intricacies of wealth management,
+              offering readers comprehensive strategies to grow and protect
+              their assets. It covers topics ranging from investment
+              diversification to tax optimization tailored for the contemporary.
+            </p>
+          </div>
+        </div>
+        <GraficsSlider />
+      </div>
+
+      {/* Slider */}
+      <GraphicSlider />
+
+      {/*  */}
+      <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
+        <div className="lg:w-[50%] p-4 relative">
+         
+          <img
+            src={img13}
+            alt="Team meeting"
+            className="rounded-lg h-full w-auto object-cover"
+          />
+         
+        </div>
+        <div className="lg:w-[50%] py-4 px-2">
+          <h3 className=" font-[700] sm:text-[36px] md:text-4xl text-center text-[#37937e] leading-10">
+          Our Graphic Design Process 
+          </h3>
+          <p className="mt-4 text-[14px]  text-justify leading-6 text-[#6C6A72]">
+          At Maxify Solution, we follow a structured design process to ensure that every project meets your expectations and delivers impactful results.
           </p>
+          <div className="flex justify-between mt-3">
+            <div className="w-1/2 pr-2">
+                <h4 className="text-base font-[600]">Step 1: Discovery and Research</h4>
+                <p className="text-sm font-[300] text-justify">Understanding your brand, target audience, and business goals is the first step. We conduct thorough research and hold discovery sessions to gather all necessary information</p>
+            </div>
+            <div className="w-1/2 flex justify-center items-center">
+                <img src={img15} alt="" className="md:w-[60%] md:h-auto h-[100px] w-auto" />
+            </div>
+          </div>
+          <div className="flex justify-between mt-3">
+            <div className="w-1/2 flex justify-center items-center">
+                <img src={img14} className="md:w-[80%] md:h-auto h-[100px] w-auto" alt="" />
+            </div>
+            <div className="w-1/2 pl-2">
+                <h4 className="text-base font-[600]">Step 2: Concept Development</h4>
+                <p className="text-sm font-[300] text-justify">Based on the research, we brainstorm and develop design concepts that align with your objectives. Multiple concepts are created to offer a range of options.</p>
+            </div>
+          </div>
+          <div className="flex justify-between mt-3">
+            <div className="w-1/2 pr-2">
+                <h4 className="text-base font-[600]">Step 3: Design and Revision</h4>
+                <p className="text-sm font-[300] text-justify">Our talented designers bring the chosen concept to life, incorporating your feedback at every stage. We offer multiple rounds of revisions to ensure complete satisfaction.</p>
+            </div>
+            <div className="w-1/2 flex justify-center items-center">
+                <img src={img16} alt="" className=" md:w-[80%] md:h-auto h-[100px] w-auto" />
+            </div>
+          </div>
+          <div className="flex justify-between mt-3">
+            <div className="w-1/2 flex justify-center items-center">
+                <img src={img17} className="md:w-[80%] md:h-auto h-[100px] w-auto" alt="" />
+            </div>
+            <div className="w-1/2 pl-2">
+                <h4 className="text-base font-[600]">Step 4: Finalization and Delivery</h4>
+                <p className="text-sm font-[300] text-justify">Once the design is approved, we prepare the final files in the required formats and deliver them to you, ready for use across all platforms and channels.</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -356,7 +421,7 @@ function Graphic() {
             Get in touch
           </span>
           <h1 className="text-4xl font-semibold text-[black] mt-4">
-            Partner with Maxify Solution – Your Trusted  
+            Partner with Maxify Solution – Your Trusted
             <span className="text-[#2334DE]"> Graphic Design Agency</span>
           </h1>
           <p className="mt-4 text-[16px] leading-7 text-gray-500 text-justify">
@@ -383,8 +448,16 @@ function Graphic() {
       </div>
 
       <div className="flex md:flex-row flex-col justify-between md:w-[90%] mx-auto">
-        <p className="md:px-[20px] text-lg text-gray-500"><span className="text-2xl text-black">Get in touch with us</span> today to discuss your graphic design needs and discover how we can elevate your brand to new heights.</p>
-        <img src={img12} alt="" className="w-full md:w-[30%] mx-auto border-l-[3px] border-t-[3px] rounded-full border-[green]" />
+        <p className="md:px-[20px] text-lg text-gray-500">
+          <span className="text-2xl text-black">Get in touch with us</span>{" "}
+          today to discuss your graphic design needs and discover how we can
+          elevate your brand to new heights.
+        </p>
+        <img
+          src={img12}
+          alt=""
+          className="w-full md:w-[30%] mx-auto border-l-[3px] border-t-[3px] rounded-full border-[green]"
+        />
       </div>
     </div>
   );

@@ -14,6 +14,7 @@ import Contact from "./pages/Contact";
 import Conservation from "./pages/Conservation";
 import Ecommerce from "./pages/Ecommerce";
 import Graphic from "./pages/Graphic";
+import HRMS from "./pages/HRMS";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/ecommerces" element={<Ecommerce />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/graphic" element={<Graphic />} />
+        <Route path="/hrms" element={<HRMS />} />
       </Routes>
       <ContactForm />
       <Footer />

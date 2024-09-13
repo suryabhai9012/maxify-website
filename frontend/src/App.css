@@ -175,6 +175,13 @@ body {
   background-position: center;
 
 }
+.bg-last{
+  
+  background-image: url(./Assets/HRMS/Image\ \(21\).png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
 /* contact form */
 
 .contact-container {

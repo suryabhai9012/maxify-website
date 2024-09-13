@@ -396,7 +396,7 @@ const SMO = () => {
       </div>
 
       {/* Middle Section with Linear Gradient Background */}
-      <div className=" mt-8 py-10" style={{ background: 'linear-gradient(to bottom, white 50%, blue 50%)'}}>
+      <div className=" mt-8 py-10" style={{ background: 'linear-gradient(to bottom, white 50%, #2334DE 50%)'}}>
       <div className="md:w-[90%] lg:w-[80%] mx-auto  flex flex-col md:flex-row items-center justify-center">
         <div className="md:w-1/2 flex justify-end">
           <img

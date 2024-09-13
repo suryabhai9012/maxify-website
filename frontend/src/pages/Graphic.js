@@ -126,8 +126,8 @@ function Graphic() {
             </p>
           </div>
         </div>
-        <GraficsSlider />
       </div>
+
 
       {/* Slider */}
       <GraphicSlider />
@@ -135,115 +135,95 @@ function Graphic() {
       {/*  */}
       <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
         <div className="lg:w-[50%] p-4 relative">
-         
           <img
             src={img13}
             alt="Team meeting"
             className="rounded-lg h-full w-auto object-cover"
           />
-         
         </div>
         <div className="lg:w-[50%] py-4 px-2">
           <h3 className=" font-[700] sm:text-[36px] md:text-4xl text-center text-[#37937e] leading-10">
-          Our Graphic Design Process 
+            Our Graphic Design Process
           </h3>
           <p className="mt-4 text-[14px]  text-justify leading-6 text-[#6C6A72]">
-          At Maxify Solution, we follow a structured design process to ensure that every project meets your expectations and delivers impactful results.
+            At Maxify Solution, we follow a structured design process to ensure
+            that every project meets your expectations and delivers impactful
+            results.
           </p>
           <div className="flex justify-between mt-3">
             <div className="w-1/2 pr-2">
-                <h4 className="text-base font-[600]">Step 1: Discovery and Research</h4>
-                <p className="text-sm font-[300] text-justify">Understanding your brand, target audience, and business goals is the first step. We conduct thorough research and hold discovery sessions to gather all necessary information</p>
+              <h4 className="text-base font-[600]">
+                Step 1: Discovery and Research
+              </h4>
+              <p className="text-sm font-[300] text-justify">
+                Understanding your brand, target audience, and business goals is
+                the first step. We conduct thorough research and hold discovery
+                sessions to gather all necessary information
+              </p>
             </div>
             <div className="w-1/2 flex justify-center items-center">
-                <img src={img15} alt="" className="md:w-[60%] md:h-auto h-[100px] w-auto" />
+              <img
+                src={img15}
+                alt=""
+                className="md:w-[60%] md:h-auto h-[100px] w-auto"
+              />
             </div>
           </div>
           <div className="flex justify-between mt-3">
             <div className="w-1/2 flex justify-center items-center">
-                <img src={img14} className="md:w-[80%] md:h-auto h-[100px] w-auto" alt="" />
+              <img
+                src={img14}
+                className="md:w-[80%] md:h-auto h-[100px] w-auto"
+                alt=""
+              />
             </div>
             <div className="w-1/2 pl-2">
-                <h4 className="text-base font-[600]">Step 2: Concept Development</h4>
-                <p className="text-sm font-[300] text-justify">Based on the research, we brainstorm and develop design concepts that align with your objectives. Multiple concepts are created to offer a range of options.</p>
+              <h4 className="text-base font-[600]">
+                Step 2: Concept Development
+              </h4>
+              <p className="text-sm font-[300] text-justify">
+                Based on the research, we brainstorm and develop design concepts
+                that align with your objectives. Multiple concepts are created
+                to offer a range of options.
+              </p>
             </div>
           </div>
           <div className="flex justify-between mt-3">
             <div className="w-1/2 pr-2">
-                <h4 className="text-base font-[600]">Step 3: Design and Revision</h4>
-                <p className="text-sm font-[300] text-justify">Our talented designers bring the chosen concept to life, incorporating your feedback at every stage. We offer multiple rounds of revisions to ensure complete satisfaction.</p>
+              <h4 className="text-base font-[600]">
+                Step 3: Design and Revision
+              </h4>
+              <p className="text-sm font-[300] text-justify">
+                Our talented designers bring the chosen concept to life,
+                incorporating your feedback at every stage. We offer multiple
+                rounds of revisions to ensure complete satisfaction.
+              </p>
             </div>
             <div className="w-1/2 flex justify-center items-center">
-                <img src={img16} alt="" className=" md:w-[80%] md:h-auto h-[100px] w-auto" />
+              <img
+                src={img16}
+                alt=""
+                className=" md:w-[80%] md:h-auto h-[100px] w-auto"
+              />
             </div>
           </div>
           <div className="flex justify-between mt-3">
             <div className="w-1/2 flex justify-center items-center">
-                <img src={img17} className="md:w-[80%] md:h-auto h-[100px] w-auto" alt="" />
+              <img
+                src={img17}
+                className="md:w-[80%] md:h-auto h-[100px] w-auto"
+                alt=""
+              />
             </div>
             <div className="w-1/2 pl-2">
-                <h4 className="text-base font-[600]">Step 4: Finalization and Delivery</h4>
-                <p className="text-sm font-[300] text-justify">Once the design is approved, we prepare the final files in the required formats and deliver them to you, ready for use across all platforms and channels.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Slider */}
-      <GraphicSlider />
-
-      {/*  */}
-      <div className="flex flex-col lg:flex-row items-center sm:p-2 md:p-6 bg-background rounded-lg sm:w-full md:w-[90%] mx-auto">
-        <div className="lg:w-[50%] p-4 relative">
-         
-          <img
-            src={img13}
-            alt="Team meeting"
-            className="rounded-lg h-full w-auto object-cover"
-          />
-         
-        </div>
-        <div className="lg:w-[50%] py-4 px-2">
-          <h3 className=" font-[700] sm:text-[36px] md:text-4xl text-center text-[#37937e] leading-10">
-          Our Graphic Design Process 
-          </h3>
-          <p className="mt-4 text-[14px]  text-justify leading-6 text-[#6C6A72]">
-          At Maxify Solution, we follow a structured design process to ensure that every project meets your expectations and delivers impactful results.
-          </p>
-          <div className="flex justify-between mt-3">
-            <div className="w-1/2 pr-2">
-                <h4 className="text-base font-[600]">Step 1: Discovery and Research</h4>
-                <p className="text-sm font-[300] text-justify">Understanding your brand, target audience, and business goals is the first step. We conduct thorough research and hold discovery sessions to gather all necessary information</p>
-            </div>
-            <div className="w-1/2 flex justify-center items-center">
-                <img src={img15} alt="" className="md:w-[60%] md:h-auto h-[100px] w-auto" />
-            </div>
-          </div>
-          <div className="flex justify-between mt-3">
-            <div className="w-1/2 flex justify-center items-center">
-                <img src={img14} className="md:w-[80%] md:h-auto h-[100px] w-auto" alt="" />
-            </div>
-            <div className="w-1/2 pl-2">
-                <h4 className="text-base font-[600]">Step 2: Concept Development</h4>
-                <p className="text-sm font-[300] text-justify">Based on the research, we brainstorm and develop design concepts that align with your objectives. Multiple concepts are created to offer a range of options.</p>
-            </div>
-          </div>
-          <div className="flex justify-between mt-3">
-            <div className="w-1/2 pr-2">
-                <h4 className="text-base font-[600]">Step 3: Design and Revision</h4>
-                <p className="text-sm font-[300] text-justify">Our talented designers bring the chosen concept to life, incorporating your feedback at every stage. We offer multiple rounds of revisions to ensure complete satisfaction.</p>
-            </div>
-            <div className="w-1/2 flex justify-center items-center">
-                <img src={img16} alt="" className=" md:w-[80%] md:h-auto h-[100px] w-auto" />
-            </div>
-          </div>
-          <div className="flex justify-between mt-3">
-            <div className="w-1/2 flex justify-center items-center">
-                <img src={img17} className="md:w-[80%] md:h-auto h-[100px] w-auto" alt="" />
-            </div>
-            <div className="w-1/2 pl-2">
-                <h4 className="text-base font-[600]">Step 4: Finalization and Delivery</h4>
-                <p className="text-sm font-[300] text-justify">Once the design is approved, we prepare the final files in the required formats and deliver them to you, ready for use across all platforms and channels.</p>
+              <h4 className="text-base font-[600]">
+                Step 4: Finalization and Delivery
+              </h4>
+              <p className="text-sm font-[300] text-justify">
+                Once the design is approved, we prepare the final files in the
+                required formats and deliver them to you, ready for use across
+                all platforms and channels.
+              </p>
             </div>
           </div>
         </div>

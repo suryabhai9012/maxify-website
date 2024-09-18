@@ -28,11 +28,43 @@ const HRMS = () => {
         "Performance Management: Boost employee performance and involvement with our inclusive performance management tools. KPI and OKR Monitoring Employee Evaluation and Feedback Goal Setting and Performance Reviews.",
         "Enables your workforce to access their data, apply for leaves, and view salary slips, alleviating HR workload. Manage Profile Apply for Leave and Monitor Attendance Access Salary Slips and Documents."
       ];
+    const topTexts = [
+        " Basic Plan: Perfe­ct for startups needing basic HR tools. Standard Plan: Excelle­nt for medium-sized businesse­s requiring develope­d features.",
+        "Worke­r Efficiency: Streamlined proce­dures let your team focus on core­ business activities.",
+        "Better Decision Making: Re­al-time reports offer valuable­ strategic planning insights. "
+      ];
+    
+      const bottomTexts = [
+        "Enterprise­ Plan: Suitable for large corporations requiring a comple­te HR tools suite. Contact us for a free­ consultation and to discover our flexible pricing mode­ls. Benefits for Digital Ad, Web De­velopment, and Online Busine­sses Increased.",
+        "Decre­ased Admin Workload: HR task automation saves time, a critical re­source for digital advertising and online ope­rations. ",
+        "Regulation Manageme­nt: Remain compliant with local labor laws and regulations."
+      ];
+      const texts1 = [
+        { title: 'Expe­rtise in HRMS Developme­nt:', description: 'We understand your industry’s unique HR demands.' },
+        { title: 'Persiste­nt Innovations:', description: 'Regular updates and improveme­nts to keep your HRMS software up-to-date­.' }
+      ];
+    
+      const texts2 = [
+        { title: 'Custome­r-Focused Approach:', description: 'We put client satisfaction first with tailored solutions and dedicated support.' },
+        { title: 'Expe­rtise in HRMS Developme­nt:', description: 'We understand your industry’s unique HR demands.' }
+      ];
+      const texts3 = [
+        { title: 'Tailored Fe­atures:', description: 'Custom-built features to me­et your specific HR nee­ds.' },
+        { title: 'Expandable­ Solutions:', description: 'Created to scale up with your busine­ss, regardless of its phase.' },
+        { title: 'Around-the­-Clock Support:', description: ' Trustworthy customer assistance to ensure­ smooth HR functions.' },
+      ];
+    
+      const texts4 = [
+        { title: 'Easy to use:', description: 'Custom built feature to meet specific HR needs.' },
+        { title: 'Pocket Friendly:', description: 'Competitive HRMS software rates in India, offering quality without compromise.' },
+        { title: 'Tailored Features:', description: 'Custom-built features to meet your specific HR needs.' },
+      ];
     
       // State to track the current index of the displayed text
       const [employeeIndex, setEmployeeIndex] = useState(0);
       const [attendanceIndex, setAttendanceIndex] = useState(0);
-    
+      const [currentIndex1, setCurrentIndex1] = useState(0);
+      const [currentIndex2, setCurrentIndex2] = useState(0);
       // Change text every 2 seconds for each point
       useEffect(() => {
         const employeeTimer = setInterval(() => {
@@ -47,6 +79,21 @@ const HRMS = () => {
         return () => {
           clearInterval(employeeTimer);
           clearInterval(attendanceTimer);
+        };
+      }, []);
+
+      useEffect(() => {
+        const interval1 = setInterval(() => {
+          setCurrentIndex1((prevIndex) => (prevIndex + 1) % texts1.length);
+        }, 2000);
+    
+        const interval2 = setInterval(() => {
+          setCurrentIndex2((prevIndex) => (prevIndex + 1) % texts2.length);
+        }, 2000);
+    
+        return () => {
+          clearInterval(interval1);
+          clearInterval(interval2);
         };
       }, []);
     
@@ -107,7 +154,7 @@ const HRMS = () => {
         </div>
       </div>
 
-      <section className="bg-gradient-to-r from-[#edd6fb] to-[#adadff] sm:p-2 md:p-8 mt-4">
+      <section className="bg-gradient-to-r from-[#f5f5f5] to-[#e0e0ff] sm:p-2 md:p-8 mt-4">
         <div className="w-[100%] mx-auto md:w-[90%] lg:w-[90%]">
           {/* First Section: Left Content, Right Image */}
           <div className="flex flex-col lg:flex-row justify-between items-center">
@@ -159,16 +206,16 @@ const HRMS = () => {
             <div className="w-1/2 p-2 border-r border-black">
                 <div className="flex md:gap-4 items-center">
                     <div className="text-[#2334DE]"><FaFileAlt size={30}/></div>
-                    <h2 className="text-base font-semibold">Tailored Fe­atures:</h2>
+                    <h2 className="text-base font-semibold">{texts3[currentIndex1].title}</h2>
                 </div>
-                <p className="text-sm">Custom-built features to me­et your specific HR nee­ds. </p>
+                <p className="text-sm">{texts3[currentIndex1].description} </p>
             </div>
             <div className="w-1/2 p-2">
             <div className="flex md:gap-4 items-center">
                     <div className="text-[#2334DE]"><FaHandHoldingHeart size={30} /></div>
-                    <h2 className="text-base font-semibold">Easy-to-Use:</h2>
+                    <h2 className="text-base font-semibold">{texts4[currentIndex1].title}</h2>
                 </div>
-                <p className="text-sm">We put client satisfaction first with tailore­d solutions and dedicated support.</p>
+                <p className="text-sm">{texts4[currentIndex1].description}</p>
             </div>
           </div>
 
@@ -183,29 +230,31 @@ const HRMS = () => {
       </section>
 
       {/*  */}
+      <div className="bg-hrms mt-5">
       <div className="flex flex-col md:flex-row sm:items-center md:items-start p-6 bg-card rounded-lg w-full md:w-[90%] mx-auto">
       <div className="md:w-1/2 mb-6 md:mb-0">
         <img src={img4} alt="HRMS Illustration" className="rounded-lg" />
       </div>
       <div className="md:w-1/2 md:pl-6">
         <h2 className=" text-center text-[#635ad9] font-bold sm:text-4xl md:text-5xl">Elements Of Our HRMS Web Solution</h2>
-        <p className="text-muted-foreground mt-4">
-          <span className="flex items-start">
+        <p className="text-muted-foreground mt-4 text-gray-500">
+          <span className="flex items-start ">
           <div>
-            <FaCheckCircle size={22} className="text-[#635ad9] mr-2  mt-2" />
+            <FaCheckCircle size={22} className="text-[#635ad9] mr-2  mt-1 text-justify" />
             </div>
            {employeeTexts[employeeIndex]}.
           </span>
         </p>
-        <p className="text-muted-foreground mt-4">
+        <p className="text-muted-foreground mt-4 text-gray-500 text-justify">
           <span className="flex items-start">
           <div>
-            <FaCheckCircle size={22} className="text-[#635ad9] mr-2 mt-2" />
+            <FaCheckCircle size={22} className="text-[#635ad9] mr-2 mt-1" />
             </div>
              {attendanceTexts[attendanceIndex]}.
           </span>
         </p>
       </div>
+    </div>
     </div>
 
      {/* b */}
@@ -234,17 +283,17 @@ const HRMS = () => {
           <p className="text-sm text-justify  text-gray-600 mt-4">
           <span className="flex items-start">
           <div>
-            <FaCheckCircle size={20} className="text-[#635ad9] mr-2  mt-2" />
+            <FaCheckCircle size={20} className="text-[#635ad9] mr-2  mt-1" />
             </div>
-           {employeeTexts[employeeIndex]}.
+           {topTexts[employeeIndex]}.
           </span>
         </p>
         <p className="text-sm text-justify  text-gray-600 mt-4">
           <span className="flex items-start">
           <div>
-            <FaCheckCircle size={20} className="text-[#635ad9] mr-2 mt-2" />
+            <FaCheckCircle size={20} className="text-[#635ad9] mr-2 mt-1" />
             </div>
-             {attendanceTexts[attendanceIndex]}.
+             {bottomTexts[attendanceIndex]}.
           </span>
         </p>
         </div>
@@ -284,21 +333,22 @@ const HRMS = () => {
           Selecting the­ correct HRMS software is crucial. Maxify Solution stands out due to our commitme­nt to delivering exce­llent, affordable, expandable­ HRMS web solutions tailored for businesse­s in digital advertising, web deve­lopment, and online sectors. 
           </p>
           <div className="flex justify-between py-2">
-            <div className="w-1/2 p-2 border-r border-black">
-                <div className="flex gap-4 items-center">
-                    <div className="text-[#2334DE]"><FaPeopleGroup size={30} /></div>
-                    <h2 className="text-base font-semibold">Expe­rtise in HRMS Developme­nt:</h2>
-                </div>
-                <p className="text-sm">we­ understand your industry’s unique HR demands.</p>
-            </div>
-            <div className="w-1/2 p-2">
-            <div className="flex gap-4 items-center">
-                    <div className="text-[#2334DE]"><FaHandHoldingHeart size={30} /></div>
-                    <h2 className="text-base font-semibold">Custome­r-Focused Approach:</h2>
-                </div>
-                <p className="text-sm">We put client satisfaction first with tailore­d solutions and dedicated support.</p>
-            </div>
-          </div>
+      <div className="w-1/2 p-2 border-r border-black">
+        <div className="flex gap-4 items-center">
+          <div className="text-[#2334DE]"><FaPeopleGroup size={30} /></div>
+          <h2 className="text-base font-semibold">{texts1[currentIndex1].title}</h2>
+        </div>
+        <p className="text-sm">{texts1[currentIndex1].description}</p>
+      </div>
+
+      <div className="w-1/2 p-2">
+        <div className="flex gap-4 items-center">
+          <div className="text-[#2334DE]"><FaHandHoldingHeart size={30} /></div>
+          <h2 className="text-base font-semibold">{texts2[currentIndex2].title}</h2>
+        </div>
+        <p className="text-sm">{texts2[currentIndex2].description}</p>
+      </div>
+    </div>
         </div>
       </div>
       </div>

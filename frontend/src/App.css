@@ -182,6 +182,12 @@ body {
   background-size: 80%;
   background-position: center;
 }
+.bg-hrms{
+  
+  background-image: url(./Assets/HRMS/Background\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /* contact form */
 
 .contact-container {

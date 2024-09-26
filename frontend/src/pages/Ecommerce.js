@@ -48,11 +48,11 @@ const Ecommerce = () => {
   return (
     <div className="mt-20 w-full">
       <div
-        className={`top pt-20 h-[30rem] w-[100%] bg-cover bg-[url("http://localhost:3000/images/ecombanner.png")]`}
+        className={`top md:pt-20 flex flex-col w-[100%] bg-cover bg-[url("http://localhost:3000/images/ecombanner.png")]`}
       >
         <div className="w-[80%] mx-auto">
           <div className="heading">
-            <h2 className="text-4xl font-bold uppercase">
+            <h2 className="text-4xl font-bold uppercase sm:text-center md:text-left">
               <span>Transform </span>{" "}
               <span className="text-[#2334DE]">Your Business </span>{" "}
               <span>with Cutting-Edge</span>{" "}
@@ -61,8 +61,8 @@ const Ecommerce = () => {
               </span>
             </h2>
           </div>
-          <div className="mt-2 flex gap-2">
-            <p className="text-sm">
+          <div className="mt-2 md:flex gap-2">
+            <p className="text-sm text-justify">
               At Maxify Solutions, we specialize in creating powerful and
               user-friendly e-commerce websites that not only attract customers
               but also convert visits into sales. As a leading Ecommerce Website
@@ -79,17 +79,17 @@ const Ecommerce = () => {
             </div>
           </div>
         </div>
-        <div className="w-[90%] mx-auto mt-10">
-          <img className="w-[100%]" src="images/img2.png" alt="" />
+        <div className="w-[90%] lg:h-auto sm:h-[300px] mx-auto mt-10">
+          <img className="w-[100%] lg:h-auto sm:h-[300px]" src="images/img2.png" alt="" />
         </div>
       </div>
 
       {/* second section */}
       <section>
-        <div className="bg-white mt-96">
+        <div className="bg-white">
           <div className="flex flex-col md:flex-row items-center  lg:p-8 md:p-16 sm:p-2 lg:w-[90%] sm:w-[90%] mx-auto">
             {/* Left Section */}
-            <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-start">
+            <div className="sm:h-[80%] sm:w-auto md:w-[50%] relative flex sm:ml-0 md:mb-0 sm:justify-center md:justify-start">
               <div className="relative">
                 <img
                   src={img3}
@@ -106,19 +106,19 @@ const Ecommerce = () => {
 
             {/* Right Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-0">
-              <h2 className="text-3xl md:text-4xl sm:text-xl font-bold text-gray-900 mb-6 sm:mb-2">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 sm:mb-2 sm:text-center md:text-left">
                 <span>
                   Why Choose Maxify <br /> Solutions for{" "}
                 </span>
-                <span className="text-[#1351D8]">
+                <span className="text-[#1351D8] text-center">
                   E-commerce Website Development?
                 </span>
               </h2>
               <div className="bg-white rounded-lg">
-                <h3 className="text-xl font-semibold  mb-2 text-gray-600">
+                <h3 className="text-xl font-semibold  mb-2 text-gray-600 sm:text-center md:text-left" >
                   Expertise You Can Trust
                 </h3>
-                <p className="text-gray-700 mb-4 text-[13px]">
+                <p className="text-gray-700 mb-4 text-[13px] text-justify ">
                   Maxify Solutions has established itself as a trusted name in
                   the industry. Our expertise in E-commerce Web Development
                   allows us to create websites that are not only visually
@@ -140,7 +140,7 @@ const Ecommerce = () => {
         </div>
 
         <div className="bg-white mt-10">
-          <div className="flex flex-col md:flex-row justify-between items-center  lg:p-8 md:p-16 sm:p-2 lg:w-[90%] sm:w-[90%] mx-auto">
+          <div className="flex flex-col-reverse md:flex-row justify-between items-center  lg:p-8 md:p-16 sm:p-2 lg:w-[90%] sm:w-[90%] mx-auto">
             {/* Left Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-0">
               {/* <h2 className="text-3xl md:text-4xl sm:text-xl font-bold text-gray-900 mb-6 sm:mb-2">
@@ -152,10 +152,10 @@ const Ecommerce = () => {
                 </span>
               </h2> */}
               <div className="bg-white rounded-lg">
-                <h3 className="text-xl font-semibold  mb-2 text-gray-600">
+                <h3 className="text-xl font-semibold  mb-2 text-gray-600 sm:text-center md:text-left">
                   Custom Solutions Tailored to Your Needs
                 </h3>
-                <p className="text-gray-700 mb-4 text-[13px]">
+                <p className="text-gray-700 mb-4 text-[13px] sm:text-justify ">
                   Every business is unique, and so are its e-commerce needs. At
                   Maxify Solutions, we take a personalized approach to Ecommerce
                   Website Design Service in India. Our team works closely with
@@ -205,11 +205,11 @@ const Ecommerce = () => {
 
             {/* Right Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-0">
-              <h2 className="text-3xl md:text-4xl sm:text-xl font-bold text-gray-900 mb-6 sm:mb-2 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 sm:mb-2 text-center">
                 <p className="gradient-text">End-to-End E-</p>
                 <p>Commerce Development</p>
               </h2>
-              <div className="bg-white rounded-lg">
+              <div className="bg-white rounded-lg sm:text-justify">
                 <h3 className="text-lg mb-2 text-gray-600">
                   From concept to launch, Maxify Solutions offers end-to-end{" "}
                   <span> </span>
@@ -291,12 +291,12 @@ const Ecommerce = () => {
       {/* image section */}
       <div className="imge w-[90%] mx-auto border-2 rounded-t-3xl shadow-xl">
         <div className="">
-          <img className="w-full h-[30rem]" src={img8} alt="" />
+          <img className="w-full object-cover object-center h-[30rem]" src={img8} alt="" />
         </div>
         <div>
           <div className="heading p-10">
             <div>
-              <h3 className="text-4xl ">
+              <h3 className="text-4xl sm:text-center md:text-left">
                 <span className="gradient-text font-bold">Our Approach :</span>
                 <span className="font-medium">
                   {" "}
@@ -304,11 +304,11 @@ const Ecommerce = () => {
                 </span>
               </h3>
             </div>
-            <div className="text-lg font-bold text-[#2334DE] mt-10">
+            <div className="text-2xl font-bold text-[#2334DE] mt-4  sm:text-center md:text-left">
               <h2>User-Centric Design</h2>
             </div>
             <div className="mt-5">
-              <p className="leading-8">
+              <p className="leading-8 text-justify">
                 At Maxify Solutions, we believe that the success of an
                 e-commerce website lies in its ability to provide a seamless and
                 enjoyable shopping experience. Our design philosophy is centered
@@ -345,7 +345,7 @@ const Ecommerce = () => {
 
             {/* Right Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-10">
-              <h2 className="text-3xl md:text-4xl sm:text-xl font-bold text-gray-900 mb-6 sm:mb-2">
+              <h2 className="text-3xl md:text-4xl sm:text-xl font-bold text-gray-900 mb-6 sm:mb-2  sm:hidden md:block">
                 <span>
                   Solid Development <br /> Framework
                 </span>
@@ -354,7 +354,7 @@ const Ecommerce = () => {
                 {/* <h3 className="text-xl font-semibold  mb-2 text-gray-600">
                   Expertise You Can Trust
                 </h3> */}
-                <p className="text-gray-700 mb-4 text-[13px]">
+                <p className="text-gray-700 mb-4 text-sm text-justify leading-7">
                   Our development team is skilled in the latest technologies and
                   frameworks, enabling us to build e-commerce websites that are
                   fast, secure, and scalable. We focus on creating a solid
@@ -374,7 +374,7 @@ const Ecommerce = () => {
             </div>
           </div>
         </div>
-        <div className="bg-white mt-10">
+        <div className="bg-white md:mt-10">
           <div className="flex flex-col md:flex-row justify-between items-center  lg:p-8 md:p-16 sm:p-2 lg:w-[90%] sm:w-[90%] mx-auto">
             {/* Left Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-0">
@@ -384,7 +384,7 @@ const Ecommerce = () => {
                 </span>
               </h2>
               <div className="bg-white rounded-lg">
-                <p className="text-gray-700 mb-4 text-[13px]">
+                <p className="text-gray-700 mb-4 text-[13px] text-sm text-justify leading-7">
                   In addition to e-commerce website development, Maxify
                   Solutions offers comprehensive Digital Marketing services to
                   help you reach your target audience and maximize your online
@@ -404,7 +404,7 @@ const Ecommerce = () => {
             </div>
 
             {/* Right Section */}
-            <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-end">
+            <div className="md:w-[50%] relative flex sm:ml-0 md:mb-0 justify-end sm:mt-10 md:mt-0">
               <div className="relative">
                 <img
                   src={img11}
@@ -441,11 +441,11 @@ const Ecommerce = () => {
 
             {/* Right Section */}
             <div className="md:w-[50%] sm:w-full pl-0 sm:mt-12 md:mt-20">
-              <h2 className="text-3xl md:text-4xl sm:text-xl font-bold text-gray-900 mb-6 sm:mb-2 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 sm:mb-2 text-center">
                 <p className="gradient-text">Get Started with </p>
                 <p>Maxify Solutions Today</p>
               </h2>
-              <div className="bg-white rounded-lg">
+              <div className="bg-white rounded-lg text-justify">
                 <p>
                   Ready to take your business to the next level with a custom
                   e-commerce website? Contact Us today to discuss your project

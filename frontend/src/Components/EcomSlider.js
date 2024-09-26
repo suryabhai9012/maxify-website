@@ -119,7 +119,7 @@ const EcomSlider = () => {
         {/* First Slide */}
         <div className="bg-image bg-cover w-full">
           <div className="w-[90%] mx-auto py-10">
-            <div className="w-[70%]">
+            <div className="sm:w-[100%] md:w-[70%]">
               <h2 className="text-5xl">
                 <span className="gradient-text2 font-bold">
                   Our Portfolio :{" "}
@@ -128,7 +128,7 @@ const EcomSlider = () => {
                   Success Stories from Leading Brands
                 </span>
               </h2>
-              <p className="mt-5 text-sm leading-7">
+              <p className="mt-5 text-sm leading-7 text-justify">
                 Over the years, Maxify Solutions has had the privilege of
                 working with a diverse range of clients, from startups to
                 established enterprises. Our portfolio showcases a variety of
@@ -165,16 +165,16 @@ const EcomSlider = () => {
 
           {/* Statistics Section */}
           <div className="flex justify-end mt-8">
-            <div className="w-[90%]">
-              <div className="bg-[#635AD9] flex justify-between pl-10 items-center text-white rounded-l-full">
+            <div className="md:w-[90%] w-full">
+              <div className="bg-[#635AD9]  sm:py-2 md:py-0 flex sm:flex-col md:flex-row gap-5 justify-between md:pl-10 items-center text-white md:rounded-l-full">
                 {statistics.map((stat, statIndex) => (
-                  <div key={statIndex} className="text-center">
-                    <img className="w-10 ml-10" src={stat.icon} alt="" />
-                    <div className="text-3xl font-bold">{stat.number}</div>
+                  <div key={statIndex} className="text-center flex flex-col items-center">
+                    <img className="w-10 md:ml-10" src={stat.icon} alt="" />
+                    <div className="md:text-3xl sm:text-xl font-bold">{stat.number}</div>
                     <div>{stat.text}</div>
                   </div>
                 ))}
-                <div>
+                <div className="sm:hidden md:block">
                   <img className="w-60 h-[13rem]" src={img13} alt="" />
                 </div>
               </div>
@@ -224,23 +224,7 @@ const EcomSlider = () => {
             </div>
           </div>
 
-          {/* Statistics Section */}
-          <div className="flex justify-end mt-8">
-            <div className="w-[90%]">
-              <div className="bg-[#635AD9] flex justify-between pl-10 items-center text-white rounded-l-full">
-                {statistics.map((stat, statIndex) => (
-                  <div key={statIndex} className="text-center">
-                    <img className="w-10 ml-10" src={stat.icon} alt="" />
-                    <div className="text-3xl font-bold">{stat.number}</div>
-                    <div>{stat.text}</div>
-                  </div>
-                ))}
-                <div>
-                  <img className="w-60 h-[13rem]" src={img13} alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </Slider>
     </div>
